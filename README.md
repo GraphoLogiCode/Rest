@@ -4,6 +4,16 @@ A skincare decision-support app that helps people feel more confident. It uses p
 
 See [`PROJECT_TREE.md`](PROJECT_TREE.md) for the full concept tree.
 
+## Recommendation and visualization plans
+
+The repository is currently a design scaffold. Start with verified products and rules, collect actual usage feedback, and train a ranking model only after evaluating the resulting data.
+
+- [Recommendation engine design](backend/src/recommendations/DESIGN.md): filtering, ranking, service contracts, and build sequence.
+- [Data to collect](data/schema/recommendations/README.md): catalog, profiles, impressions, usage episodes, outcomes, and consent.
+- [How to train the model](ml/ranking/README.md): labels, features, baseline models, splits, and deployment gates.
+- [Scenario visualization summary](ml/scenario-visualization/README.md): the supplied InstantID/SDXL proposal, separate from observed progress and recommendations.
+- [Evaluation plan](evaluation/README.md): evidence needed before releasing a learned model.
+
 ## Repository layout
 
 ```
@@ -60,13 +70,15 @@ rest/
 │   │   ├── users/
 │   │   ├── routines/
 │   │   ├── photos/
-│   │   └── checkins/
+│   │   ├── checkins/
+│   │   └── recommendations/          # Decisions, exposure, usage outcomes
 │   └── migrations/
 │
 ├── ml/                          # 6 & 7. Machine Learning
 │   ├── ingredient-model/
 │   ├── suitability-model/
 │   ├── image-analysis/
+│   ├── scenario-visualization/        # Optional labeled illustration
 │   └── ranking/
 │
 └── evaluation/                  # 9. Evaluation
