@@ -62,3 +62,11 @@ This is an illustrative contract, not collected data or a training fixture. Actu
 - Catalog data supplies features. Public star ratings, marketing claims, generated portraits, and synthetic feedback do not supply reliable Rest outcome labels. No suitable longitudinal dataset has been established for this project yet.
 
 Use pseudonymous IDs in model exports and keep identifying account data separately. Define retention for events and exports; remove revoked/deleted records from future datasets and track which model versions used them. Do not claim deleting a row automatically removes its influence from an already trained model.
+
+## Longitudinal history
+
+The data that is hard to copy is one person's follow-up history over time: the exact formulation, actual use, routine changes, reported helpfulness and irritation, optional check-ins, and real photos captured the same way each time. With training consent given separately from service use, these records join through the usage episode.
+
+- Anyone can collect the same fields. Reliable follow-up histories take time to accumulate, so the advantage comes from quality and trust.
+- Deletion and revocation choices are honored in full. They are never weakened to keep the dataset large.
+- Photos stay optional and are not needed for the first recommendation model.

@@ -21,3 +21,20 @@ Output per product: `product_id`, `reason`, `label_cautions`, `uncertainties`, `
 ## Validation
 
 The backend checks that every returned `product_id` exists and that every quoted fact has supporting data.
+
+## Evidence records
+
+Every statement an explanation may make is backed by an evidence record:
+
+| Field | Holds |
+|---|---|
+| `source` | Where the finding comes from |
+| `population` | Who was studied |
+| `study_design` | How it was studied |
+| `finding` | What was found |
+| `limitations` | What the finding does not show |
+| `permitted_wording` | The wording Rest may use |
+
+An explanation uses the permitted wording and never assigns a cause the evidence does not support. For example:
+
+> Your routine and reported stress changed during the same period. This comparison cannot determine which contributed to the change.

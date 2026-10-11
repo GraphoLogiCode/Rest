@@ -16,3 +16,5 @@ The three pillars personalize the experience. They do not produce ingredient mat
 - Don't: "Your stress score means you need this chemical ingredient."
 
 A preference-based recommendation is not a medically supported treatment recommendation.
+
+Whether context improves product ranking is tested as a research comparison before it is used; see the [training protocol](../../../ml/ranking/README.md#testing-whether-well-being-context-helps).

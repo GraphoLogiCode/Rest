@@ -22,6 +22,16 @@ These are proposed acceptance criteria; no evaluation has been run yet.
 
 Historical logs do not reveal what would have happened with untried products. Report this limitation in every offline comparison. Before a prospective pilot, specify its primary outcome, duration, sample-size rationale, allowable reaction-report difference, and stopping criteria. A model ships only if the comparison supports improved usefulness without worse constraint compliance or unacceptable reaction-report outcomes. Thresholds are project decisions to document before examining test results.
 
+## Evidence about Rest itself
+
+Test the app, not only the model:
+
+- Do users understand their product choices better?
+- Do they find the recommendations useful?
+- Can they read their progress without mistaking an association for a cause?
+
+A prospective comparison can measure the app's benefit. Observational histories alone cannot prove a product's effect.
+
 ## Image features
 
 Assess real-photo comparison for alignment and capture consistency. Evaluate optional generated illustrations separately for identity preservation, unwanted changes, and whether users understand the limitation label. Never treat a realistic generated image as evidence of product effectiveness or well-being improvement.
