@@ -1,0 +1,689 @@
+[
+  {
+    "product_id": "rest_candidate_007",
+    "name": "Moisturizing Cream",
+    "brand": "CeraVe",
+    "market": "US",
+    "category": "moisturizer",
+    "secondary_categories": [],
+    "regulatory_class": "cosmetic",
+    "texture": null,
+    "package_sizes": [],
+    "formulation_version": {
+      "version_id": null,
+      "barcode": null,
+      "lot": null,
+      "label_version": null,
+      "label_date": null,
+      "dailymed_setid": null,
+      "ndc": []
+    },
+    "ingredient_list_raw": "AQUA / WATER / EAU, GLYCERIN, CETEARYL ALCOHOL, CAPRYLIC/CAPRIC TRIGLYCERIDE, CETYL ALCOHOL, CETEARETH-20, PETROLATUM, POTASSIUM PHOSPHATE, CERAMIDE NP, CERAMIDE AP, CERAMIDE EOP, CARBOMER, DIMETHICONE, BEHENTRIMONIUM METHOSULFATE, SODIUM LAUROYL LACTYLATE, SODIUM HYALURONATE, CHOLESTEROL, PHENOXYETHANOL, DISODIUM EDTA, DIPOTASSIUM PHOSPHATE, TOCOPHEROL, PHYTOSPHINGOSINE, XANTHAN GUM, ETHYLHEXYLGLYCERIN",
+    "ingredients_normalized": [
+      "aqua / water / eau",
+      "glycerin",
+      "cetearyl alcohol",
+      "caprylic/capric triglyceride",
+      "cetyl alcohol",
+      "ceteareth-20",
+      "petrolatum",
+      "potassium phosphate",
+      "ceramide np",
+      "ceramide ap",
+      "ceramide eop",
+      "carbomer",
+      "dimethicone",
+      "behentrimonium methosulfate",
+      "sodium lauroyl lactylate",
+      "sodium hyaluronate",
+      "cholesterol",
+      "phenoxyethanol",
+      "disodium edta",
+      "dipotassium phosphate",
+      "tocopherol",
+      "phytosphingosine",
+      "xanthan gum",
+      "ethylhexylglycerin"
+    ],
+    "active_ingredients": [],
+    "directions_raw": null,
+    "warnings_raw": null,
+    "usage_summary": "Apply liberally to face and body as often as needed, day or night.",
+    "warnings_summary": [],
+    "compatibility_restrictions": [],
+    "manufacturer_claims": {
+      "benefits": [
+        "Hydration",
+        "Soothes dry, itchy skin",
+        "Restores and maintains the skin barrier",
+        "Non-greasy",
+        "Non-comedogenic"
+      ],
+      "skin_types": [
+        "dry",
+        "normal"
+      ],
+      "skin_types_raw": [
+        "Normal to dry"
+      ]
+    },
+    "price": {
+      "amount": 14.99,
+      "currency": "USD",
+      "package_size": {
+        "value": null,
+        "unit": null
+      },
+      "checked_at": "2026-10-11",
+      "source_url": "https://www.cerave.com/skincare/moisturizers/moisturizing-cream"
+    },
+    "source_url": "https://www.cerave.com/skincare/moisturizers/moisturizing-cream",
+    "verified_at": null,
+    "verification_status": "pending",
+    "staging": {
+      "source_type": "manufacturer_page",
+      "retrieved_at": "2026-10-11",
+      "label_uses": [],
+      "manufacturer_stated_concentrations": [],
+      "price_note": "Page shows a price but no package size.",
+      "missing": [
+        "price.package_size",
+        "package_sizes",
+        "texture",
+        "directions_raw",
+        "warnings_raw",
+        "formulation_version",
+        "warnings_summary"
+      ],
+      "notes": [
+        "Page has no warnings section."
+      ]
+    }
+  },
+  {
+    "product_id": "rest_candidate_008",
+    "name": "PM Facial Moisturizing Lotion",
+    "brand": "CeraVe",
+    "market": "US",
+    "category": "moisturizer",
+    "secondary_categories": [],
+    "regulatory_class": "cosmetic",
+    "texture": null,
+    "package_sizes": [],
+    "formulation_version": {
+      "version_id": null,
+      "barcode": null,
+      "lot": null,
+      "label_version": null,
+      "label_date": null,
+      "dailymed_setid": null,
+      "ndc": []
+    },
+    "ingredient_list_raw": "AQUA / WATER / EAU, GLYCERIN, CAPRYLIC/CAPRIC TRIGLYCERIDE, NIACINAMIDE, CETEARYL ALCOHOL, POTASSIUM PHOSPHATE, CERAMIDE NP, CERAMIDE AP, CERAMIDE EOP, CARBOMER, DIMETHICONE, CETEARETH-20, BEHENTRIMONIUM METHOSULFATE, SODIUM LAUROYL LACTYLATE, SODIUM HYALURONATE, CHOLESTEROL, PHENOXYETHANOL, DISODIUM EDTA, DIPOTASSIUM PHOSPHATE, CAPRYLYL GLYCOL, PHYTOSPHINGOSINE, XANTHAN GUM, POLYGLYCERYL-3 DIISOSTEARATE, ETHYLHEXYLGLYCERIN",
+    "ingredients_normalized": [
+      "aqua / water / eau",
+      "glycerin",
+      "caprylic/capric triglyceride",
+      "niacinamide",
+      "cetearyl alcohol",
+      "potassium phosphate",
+      "ceramide np",
+      "ceramide ap",
+      "ceramide eop",
+      "carbomer",
+      "dimethicone",
+      "ceteareth-20",
+      "behentrimonium methosulfate",
+      "sodium lauroyl lactylate",
+      "sodium hyaluronate",
+      "cholesterol",
+      "phenoxyethanol",
+      "disodium edta",
+      "dipotassium phosphate",
+      "caprylyl glycol",
+      "phytosphingosine",
+      "xanthan gum",
+      "polyglyceryl-3 diisostearate",
+      "ethylhexylglycerin"
+    ],
+    "active_ingredients": [],
+    "directions_raw": null,
+    "warnings_raw": null,
+    "usage_summary": "Apply to face and neck at night.",
+    "warnings_summary": [],
+    "compatibility_restrictions": [],
+    "manufacturer_claims": {
+      "benefits": [
+        "Overnight hydration",
+        "Helps restore the skin barrier",
+        "Calms and soothes",
+        "Lightweight and oil-free",
+        "No added fragrance"
+      ],
+      "skin_types": [
+        "dry",
+        "normal",
+        "combination",
+        "oily"
+      ],
+      "skin_types_raw": [
+        "All skin types"
+      ]
+    },
+    "price": {
+      "amount": 19.99,
+      "currency": "USD",
+      "package_size": {
+        "value": null,
+        "unit": null
+      },
+      "checked_at": "2026-10-11",
+      "source_url": "https://www.cerave.com/skincare/moisturizers/pm-facial-moisturizing-lotion"
+    },
+    "source_url": "https://www.cerave.com/skincare/moisturizers/pm-facial-moisturizing-lotion",
+    "verified_at": null,
+    "verification_status": "pending",
+    "staging": {
+      "source_type": "manufacturer_page",
+      "retrieved_at": "2026-10-11",
+      "label_uses": [],
+      "manufacturer_stated_concentrations": [],
+      "price_note": "Page shows a price but no package size.",
+      "missing": [
+        "price.package_size",
+        "package_sizes",
+        "texture",
+        "directions_raw",
+        "warnings_raw",
+        "formulation_version",
+        "warnings_summary"
+      ],
+      "notes": [
+        "Page has no warnings section."
+      ]
+    }
+  },
+  {
+    "product_id": "rest_candidate_009",
+    "name": "Moisturizing Cream",
+    "brand": "Vanicream",
+    "market": "US",
+    "category": "moisturizer",
+    "secondary_categories": [],
+    "regulatory_class": "cosmetic",
+    "texture": null,
+    "package_sizes": [
+      {
+        "value": 16,
+        "unit": "oz"
+      },
+      {
+        "value": 4,
+        "unit": "oz"
+      },
+      {
+        "value": 2,
+        "unit": "oz"
+      }
+    ],
+    "formulation_version": {
+      "version_id": null,
+      "barcode": null,
+      "lot": null,
+      "label_version": null,
+      "label_date": null,
+      "dailymed_setid": null,
+      "ndc": []
+    },
+    "ingredient_list_raw": "Water, Petrolatum, Sorbitol, Cetearyl alcohol, Propylene glycol, Ceteareth-20, Simethicone, Glyceryl stearate, PEG-30 stearate, Sorbic acid",
+    "ingredients_normalized": [
+      "water",
+      "petrolatum",
+      "sorbitol",
+      "cetearyl alcohol",
+      "propylene glycol",
+      "ceteareth-20",
+      "simethicone",
+      "glyceryl stearate",
+      "peg-30 stearate",
+      "sorbic acid"
+    ],
+    "active_ingredients": [],
+    "directions_raw": null,
+    "warnings_raw": null,
+    "usage_summary": "Apply as needed to face, hands, feet and body, including after bathing or sun exposure and before wind or cold.",
+    "warnings_summary": [],
+    "compatibility_restrictions": [],
+    "manufacturer_claims": {
+      "benefits": [
+        "Restores and maintains moisture",
+        "Soothes red, irritated, cracking or itchy skin",
+        "Non-greasy",
+        "Non-comedogenic",
+        "Fragrance-free"
+      ],
+      "skin_types": [
+        "dry"
+      ],
+      "skin_types_raw": [
+        "Sensitive",
+        "Dry"
+      ]
+    },
+    "price": {
+      "amount": null,
+      "currency": "USD",
+      "package_size": {
+        "value": null,
+        "unit": null
+      },
+      "checked_at": null,
+      "source_url": null
+    },
+    "source_url": "https://www.vanicream.com/product/vanicream-moisturizing-cream",
+    "verified_at": null,
+    "verification_status": "pending",
+    "staging": {
+      "source_type": "manufacturer_page",
+      "retrieved_at": "2026-10-11",
+      "label_uses": [],
+      "manufacturer_stated_concentrations": [],
+      "price_note": "Source shows no price.",
+      "missing": [
+        "price.amount",
+        "price.package_size",
+        "texture",
+        "directions_raw",
+        "warnings_raw",
+        "formulation_version",
+        "warnings_summary"
+      ],
+      "notes": [
+        "Page has no warnings section.",
+        "Source contradicts itself: the FAQ says 11 ingredients, the list shows 10. The list may be incomplete.",
+        "Page ties dry-skin use to named skin conditions; Rest does not make condition claims."
+      ]
+    }
+  },
+  {
+    "product_id": "rest_candidate_010",
+    "name": "Moisturizing Cream",
+    "brand": "Cetaphil",
+    "market": "US",
+    "category": "moisturizer",
+    "secondary_categories": [],
+    "regulatory_class": "cosmetic",
+    "texture": null,
+    "package_sizes": [
+      {
+        "value": 1,
+        "unit": "oz"
+      },
+      {
+        "value": 3,
+        "unit": "oz"
+      },
+      {
+        "value": 8.8,
+        "unit": "oz"
+      },
+      {
+        "value": 16,
+        "unit": "oz"
+      },
+      {
+        "value": 20,
+        "unit": "oz"
+      }
+    ],
+    "formulation_version": {
+      "version_id": null,
+      "barcode": null,
+      "lot": null,
+      "label_version": null,
+      "label_date": null,
+      "dailymed_setid": null,
+      "ndc": []
+    },
+    "ingredient_list_raw": "Water, Glycerin, Petrolatum, Dicaprylyl Ether, Dimethicone, Glyceryl Stearate, Cetyl Alcohol, Helianthus Annuus (Sunflower) Seed Oil, Peg-30 Stearate, Panthenol, Niacinamide, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Tocopheryl Acetate, Pantolactone, Dimethiconol, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Carbomer, Propylene Glycol, Disodium Edta, Benzyl Alcohol, Phenoxyethanol, Sodium Hydroxide, Citric Acid",
+    "ingredients_normalized": [
+      "water",
+      "glycerin",
+      "petrolatum",
+      "dicaprylyl ether",
+      "dimethicone",
+      "glyceryl stearate",
+      "cetyl alcohol",
+      "helianthus annuus (sunflower) seed oil",
+      "peg-30 stearate",
+      "panthenol",
+      "niacinamide",
+      "prunus amygdalus dulcis (sweet almond) oil",
+      "tocopheryl acetate",
+      "pantolactone",
+      "dimethiconol",
+      "acrylates/c10-30 alkyl acrylate crosspolymer",
+      "carbomer",
+      "propylene glycol",
+      "disodium edta",
+      "benzyl alcohol",
+      "phenoxyethanol",
+      "sodium hydroxide",
+      "citric acid"
+    ],
+    "active_ingredients": [],
+    "directions_raw": null,
+    "warnings_raw": null,
+    "usage_summary": "Apply daily to face or body, as often as needed.",
+    "warnings_summary": [],
+    "compatibility_restrictions": [],
+    "manufacturer_claims": {
+      "benefits": [
+        "Hydrates for up to 48 hours",
+        "Restores the moisture barrier",
+        "Gentle on sensitive skin"
+      ],
+      "skin_types": [
+        "dry"
+      ],
+      "skin_types_raw": [
+        "Dry to very dry",
+        "Sensitive"
+      ]
+    },
+    "price": {
+      "amount": null,
+      "currency": "USD",
+      "package_size": {
+        "value": null,
+        "unit": null
+      },
+      "checked_at": null,
+      "source_url": null
+    },
+    "source_url": "https://www.cetaphil.com/us/products/product-categories/all-moisturizers/moisturizing-cream/302993917564.html",
+    "verified_at": null,
+    "verification_status": "pending",
+    "staging": {
+      "source_type": "manufacturer_page",
+      "retrieved_at": "2026-10-11",
+      "label_uses": [],
+      "manufacturer_stated_concentrations": [],
+      "price_note": "Source shows no price.",
+      "missing": [
+        "price.amount",
+        "price.package_size",
+        "texture",
+        "directions_raw",
+        "warnings_raw",
+        "formulation_version",
+        "warnings_summary"
+      ],
+      "notes": [
+        "Page has no warnings section."
+      ]
+    }
+  },
+  {
+    "product_id": "rest_candidate_011",
+    "name": "Omega Water Cream",
+    "brand": "The INKEY List",
+    "market": "US",
+    "category": "moisturizer",
+    "secondary_categories": [],
+    "regulatory_class": "cosmetic",
+    "texture": null,
+    "package_sizes": [
+      {
+        "value": 50,
+        "unit": "ml"
+      },
+      {
+        "value": 100,
+        "unit": "ml"
+      }
+    ],
+    "formulation_version": {
+      "version_id": null,
+      "barcode": null,
+      "lot": null,
+      "label_version": null,
+      "label_date": null,
+      "dailymed_setid": null,
+      "ndc": []
+    },
+    "ingredient_list_raw": "Water (Aqua / Eau), Dicaprylyl Carbonate, Glycerin, Niacinamide, Propanediol, Betaine, Polyglyceryl-4 Isostearate, Coco-Caprylate/Caprate, Magnesium Sulfate, Glycosphingolipids, Glycolipids, Sodium Benzoate, Disteardimonium Hectorite, Oleic Acid, Potassium Sorbate, Citric Acid, Polyglycerin-3",
+    "ingredients_normalized": [
+      "water (aqua / eau)",
+      "dicaprylyl carbonate",
+      "glycerin",
+      "niacinamide",
+      "propanediol",
+      "betaine",
+      "polyglyceryl-4 isostearate",
+      "coco-caprylate/caprate",
+      "magnesium sulfate",
+      "glycosphingolipids",
+      "glycolipids",
+      "sodium benzoate",
+      "disteardimonium hectorite",
+      "oleic acid",
+      "potassium sorbate",
+      "citric acid",
+      "polyglycerin-3"
+    ],
+    "active_ingredients": [],
+    "directions_raw": null,
+    "warnings_raw": null,
+    "usage_summary": "Morning and evening after cleansing: apply a pea-sized amount to face and neck. Follow with SPF in the morning.",
+    "warnings_summary": [
+      "Patch test before use",
+      "Avoid eyes",
+      "External use only",
+      "Keep out of reach of children",
+      "Store at 15-25 C away from direct sunlight"
+    ],
+    "compatibility_restrictions": [],
+    "manufacturer_claims": {
+      "benefits": [
+        "Hydration",
+        "Balances oil",
+        "Non-comedogenic",
+        "Supports the skin barrier",
+        "Evens skin tone"
+      ],
+      "skin_types": [
+        "dry",
+        "normal",
+        "combination",
+        "oily"
+      ],
+      "skin_types_raw": [
+        "Oily",
+        "Combination",
+        "All skin types",
+        "Sensitive"
+      ]
+    },
+    "price": {
+      "amount": 15.0,
+      "currency": "USD",
+      "package_size": {
+        "value": 50,
+        "unit": "ml"
+      },
+      "checked_at": "2026-10-11",
+      "source_url": "https://www.theinkeylist.com/products/omega-water-cream"
+    },
+    "source_url": "https://www.theinkeylist.com/products/omega-water-cream",
+    "verified_at": null,
+    "verification_status": "pending",
+    "staging": {
+      "source_type": "manufacturer_page",
+      "retrieved_at": "2026-10-11",
+      "label_uses": [],
+      "manufacturer_stated_concentrations": [
+        {
+          "ingredient": "ceramide complex",
+          "percent": 0.2
+        },
+        {
+          "ingredient": "glycerin",
+          "percent": 5
+        },
+        {
+          "ingredient": "betaine",
+          "percent": 3
+        },
+        {
+          "ingredient": "niacinamide",
+          "percent": 5
+        }
+      ],
+      "price_note": null,
+      "missing": [
+        "texture",
+        "directions_raw",
+        "warnings_raw",
+        "formulation_version"
+      ],
+      "notes": []
+    }
+  },
+  {
+    "product_id": "rest_candidate_012",
+    "name": "Natural Moisturizing Factors + HA",
+    "brand": "The Ordinary",
+    "market": "US",
+    "category": "moisturizer",
+    "secondary_categories": [],
+    "regulatory_class": "cosmetic",
+    "texture": null,
+    "package_sizes": [
+      {
+        "value": 30,
+        "unit": "ml"
+      },
+      {
+        "value": 100,
+        "unit": "ml"
+      }
+    ],
+    "formulation_version": {
+      "version_id": null,
+      "barcode": null,
+      "lot": null,
+      "label_version": null,
+      "label_date": null,
+      "dailymed_setid": null,
+      "ndc": []
+    },
+    "ingredient_list_raw": "Aqua (Water), Caprylic/Capric Triglyceride, Cetyl Alcohol, Propanediol, Stearyl Alcohol, Glycerin, Sodium Hyaluronate, Arginine, Aspartic Acid, Glycine, Alanine, Serine, Valine, Isoleucine, Proline, Threonine, Histidine, Phenylalanine, Glucose, Maltose, Fructose, Trehalose, Sodium PCA, PCA, Sodium Lactate, Urea, Allantoin, Linoleic Acid, Oleic Acid, Phytosteryl Canola Glycerides, Palmitic Acid, Stearic Acid, Lecithin, Triolein, Tocopherol, Carbomer, Isoceteth-20, Polysorbate 60, Sodium Chloride, Citric Acid, Trisodium Ethylenediamine Disuccinate, Pentylene Glycol, Triethanolamine, Sodium Hydroxide, Phenoxyethanol, Chlorphenesin",
+    "ingredients_normalized": [
+      "aqua (water)",
+      "caprylic/capric triglyceride",
+      "cetyl alcohol",
+      "propanediol",
+      "stearyl alcohol",
+      "glycerin",
+      "sodium hyaluronate",
+      "arginine",
+      "aspartic acid",
+      "glycine",
+      "alanine",
+      "serine",
+      "valine",
+      "isoleucine",
+      "proline",
+      "threonine",
+      "histidine",
+      "phenylalanine",
+      "glucose",
+      "maltose",
+      "fructose",
+      "trehalose",
+      "sodium pca",
+      "pca",
+      "sodium lactate",
+      "urea",
+      "allantoin",
+      "linoleic acid",
+      "oleic acid",
+      "phytosteryl canola glycerides",
+      "palmitic acid",
+      "stearic acid",
+      "lecithin",
+      "triolein",
+      "tocopherol",
+      "carbomer",
+      "isoceteth-20",
+      "polysorbate 60",
+      "sodium chloride",
+      "citric acid",
+      "trisodium ethylenediamine disuccinate",
+      "pentylene glycol",
+      "triethanolamine",
+      "sodium hydroxide",
+      "phenoxyethanol",
+      "chlorphenesin"
+    ],
+    "active_ingredients": [],
+    "directions_raw": null,
+    "warnings_raw": null,
+    "usage_summary": "Apply as needed.",
+    "warnings_summary": [
+      "Stop use and consult a physician if irritation occurs",
+      "Use only on unbroken skin",
+      "Patch test before use",
+      "Keep out of reach of children"
+    ],
+    "compatibility_restrictions": [],
+    "manufacturer_claims": {
+      "benefits": [
+        "Targets dryness",
+        "Replenishes moisture",
+        "Supports the skin barrier",
+        "No greasy residue"
+      ],
+      "skin_types": [
+        "dry",
+        "normal",
+        "combination",
+        "oily"
+      ],
+      "skin_types_raw": [
+        "All skin types"
+      ]
+    },
+    "price": {
+      "amount": 6.7,
+      "currency": "USD",
+      "package_size": {
+        "value": null,
+        "unit": null
+      },
+      "checked_at": "2026-10-11",
+      "source_url": "https://theordinary.com/en-us/natural-moisturizing-factors-ha-moisturizer-100435.html"
+    },
+    "source_url": "https://theordinary.com/en-us/natural-moisturizing-factors-ha-moisturizer-100435.html",
+    "verified_at": null,
+    "verification_status": "pending",
+    "staging": {
+      "source_type": "manufacturer_page",
+      "retrieved_at": "2026-10-11",
+      "label_uses": [],
+      "manufacturer_stated_concentrations": [],
+      "price_note": "Page shows one price and two sizes without saying which size the price is for.",
+      "missing": [
+        "price.package_size",
+        "texture",
+        "directions_raw",
+        "warnings_raw",
+        "formulation_version"
+      ],
+      "notes": [
+        "Page says the ingredient list may differ from the box depending on time and region."
+      ]
+    }
+  }
+]

@@ -29,18 +29,21 @@ Rest
 │   ├── Photo alignment and color correction
 │   ├── Side-by-side and slider comparisons
 │   ├── Timeline linked to routine changes
-│   └── Optional measurements (redness, texture, blemish count)
+│   ├── Optional measurements (redness, texture, blemish count)
+│   └── Optional AI scenario illustration, labeled as non-predictive
 │
 ├── 5. Well-Being Context (friend's research)
 │   ├── Sleep: duration, quality
 │   ├── Mental: stress, mood
 │   ├── Social: connection, confidence in social situations
-│   └── Separates lifestyle effects from product effects
-│       (e.g., a breakout during a high-stress week isn't blamed on a new product)
+│   └── Records context alongside routine changes
+│       (observational data alone cannot isolate lifestyle or product effects)
 │
 ├── 6. Decision Support & Model
 │   ├── Rules-based ingredient matching first
-│   ├── ML model: product suitability ← ingredients + skin profile + outcomes + context
+│   ├── Log impressions, actual usage, and structured outcome feedback
+│   ├── ML later: rank eligible products from profile, product, and routine features
+│   ├── Train against reported outcomes; optional well-being context stays separate initially
 │   ├── Explain each recommendation (which ingredients, why)
 │   ├── Show uncertainty and limitations
 │   └── User feedback improves the model

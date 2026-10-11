@@ -1,0 +1,584 @@
+[
+  {
+    "product_id": "rest_candidate_023",
+    "name": "Salicylic Acid 2% Masque",
+    "brand": "The Ordinary",
+    "market": "US",
+    "category": "face_mask",
+    "secondary_categories": [],
+    "regulatory_class": "cosmetic",
+    "texture": null,
+    "package_sizes": [
+      {
+        "value": 50,
+        "unit": "ml"
+      },
+      {
+        "value": 100,
+        "unit": "ml"
+      }
+    ],
+    "formulation_version": {
+      "version_id": null,
+      "barcode": null,
+      "lot": null,
+      "label_version": null,
+      "label_date": null,
+      "dailymed_setid": null,
+      "ndc": []
+    },
+    "ingredient_list_raw": "Aqua (Water), Kaolin, Squalane, Glycerin, Dimethyl Isosorbide, Silica Cetyl Silylate, Salicylic Acid, Sodium Polyacrylate, Pentylene Glycol, Charcoal Powder, 4-T-Butylcyclohexanol, Sclerotium Gum, Acacia Senegal Gum, Xanthan Gum, Phytic Acid, Polysorbate 20, Trisodium Ethylenediamine Disuccinate, Chlorphenesin, Phenoxyethanol",
+    "ingredients_normalized": [
+      "aqua (water)",
+      "kaolin",
+      "squalane",
+      "glycerin",
+      "dimethyl isosorbide",
+      "silica cetyl silylate",
+      "salicylic acid",
+      "sodium polyacrylate",
+      "pentylene glycol",
+      "charcoal powder",
+      "4-t-butylcyclohexanol",
+      "sclerotium gum",
+      "acacia senegal gum",
+      "xanthan gum",
+      "phytic acid",
+      "polysorbate 20",
+      "trisodium ethylenediamine disuccinate",
+      "chlorphenesin",
+      "phenoxyethanol"
+    ],
+    "active_ingredients": [],
+    "directions_raw": null,
+    "warnings_raw": null,
+    "usage_summary": "Once or twice a week, in the evening, on clean dry skin: apply evenly, avoid the eye contour, leave on no more than 10 minutes, and rinse with lukewarm water.",
+    "warnings_summary": [
+      "Not for sensitive, peeling or compromised skin",
+      "Avoid the eyes",
+      "Stop use and consult a physician for irritation or signs of an allergic reaction",
+      "Keep out of reach of children",
+      "Patch test before first use",
+      "Sunburn alert: contains a BHA; use sunscreen and limit sun exposure during use and for a week afterward"
+    ],
+    "compatibility_restrictions": [
+      {
+        "statement": "Page lists ingredient groups not to combine with it: copper peptides, direct acids, direct vitamin C, EUK, niacinamide powder, peptides, retinoids, plus several named products from the same brand.",
+        "source_url": "https://theordinary.com/en-us/salicylic-acid-2-face-masque-100443.html",
+        "review_status": "pending"
+      }
+    ],
+    "manufacturer_claims": {
+      "benefits": [
+        "Signs of congestion",
+        "Dullness",
+        "Textural irregularities"
+      ],
+      "skin_types": [
+        "oily"
+      ],
+      "skin_types_raw": [
+        "Oily"
+      ]
+    },
+    "price": {
+      "amount": 13.8,
+      "currency": "USD",
+      "package_size": {
+        "value": null,
+        "unit": null
+      },
+      "checked_at": "2026-10-11",
+      "source_url": "https://theordinary.com/en-us/salicylic-acid-2-face-masque-100443.html"
+    },
+    "source_url": "https://theordinary.com/en-us/salicylic-acid-2-face-masque-100443.html",
+    "verified_at": null,
+    "verification_status": "pending",
+    "staging": {
+      "source_type": "manufacturer_page",
+      "retrieved_at": "2026-10-11",
+      "label_uses": [],
+      "manufacturer_stated_concentrations": [
+        {
+          "ingredient": "salicylic acid",
+          "percent": 2
+        }
+      ],
+      "price_note": "Page shows one price and two sizes without saying which size the price is for.",
+      "missing": [
+        "price.package_size",
+        "texture",
+        "directions_raw",
+        "warnings_raw",
+        "formulation_version"
+      ],
+      "notes": [
+        "Contains 2% salicylic acid. The catalog policy admits acne treatments only with full label directions and warnings; decide whether that policy covers this product."
+      ]
+    }
+  },
+  {
+    "product_id": "rest_candidate_024",
+    "name": "Water Sleeping Mask",
+    "brand": "LANEIGE",
+    "market": "US",
+    "category": "face_mask",
+    "secondary_categories": [],
+    "regulatory_class": "cosmetic",
+    "texture": null,
+    "package_sizes": [
+      {
+        "value": 70,
+        "unit": "ml"
+      }
+    ],
+    "formulation_version": {
+      "version_id": null,
+      "barcode": null,
+      "lot": null,
+      "label_version": null,
+      "label_date": null,
+      "dailymed_setid": null,
+      "ndc": []
+    },
+    "ingredient_list_raw": "Water / Aqua / Eau, Butylene Glycol, Glycerin, Trehalose, Methyl Trimethicone, 1,2-hexanediol, Squalane, Phenyl Trimethicone, Pca Dimethicone, Caprylyl Methicone, Ammonium Acryloyldimethyltaurate/vp Copolymer, Carbomer, Tromethamine, Lactobacillus Ferment Lysate, Niacinamide, Glyceryl Caprylate, Acrylates/c10-30 Alkyl Acrylate Crosspolymer, Propanediol, Ethylhexylglycerin, Malachite Extract, Xylitylglucoside, Propylene Glycol, Anhydroxylitol, Fragrance / Parfum, Sodium Hyaluronate, Sodium Metaphosphate, Xylitol, Raffinose, Oenothera Biennis (Evening Primrose) Oil, Hydroxypropyltrimonium Hyaluronate, Tryptophan, Lactobacillus Ferment, Beta-glucan, Limonene, Linalool, Acrylates/stearyl Methacrylate Copolymer, Tremella Fuciformis Sporocarp Extract, Hyaluronic Acid, Sodium Trimetaphosphate, Xanthan Gum, Polyglutamic Acid, Ceramide Np, Tocopherol",
+    "ingredients_normalized": [
+      "water / aqua / eau",
+      "butylene glycol",
+      "glycerin",
+      "trehalose",
+      "methyl trimethicone",
+      "1,2-hexanediol",
+      "squalane",
+      "phenyl trimethicone",
+      "pca dimethicone",
+      "caprylyl methicone",
+      "ammonium acryloyldimethyltaurate/vp copolymer",
+      "carbomer",
+      "tromethamine",
+      "lactobacillus ferment lysate",
+      "niacinamide",
+      "glyceryl caprylate",
+      "acrylates/c10-30 alkyl acrylate crosspolymer",
+      "propanediol",
+      "ethylhexylglycerin",
+      "malachite extract",
+      "xylitylglucoside",
+      "propylene glycol",
+      "anhydroxylitol",
+      "fragrance / parfum",
+      "sodium hyaluronate",
+      "sodium metaphosphate",
+      "xylitol",
+      "raffinose",
+      "oenothera biennis (evening primrose) oil",
+      "hydroxypropyltrimonium hyaluronate",
+      "tryptophan",
+      "lactobacillus ferment",
+      "beta-glucan",
+      "limonene",
+      "linalool",
+      "acrylates/stearyl methacrylate copolymer",
+      "tremella fuciformis sporocarp extract",
+      "hyaluronic acid",
+      "sodium trimetaphosphate",
+      "xanthan gum",
+      "polyglutamic acid",
+      "ceramide np",
+      "tocopherol"
+    ],
+    "active_ingredients": [],
+    "directions_raw": null,
+    "warnings_raw": null,
+    "usage_summary": "Last step at night, after face cream: spread evenly, leave on overnight, rinse in the morning.",
+    "warnings_summary": [],
+    "compatibility_restrictions": [],
+    "manufacturer_claims": {
+      "benefits": [
+        "Hydration",
+        "Brightening",
+        "Softening",
+        "Depuffing",
+        "Skin barrier strengthening"
+      ],
+      "skin_types": [
+        "dry",
+        "normal"
+      ],
+      "skin_types_raw": [
+        "Normal",
+        "Dry"
+      ]
+    },
+    "price": {
+      "amount": 33.0,
+      "currency": "USD",
+      "package_size": {
+        "value": 70,
+        "unit": "ml"
+      },
+      "checked_at": "2026-10-11",
+      "source_url": "https://us.laneige.com/products/water-sleeping-mask"
+    },
+    "source_url": "https://us.laneige.com/products/water-sleeping-mask",
+    "verified_at": null,
+    "verification_status": "pending",
+    "staging": {
+      "source_type": "manufacturer_page",
+      "retrieved_at": "2026-10-11",
+      "label_uses": [],
+      "manufacturer_stated_concentrations": [],
+      "price_note": null,
+      "missing": [
+        "texture",
+        "directions_raw",
+        "warnings_raw",
+        "formulation_version",
+        "warnings_summary"
+      ],
+      "notes": [
+        "Page has no warnings section. Its FAQ says to avoid the immediate eye area and that the product is not non-comedogenic."
+      ]
+    }
+  },
+  {
+    "product_id": "rest_candidate_025",
+    "name": "Jet Lag Mask + Moisturizer",
+    "brand": "Summer Fridays",
+    "market": "US",
+    "category": "face_mask",
+    "secondary_categories": [
+      "moisturizer"
+    ],
+    "regulatory_class": "cosmetic",
+    "texture": null,
+    "package_sizes": [
+      {
+        "value": 28,
+        "unit": "g"
+      },
+      {
+        "value": 64,
+        "unit": "g"
+      }
+    ],
+    "formulation_version": {
+      "version_id": null,
+      "barcode": null,
+      "lot": null,
+      "label_version": null,
+      "label_date": null,
+      "dailymed_setid": null,
+      "ndc": []
+    },
+    "ingredient_list_raw": "Water/Aqua/Eau, Caprylic/Capric Triglyceride, Capryloyl Glycerin/Sebacic Acid Copolymer, Diheptyl Succinate, Butyrospermum Parkii (Shea) Butter Unsaponifiables, Cetearyl Alcohol, Niacinamide, Pentylene Glycol, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Sorbitan Stearate, Glycerin, Glyceryl Stearate, Sodium Hyaluronate, Ceramide EOP, Ceramide NP, Ceramide AP, Aminopropyl Ascorbyl Phosphate, Allantoin, Bisabolol, Panthenol, Physalis Angulata Extract, Castanea Sativa (Chestnut) Seed Extract, Tocopheryl Acetate, Phytosphingosine, Ethylhexylglycerin, Tetrasodium Glutamate Diacetate, Cucumis Sativus (Cucumber) Fruit Extract, Polysorbate 60, Sorbitan Isostearate, Tocopherol, Sodium Hydroxide, Cholesterol, Sodium Lauroyl Lactylate, Carbomer, Xanthan Gum, PEG-100 Stearate, Phenoxyethanol",
+    "ingredients_normalized": [
+      "water/aqua/eau",
+      "caprylic/capric triglyceride",
+      "capryloyl glycerin/sebacic acid copolymer",
+      "diheptyl succinate",
+      "butyrospermum parkii (shea) butter unsaponifiables",
+      "cetearyl alcohol",
+      "niacinamide",
+      "pentylene glycol",
+      "hydroxyethyl acrylate/sodium acryloyldimethyl taurate copolymer",
+      "sorbitan stearate",
+      "glycerin",
+      "glyceryl stearate",
+      "sodium hyaluronate",
+      "ceramide eop",
+      "ceramide np",
+      "ceramide ap",
+      "aminopropyl ascorbyl phosphate",
+      "allantoin",
+      "bisabolol",
+      "panthenol",
+      "physalis angulata extract",
+      "castanea sativa (chestnut) seed extract",
+      "tocopheryl acetate",
+      "phytosphingosine",
+      "ethylhexylglycerin",
+      "tetrasodium glutamate diacetate",
+      "cucumis sativus (cucumber) fruit extract",
+      "polysorbate 60",
+      "sorbitan isostearate",
+      "tocopherol",
+      "sodium hydroxide",
+      "cholesterol",
+      "sodium lauroyl lactylate",
+      "carbomer",
+      "xanthan gum",
+      "peg-100 stearate",
+      "phenoxyethanol"
+    ],
+    "active_ingredients": [],
+    "directions_raw": null,
+    "warnings_raw": null,
+    "usage_summary": "As a mask: thin, even layer on clean dry skin for at least 10 minutes, then remove the excess with a warm cloth, or leave on overnight. As a moisturizer: a lighter layer, day or night.",
+    "warnings_summary": [
+      "External use only"
+    ],
+    "compatibility_restrictions": [],
+    "manufacturer_claims": {
+      "benefits": [
+        "Hydrating",
+        "Soothing",
+        "Improved texture",
+        "Dryness relief",
+        "Redness"
+      ],
+      "skin_types": [
+        "dry",
+        "normal",
+        "combination",
+        "oily"
+      ],
+      "skin_types_raw": [
+        "All skin types",
+        "Sensitive",
+        "Dry"
+      ]
+    },
+    "price": {
+      "amount": 49.0,
+      "currency": "USD",
+      "package_size": {
+        "value": null,
+        "unit": null
+      },
+      "checked_at": "2026-10-11",
+      "source_url": "https://summerfridays.com/products/jet-lag-mask"
+    },
+    "source_url": "https://summerfridays.com/products/jet-lag-mask",
+    "verified_at": null,
+    "verification_status": "pending",
+    "staging": {
+      "source_type": "manufacturer_page",
+      "retrieved_at": "2026-10-11",
+      "label_uses": [],
+      "manufacturer_stated_concentrations": [],
+      "price_note": "Page lists two sizes and does not tie the price to one of them.",
+      "missing": [
+        "price.package_size",
+        "texture",
+        "directions_raw",
+        "warnings_raw",
+        "formulation_version"
+      ],
+      "notes": [
+        "Sold as both a mask and a moisturizer."
+      ]
+    }
+  },
+  {
+    "product_id": "rest_candidate_026",
+    "name": "Indian Healing Clay",
+    "brand": "Aztec Secret",
+    "market": "US",
+    "category": "face_mask",
+    "secondary_categories": [],
+    "regulatory_class": "cosmetic",
+    "texture": null,
+    "package_sizes": [
+      {
+        "value": 1,
+        "unit": "lb"
+      },
+      {
+        "value": 2,
+        "unit": "lb"
+      }
+    ],
+    "formulation_version": {
+      "version_id": null,
+      "barcode": null,
+      "lot": null,
+      "label_version": null,
+      "label_date": null,
+      "dailymed_setid": null,
+      "ndc": []
+    },
+    "ingredient_list_raw": "Calcium bentonite clay",
+    "ingredients_normalized": [
+      "calcium bentonite clay"
+    ],
+    "active_ingredients": [],
+    "directions_raw": null,
+    "warnings_raw": null,
+    "usage_summary": "Use as a clay mask no more than once a week; 5-10 minutes at most on delicate skin.",
+    "warnings_summary": [
+      "Limit time on delicate skin to avoid redness or drying",
+      "Slight redness after use is described as normal and short-lived",
+      "Follow the manufacturer's directions"
+    ],
+    "compatibility_restrictions": [],
+    "manufacturer_claims": {
+      "benefits": [
+        "Deep pore cleansing",
+        "Revitalizes skin",
+        "Used for acne and blemishes"
+      ],
+      "skin_types": [],
+      "skin_types_raw": []
+    },
+    "price": {
+      "amount": null,
+      "currency": "USD",
+      "package_size": {
+        "value": null,
+        "unit": null
+      },
+      "checked_at": null,
+      "source_url": null
+    },
+    "source_url": "https://aztecsecret.com/product/aztec-clay-jar",
+    "verified_at": null,
+    "verification_status": "pending",
+    "staging": {
+      "source_type": "manufacturer_page",
+      "retrieved_at": "2026-10-11",
+      "label_uses": [],
+      "manufacturer_stated_concentrations": [],
+      "price_note": "Page shows a $20.00-$25.00 range for the two sizes, not a price per size.",
+      "missing": [
+        "price.amount",
+        "price.package_size",
+        "texture",
+        "directions_raw",
+        "warnings_raw",
+        "formulation_version",
+        "manufacturer_claims.skin_types"
+      ],
+      "notes": [
+        "Ingredient is described in page text, not given as a formal ingredient list.",
+        "Page states no skin types.",
+        "Page does not say what to mix the powder with."
+      ]
+    }
+  },
+  {
+    "product_id": "rest_candidate_027",
+    "name": "Watermelon Glow AHA Night Treatment",
+    "brand": "Glow Recipe",
+    "market": "US",
+    "category": "face_mask",
+    "secondary_categories": [],
+    "regulatory_class": "cosmetic",
+    "texture": null,
+    "package_sizes": [
+      {
+        "value": 60,
+        "unit": "ml"
+      },
+      {
+        "value": 25,
+        "unit": "ml"
+      }
+    ],
+    "formulation_version": {
+      "version_id": null,
+      "barcode": null,
+      "lot": null,
+      "label_version": null,
+      "label_date": null,
+      "dailymed_setid": null,
+      "ndc": []
+    },
+    "ingredient_list_raw": "Water/Aqua/Eau, Propanediol, C9-12 Alkane, Glycerin, Niacinamide, Citrullus Lanatus (Watermelon) Fruit Extract, Sea Water/Maris Aqua/Eau de mer, Glycolic Acid*, Lactic Acid*, Sodium Hyaluronate, Chenopodium Quinoa Seed Extract, Lactobacillus/Watermelon Fruit Ferment Extract, Lens Esculenta (Lentil) Fruit Extract, Pyrus Malus (Apple) Fruit Extract, Leuconostoc Ferment Filtrate, Melia Azadirachta Leaf Extract, Moringa Oleifera Seed Oil, Leuconostoc/Radish Root Ferment Filtrate, Eclipta Prostrata Extract, Sodium PCA, Saccharide Isomerate, Hydroxyacetophenone, Polysorbate 60, Hydroxyethylcellulose, Ammonium Acryloyldimethyltaurate/VP Copolymer, Caprylyl Glycol, 1,2-Hexanediol, Cetearyl Alcohol^, Sodium Magnesium Silicate, Sodium Lactate, Xanthan Gum, Sodium Citrate, Disodium Phosphate, Sodium Phosphate, Coco-Caprylate/Caprate, Potassium Sorbate, Sodium Benzoate, Citric Acid, Sodium Hydroxide, Fragrance/Parfum**",
+    "ingredients_normalized": [
+      "water/aqua/eau",
+      "propanediol",
+      "c9-12 alkane",
+      "glycerin",
+      "niacinamide",
+      "citrullus lanatus (watermelon) fruit extract",
+      "sea water/maris aqua/eau de mer",
+      "glycolic acid",
+      "lactic acid",
+      "sodium hyaluronate",
+      "chenopodium quinoa seed extract",
+      "lactobacillus/watermelon fruit ferment extract",
+      "lens esculenta (lentil) fruit extract",
+      "pyrus malus (apple) fruit extract",
+      "leuconostoc ferment filtrate",
+      "melia azadirachta leaf extract",
+      "moringa oleifera seed oil",
+      "leuconostoc/radish root ferment filtrate",
+      "eclipta prostrata extract",
+      "sodium pca",
+      "saccharide isomerate",
+      "hydroxyacetophenone",
+      "polysorbate 60",
+      "hydroxyethylcellulose",
+      "ammonium acryloyldimethyltaurate/vp copolymer",
+      "caprylyl glycol",
+      "1,2-hexanediol",
+      "cetearyl alcohol",
+      "sodium magnesium silicate",
+      "sodium lactate",
+      "xanthan gum",
+      "sodium citrate",
+      "disodium phosphate",
+      "sodium phosphate",
+      "coco-caprylate/caprate",
+      "potassium sorbate",
+      "sodium benzoate",
+      "citric acid",
+      "sodium hydroxide",
+      "fragrance/parfum"
+    ],
+    "active_ingredients": [],
+    "directions_raw": null,
+    "warnings_raw": null,
+    "usage_summary": "Two or three evenings a week, as the last step: apply and pat until absorbed. Cleanse in the morning and use SPF during the day.",
+    "warnings_summary": [
+      "Sunburn alert: contains an AHA; use sunscreen and limit sun exposure during use and for a week afterward",
+      "Patch test first and introduce gradually"
+    ],
+    "compatibility_restrictions": [],
+    "manufacturer_claims": {
+      "benefits": [
+        "Hydration",
+        "Brightening and firming",
+        "Soothing",
+        "Overnight exfoliation"
+      ],
+      "skin_types": [],
+      "skin_types_raw": [
+        "Sensitive"
+      ]
+    },
+    "price": {
+      "amount": 40.0,
+      "currency": "USD",
+      "package_size": {
+        "value": 60,
+        "unit": "ml"
+      },
+      "checked_at": "2026-10-11",
+      "source_url": "https://www.glowrecipe.com/products/watermelon-glow-sleeping-mask"
+    },
+    "source_url": "https://www.glowrecipe.com/products/watermelon-glow-sleeping-mask",
+    "verified_at": null,
+    "verification_status": "pending",
+    "staging": {
+      "source_type": "manufacturer_page",
+      "retrieved_at": "2026-10-11",
+      "label_uses": [],
+      "manufacturer_stated_concentrations": [],
+      "price_note": null,
+      "missing": [
+        "texture",
+        "directions_raw",
+        "warnings_raw",
+        "formulation_version",
+        "manufacturer_claims.skin_types"
+      ],
+      "notes": [
+        "Category uncertain: the URL says sleeping mask, the page names the product a night treatment. It may have been renamed or reformulated.",
+        "Ingredient list carries footnote marks (*, ^, **) that are stripped in the normalized list.",
+        "Page names sensitive skin only, and only at two or three nights a week."
+      ]
+    }
+  }
+]

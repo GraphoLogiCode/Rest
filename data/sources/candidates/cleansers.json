@@ -1,0 +1,639 @@
+[
+  {
+    "product_id": "rest_candidate_001",
+    "name": "Hydrating Facial Cleanser",
+    "brand": "CeraVe",
+    "market": "US",
+    "category": "cleanser",
+    "secondary_categories": [],
+    "regulatory_class": "cosmetic",
+    "texture": null,
+    "package_sizes": [],
+    "formulation_version": {
+      "version_id": null,
+      "barcode": null,
+      "lot": null,
+      "label_version": null,
+      "label_date": null,
+      "dailymed_setid": null,
+      "ndc": []
+    },
+    "ingredient_list_raw": "Aqua / Water / Eau, Glycerin, Cetearyl Alcohol, Peg-40 Stearate, Stearyl Alcohol, Potassium Phosphate, Ceramide NP, Ceramide AP, Ceramide EOP, Carbomer, Glyceryl Stearate, Behentrimonium Methosulfate, Sodium Lauroyl Lactylate, Sodium Hyaluronate, Cholesterol, Phenoxyethanol, Disodium EDTA, Dipotassium Phosphate, Tocopherol, Phytosphingosine, Xanthan Gum, Cetyl Alcohol, Polysorbate 20, Ethylhexylglycerin",
+    "ingredients_normalized": [
+      "aqua / water / eau",
+      "glycerin",
+      "cetearyl alcohol",
+      "peg-40 stearate",
+      "stearyl alcohol",
+      "potassium phosphate",
+      "ceramide np",
+      "ceramide ap",
+      "ceramide eop",
+      "carbomer",
+      "glyceryl stearate",
+      "behentrimonium methosulfate",
+      "sodium lauroyl lactylate",
+      "sodium hyaluronate",
+      "cholesterol",
+      "phenoxyethanol",
+      "disodium edta",
+      "dipotassium phosphate",
+      "tocopherol",
+      "phytosphingosine",
+      "xanthan gum",
+      "cetyl alcohol",
+      "polysorbate 20",
+      "ethylhexylglycerin"
+    ],
+    "active_ingredients": [],
+    "directions_raw": null,
+    "warnings_raw": null,
+    "usage_summary": "Wet skin with lukewarm water, massage the cleanser in, rinse, and pat dry.",
+    "warnings_summary": [],
+    "compatibility_restrictions": [],
+    "manufacturer_claims": {
+      "benefits": [
+        "Cleansing"
+      ],
+      "skin_types": [
+        "dry",
+        "normal"
+      ],
+      "skin_types_raw": [
+        "Normal to dry"
+      ]
+    },
+    "price": {
+      "amount": 15.99,
+      "currency": "USD",
+      "package_size": {
+        "value": null,
+        "unit": null
+      },
+      "checked_at": "2026-10-11",
+      "source_url": "https://www.cerave.com/skincare/cleansers/hydrating-facial-cleanser"
+    },
+    "source_url": "https://www.cerave.com/skincare/cleansers/hydrating-facial-cleanser",
+    "verified_at": null,
+    "verification_status": "pending",
+    "staging": {
+      "source_type": "manufacturer_page",
+      "retrieved_at": "2026-10-11",
+      "label_uses": [],
+      "manufacturer_stated_concentrations": [],
+      "price_note": "Page shows a price but no package size.",
+      "missing": [
+        "price.package_size",
+        "package_sizes",
+        "texture",
+        "directions_raw",
+        "warnings_raw",
+        "formulation_version",
+        "warnings_summary"
+      ],
+      "notes": [
+        "Page has no warnings section."
+      ]
+    }
+  },
+  {
+    "product_id": "rest_candidate_002",
+    "name": "Gentle Facial Cleanser",
+    "brand": "Vanicream",
+    "market": "US",
+    "category": "cleanser",
+    "secondary_categories": [],
+    "regulatory_class": "cosmetic",
+    "texture": null,
+    "package_sizes": [
+      {
+        "value": 8,
+        "unit": "oz"
+      },
+      {
+        "value": 2.5,
+        "unit": "oz"
+      }
+    ],
+    "formulation_version": {
+      "version_id": null,
+      "barcode": null,
+      "lot": null,
+      "label_version": null,
+      "label_date": null,
+      "dailymed_setid": null,
+      "ndc": []
+    },
+    "ingredient_list_raw": "water, glycerin, coco-glucoside, sodium cocoyl glycinate, acrylates copolymer, caprylyl glycol, mica, sodium chloride, 1,2-hexanediol, titanium dioxide, sodium hydroxide, disodium EDTA",
+    "ingredients_normalized": [
+      "water",
+      "glycerin",
+      "coco-glucoside",
+      "sodium cocoyl glycinate",
+      "acrylates copolymer",
+      "caprylyl glycol",
+      "mica",
+      "sodium chloride",
+      "1,2-hexanediol",
+      "titanium dioxide",
+      "sodium hydroxide",
+      "disodium edta"
+    ],
+    "active_ingredients": [],
+    "directions_raw": null,
+    "warnings_raw": null,
+    "usage_summary": "Apply to wet skin, lather, rinse, and pat dry. Daily use; the FAQ allows twice daily.",
+    "warnings_summary": [],
+    "compatibility_restrictions": [],
+    "manufacturer_claims": {
+      "benefits": [
+        "Removes makeup and excess oil",
+        "Cleanses without drying",
+        "Non-comedogenic",
+        "pH balanced",
+        "Soap-free"
+      ],
+      "skin_types": [
+        "dry"
+      ],
+      "skin_types_raw": [
+        "Dry",
+        "Sensitive",
+        "Delicate"
+      ]
+    },
+    "price": {
+      "amount": null,
+      "currency": "USD",
+      "package_size": {
+        "value": null,
+        "unit": null
+      },
+      "checked_at": null,
+      "source_url": null
+    },
+    "source_url": "https://www.vanicream.com/product/vanicream-facial-cleanser",
+    "verified_at": null,
+    "verification_status": "pending",
+    "staging": {
+      "source_type": "manufacturer_page",
+      "retrieved_at": "2026-10-11",
+      "label_uses": [],
+      "manufacturer_stated_concentrations": [],
+      "price_note": "Source shows no price.",
+      "missing": [
+        "price.amount",
+        "price.package_size",
+        "texture",
+        "directions_raw",
+        "warnings_raw",
+        "formulation_version",
+        "warnings_summary"
+      ],
+      "notes": [
+        "Page has no warnings section."
+      ]
+    }
+  },
+  {
+    "product_id": "rest_candidate_003",
+    "name": "Gentle Skin Cleanser",
+    "brand": "Cetaphil",
+    "market": "US",
+    "category": "cleanser",
+    "secondary_categories": [],
+    "regulatory_class": "cosmetic",
+    "texture": null,
+    "package_sizes": [
+      {
+        "value": 2,
+        "unit": "oz"
+      },
+      {
+        "value": 3.4,
+        "unit": "oz"
+      },
+      {
+        "value": 4,
+        "unit": "oz"
+      },
+      {
+        "value": 8,
+        "unit": "oz"
+      },
+      {
+        "value": 16,
+        "unit": "oz"
+      },
+      {
+        "value": 20,
+        "unit": "oz"
+      }
+    ],
+    "formulation_version": {
+      "version_id": null,
+      "barcode": null,
+      "lot": null,
+      "label_version": null,
+      "label_date": null,
+      "dailymed_setid": null,
+      "ndc": []
+    },
+    "ingredient_list_raw": "Water, Glycerin, Cetearyl Alcohol, Panthenol, Niacinamide, Pantolactone, Xanthan Gum, Sodium Cocoyl Isethionate, Sodium Benzoate, Citric Acid",
+    "ingredients_normalized": [
+      "water",
+      "glycerin",
+      "cetearyl alcohol",
+      "panthenol",
+      "niacinamide",
+      "pantolactone",
+      "xanthan gum",
+      "sodium cocoyl isethionate",
+      "sodium benzoate",
+      "citric acid"
+    ],
+    "active_ingredients": [],
+    "directions_raw": null,
+    "warnings_raw": null,
+    "usage_summary": "With water: apply, rub gently, rinse. Without water: apply, rub gently, and wipe off the excess with a soft cloth.",
+    "warnings_summary": [],
+    "compatibility_restrictions": [],
+    "manufacturer_claims": {
+      "benefits": [
+        "Continuous hydration",
+        "Removes dirt, makeup and impurities",
+        "Reinforces the moisture barrier",
+        "Gentle on sensitive skin"
+      ],
+      "skin_types": [
+        "dry",
+        "normal"
+      ],
+      "skin_types_raw": [
+        "Normal to dry",
+        "Sensitive"
+      ]
+    },
+    "price": {
+      "amount": null,
+      "currency": "USD",
+      "package_size": {
+        "value": null,
+        "unit": null
+      },
+      "checked_at": null,
+      "source_url": null
+    },
+    "source_url": "https://www.cetaphil.com/us/products/product-categories/all-cleansers/cetaphil-gentle-skin-cleanser/302990110227.html",
+    "verified_at": null,
+    "verification_status": "pending",
+    "staging": {
+      "source_type": "manufacturer_page",
+      "retrieved_at": "2026-10-11",
+      "label_uses": [],
+      "manufacturer_stated_concentrations": [],
+      "price_note": "Source shows no price.",
+      "missing": [
+        "price.amount",
+        "price.package_size",
+        "texture",
+        "directions_raw",
+        "warnings_raw",
+        "formulation_version",
+        "warnings_summary"
+      ],
+      "notes": [
+        "Page has no warnings section.",
+        "A web search also surfaced retailer listings with a different, older ingredient set (parabens, sodium lauryl sulfate). Confirm which formula is on the packaging."
+      ]
+    }
+  },
+  {
+    "product_id": "rest_candidate_004",
+    "name": "Daily Facial Cleanser",
+    "brand": "Cetaphil",
+    "market": "US",
+    "category": "cleanser",
+    "secondary_categories": [],
+    "regulatory_class": "cosmetic",
+    "texture": null,
+    "package_sizes": [
+      {
+        "value": 2,
+        "unit": "oz"
+      },
+      {
+        "value": 3.4,
+        "unit": "oz"
+      },
+      {
+        "value": 4,
+        "unit": "oz"
+      },
+      {
+        "value": 8,
+        "unit": "oz"
+      },
+      {
+        "value": 16,
+        "unit": "oz"
+      },
+      {
+        "value": 20,
+        "unit": "oz"
+      }
+    ],
+    "formulation_version": {
+      "version_id": null,
+      "barcode": null,
+      "lot": null,
+      "label_version": null,
+      "label_date": null,
+      "dailymed_setid": null,
+      "ndc": []
+    },
+    "ingredient_list_raw": "Water, Glycerin, Cocamidopropyl Betaine, Disodium Laureth Sulfosuccinate, Sodium Cocoamphoacetate, Panthenol, Niacinamide, Pantolactone, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Sodium Benzoate, Masking Fragrance, Sodium Chloride, Citric Acid",
+    "ingredients_normalized": [
+      "water",
+      "glycerin",
+      "cocamidopropyl betaine",
+      "disodium laureth sulfosuccinate",
+      "sodium cocoamphoacetate",
+      "panthenol",
+      "niacinamide",
+      "pantolactone",
+      "acrylates/c10-30 alkyl acrylate crosspolymer",
+      "sodium benzoate",
+      "masking fragrance",
+      "sodium chloride",
+      "citric acid"
+    ],
+    "active_ingredients": [],
+    "directions_raw": null,
+    "warnings_raw": null,
+    "usage_summary": "Apply a small amount to wet skin, rub gently, and rinse.",
+    "warnings_summary": [],
+    "compatibility_restrictions": [],
+    "manufacturer_claims": {
+      "benefits": [
+        "Deep cleansing",
+        "Removes dirt, excess oil and makeup",
+        "Reduces the look of pores",
+        "Reinforces the moisture barrier",
+        "Gentle on sensitive skin"
+      ],
+      "skin_types": [
+        "normal",
+        "combination",
+        "oily"
+      ],
+      "skin_types_raw": [
+        "Normal to oily",
+        "Combination to oily",
+        "Sensitive"
+      ]
+    },
+    "price": {
+      "amount": null,
+      "currency": "USD",
+      "package_size": {
+        "value": null,
+        "unit": null
+      },
+      "checked_at": null,
+      "source_url": null
+    },
+    "source_url": "https://www.cetaphil.com/us/cleansers/gentle-skin-cleanser/302993927167.html",
+    "verified_at": null,
+    "verification_status": "pending",
+    "staging": {
+      "source_type": "manufacturer_page",
+      "retrieved_at": "2026-10-11",
+      "label_uses": [],
+      "manufacturer_stated_concentrations": [],
+      "price_note": "Source shows no price.",
+      "missing": [
+        "price.amount",
+        "price.package_size",
+        "texture",
+        "directions_raw",
+        "warnings_raw",
+        "formulation_version",
+        "warnings_summary"
+      ],
+      "notes": [
+        "Page has no warnings section.",
+        "Source contradicts itself: the feature list says fragrance free, the ingredient list includes Masking Fragrance, and the FAQ says one version has added fragrance.",
+        "The URL path names Gentle Skin Cleanser but the page content is Daily Facial Cleanser. Confirm the canonical URL."
+      ]
+    }
+  },
+  {
+    "product_id": "rest_candidate_005",
+    "name": "Oat Cleansing Balm",
+    "brand": "The INKEY List",
+    "market": "US",
+    "category": "cleanser",
+    "secondary_categories": [],
+    "regulatory_class": "cosmetic",
+    "texture": null,
+    "package_sizes": [
+      {
+        "value": 150,
+        "unit": "ml"
+      },
+      {
+        "value": 50,
+        "unit": "ml"
+      }
+    ],
+    "formulation_version": {
+      "version_id": null,
+      "barcode": null,
+      "lot": null,
+      "label_version": null,
+      "label_date": null,
+      "dailymed_setid": null,
+      "ndc": []
+    },
+    "ingredient_list_raw": "Prunus Amygdalus Dulcis (Sweet Almond) Oil, PEG-20 Glyceryl Triisostearate, Avena Sativa (Oat) Kernel Oil, Cera Microcristallina, Helianthus Annuus (Sunflower) Seed Wax, Sorbitan Olivate, Polyglyceryl-10 Stearate, Polyglyceryl-6 Caprylate, Polyglyceryl-4 Caprate, Jojoba Esters, Phenoxyethanol, Aqua (Water), Hippophae Rhamnoides (Seaberry) Fruit Oil, Tocopherol, Polyglycerin-3, Acacia Decurrens (Early Green Wattle) Flower Wax, Helianthus Annuus (Sunflower) Seed Oil, Ascorbyl Palmitate",
+    "ingredients_normalized": [
+      "prunus amygdalus dulcis (sweet almond) oil",
+      "peg-20 glyceryl triisostearate",
+      "avena sativa (oat) kernel oil",
+      "cera microcristallina",
+      "helianthus annuus (sunflower) seed wax",
+      "sorbitan olivate",
+      "polyglyceryl-10 stearate",
+      "polyglyceryl-6 caprylate",
+      "polyglyceryl-4 caprate",
+      "jojoba esters",
+      "phenoxyethanol",
+      "aqua (water)",
+      "hippophae rhamnoides (seaberry) fruit oil",
+      "tocopherol",
+      "polyglycerin-3",
+      "acacia decurrens (early green wattle) flower wax",
+      "helianthus annuus (sunflower) seed oil",
+      "ascorbyl palmitate"
+    ],
+    "active_ingredients": [],
+    "directions_raw": null,
+    "warnings_raw": null,
+    "usage_summary": "Morning and evening: massage onto dry skin, add warm water to emulsify, then rinse. The page also suggests leaving it on for 10 minutes as a mask.",
+    "warnings_summary": [
+      "Contains nut-derived ingredients",
+      "Patch test before use",
+      "Avoid eyes",
+      "External use only",
+      "Keep out of reach of children",
+      "Store at 15-25 C away from direct sunlight"
+    ],
+    "compatibility_restrictions": [],
+    "manufacturer_claims": {
+      "benefits": [
+        "Removes makeup and SPF",
+        "Dehydrated skin",
+        "Dry skin",
+        "Redness",
+        "Damaged skin barrier"
+      ],
+      "skin_types": [
+        "dry",
+        "normal",
+        "combination",
+        "oily"
+      ],
+      "skin_types_raw": [
+        "All skin types",
+        "Sensitive",
+        "Blemish-prone"
+      ]
+    },
+    "price": {
+      "amount": 17.0,
+      "currency": "USD",
+      "package_size": {
+        "value": 150,
+        "unit": "ml"
+      },
+      "checked_at": "2026-10-11",
+      "source_url": "https://www.theinkeylist.com/products/oat-cleansing-balm"
+    },
+    "source_url": "https://www.theinkeylist.com/products/oat-cleansing-balm",
+    "verified_at": null,
+    "verification_status": "pending",
+    "staging": {
+      "source_type": "manufacturer_page",
+      "retrieved_at": "2026-10-11",
+      "label_uses": [],
+      "manufacturer_stated_concentrations": [
+        {
+          "ingredient": "oat kernel oil",
+          "percent": 5
+        }
+      ],
+      "price_note": "50 ml is listed at $9.00.",
+      "missing": [
+        "texture",
+        "directions_raw",
+        "warnings_raw",
+        "formulation_version"
+      ],
+      "notes": [
+        "Page also claims suitability for pregnancy and breastfeeding, under-12s and teenagers; these are not skin types."
+      ]
+    }
+  },
+  {
+    "product_id": "rest_candidate_006",
+    "name": "Squalane Cleanser",
+    "brand": "The Ordinary",
+    "market": "US",
+    "category": "cleanser",
+    "secondary_categories": [],
+    "regulatory_class": "cosmetic",
+    "texture": null,
+    "package_sizes": [
+      {
+        "value": 50,
+        "unit": "ml"
+      },
+      {
+        "value": 150,
+        "unit": "ml"
+      }
+    ],
+    "formulation_version": {
+      "version_id": null,
+      "barcode": null,
+      "lot": null,
+      "label_version": null,
+      "label_date": null,
+      "dailymed_setid": null,
+      "ndc": []
+    },
+    "ingredient_list_raw": null,
+    "ingredients_normalized": null,
+    "active_ingredients": [],
+    "directions_raw": null,
+    "warnings_raw": null,
+    "usage_summary": "Warm the product between your hands until it turns oil-like, massage onto a dry face, and rinse with warm water.",
+    "warnings_summary": [
+      "Stop use and consult a physician if irritation occurs",
+      "Use only on unbroken skin",
+      "Patch test before use",
+      "Keep out of reach of children"
+    ],
+    "compatibility_restrictions": [],
+    "manufacturer_claims": {
+      "benefits": [
+        "Removes makeup, dirt and impurities",
+        "Supports the moisture barrier",
+        "Leaves skin soft and smooth"
+      ],
+      "skin_types": [
+        "dry",
+        "normal",
+        "combination",
+        "oily"
+      ],
+      "skin_types_raw": [
+        "Dry",
+        "All skin types"
+      ]
+    },
+    "price": {
+      "amount": 10.5,
+      "currency": "USD",
+      "package_size": {
+        "value": null,
+        "unit": null
+      },
+      "checked_at": "2026-10-11",
+      "source_url": "https://theordinary.com/en-us/squalane-face-cleanser-100446.html"
+    },
+    "source_url": "https://theordinary.com/en-us/squalane-face-cleanser-100446.html",
+    "verified_at": null,
+    "verification_status": "pending",
+    "staging": {
+      "source_type": "manufacturer_page",
+      "retrieved_at": "2026-10-11",
+      "label_uses": [],
+      "manufacturer_stated_concentrations": [],
+      "price_note": "Page shows one price and two sizes without saying which size the price is for.",
+      "missing": [
+        "ingredient_list_raw",
+        "price.package_size",
+        "texture",
+        "directions_raw",
+        "warnings_raw",
+        "formulation_version"
+      ],
+      "notes": [
+        "Full ingredient list is behind an interactive control and was not in the retrievable page. The page names four key ingredients only: Squalane, Sucrose Stearate, Ethyl Macadamiate, Sucrose Laurate.",
+        "Product details say suited for dry skin; the FAQ says all skin types."
+      ]
+    }
+  }
+]

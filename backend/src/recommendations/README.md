@@ -2,6 +2,8 @@
 
 Combines rules and model output into explained suggestions.
 
+See the [implementation design](DESIGN.md) for the rules MVP, proposed API, feedback flow, and model rollout sequence. This is currently a design scaffold; no service or trained model is implemented.
+
 ## Pipeline
 
 ```text
