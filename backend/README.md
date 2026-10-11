@@ -1,3 +1,3 @@
 # Backend
 
-Authentication, check-in and profile APIs, insight generation.
+Auth, product/ingredient API, routine and photo API, check-in API, recommendation service.

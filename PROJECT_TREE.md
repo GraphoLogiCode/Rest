@@ -4,97 +4,62 @@
 Rest
 │
 ├── 1. Project Purpose
-│   ├── Help users reflect on their overall well-being
-│   ├── Bring sleep, mental health, and social experiences together
-│   └── Provide understandable, personalized insights
+│   ├── Help users make informed skincare product choices
+│   ├── Show skin changes over time with before-and-after comparisons
+│   ├── Build confidence through understanding, not judging appearance
+│   └── Use sleep, mental, and social well-being as context for decisions
 │
-├── 2. Three Core Pillars
-│   │
-│   ├── Sleep
-│   │   ├── Sleep duration and schedule
-│   │   ├── Self-reported sleep quality
-│   │   ├── Sleep goals
-│   │   └── Sleep history and trends
-│   │
-│   ├── Mental Well-Being
-│   │   ├── Mood check-ins
-│   │   ├── Self-reported stress
-│   │   ├── Optional reflection journal
-│   │   └── Emotional patterns over time
-│   │
-│   └── Social Well-Being
-│       ├── Social connection check-ins
-│       ├── Self-reported loneliness or belonging
-│       ├── Comfort and confidence in social situations
-│       └── Personal connection goals
+├── 2. Product & Ingredient Data
+│   ├── Product catalog (type, brand, price, full ingredient list)
+│   ├── Ingredient knowledge base
+│   │   ├── What each ingredient does
+│   │   ├── Known irritants and allergens
+│   │   └── Pore-clogging risk and conflicting combinations
+│   └── Data sources and verification
 │
-├── 3. Shared User Experience
-│   ├── Onboarding
-│   │   ├── Select personal goals
-│   │   ├── Choose which information to share
-│   │   └── Set check-in preferences
-│   ├── Daily Check-In
-│   │   ├── Sleep report
-│   │   ├── Mood and stress report
-│   │   └── Social experience report
-│   ├── Dashboard
-│   │   ├── Overview of all three pillars
-│   │   ├── Combined timeline
-│   │   └── Progress toward user-selected goals
-│   └── Weekly Reflection
-│       ├── Summarize reported patterns
-│       └── Let users confirm or correct interpretations
+├── 3. User Skin Profile & Routine
+│   ├── Skin type, concerns, goals
+│   ├── Sensitivities and allergies
+│   ├── Preferences and budget
+│   ├── Current routine (products, start/stop dates)
+│   └── Reaction log
 │
-├── 4. Insights and Recommendations
-│   ├── Start with transparent, rules-based insights
-│   ├── Compare patterns across the three pillars
-│   ├── Suggest optional actions aligned with user goals
-│   ├── Explain the basis of each suggestion
-│   └── Collect feedback on usefulness
+├── 4. Before-and-After Visualization
+│   ├── Guided photo capture (lighting, angle, distance checks)
+│   ├── Photo alignment and color correction
+│   ├── Side-by-side and slider comparisons
+│   ├── Timeline linked to routine changes
+│   └── Optional measurements (redness, texture, blemish count)
 │
-├── 5. Optional Skin and Product Features
-│   ├── Skin Photo Tracking
-│   │   ├── Photo capture and quality checks
-│   │   ├── Selected visible-feature analysis
-│   │   └── Photo history
-│   ├── Ingredient Information
-│   │   ├── Verified product catalog
-│   │   ├── Ingredient explanations
-│   │   └── Label warnings and reported sensitivities
-│   └── Product Guidance
-│       ├── Match user-selected skincare goals
-│       ├── Filter by preferences and budget
-│       └── Explain recommendations and uncertainty
+├── 5. Well-Being Context (friend's research)
+│   ├── Sleep: duration, quality
+│   ├── Mental: stress, mood
+│   ├── Social: connection, confidence in social situations
+│   └── Separates lifestyle effects from product effects
+│       (e.g., a breakout during a high-stress week isn't blamed on a new product)
 │
-├── 6. Technical Architecture
-│   ├── Frontend
-│   │   ├── Check-in screens
-│   │   ├── Dashboard and timeline
-│   │   └── Privacy settings
-│   ├── Backend
-│   │   ├── Authentication
-│   │   ├── Check-in and profile APIs
-│   │   └── Insight generation
-│   ├── Data Storage
-│   │   ├── User preferences and goals
-│   │   ├── Check-in history
-│   │   └── Optional photo and product records
-│   └── Optional Machine Learning
-│       ├── Longitudinal pattern modeling
-│       ├── Skin-image analysis
-│       └── Recommendation ranking
+├── 6. Decision Support & Model
+│   ├── Rules-based ingredient matching first
+│   ├── ML model: product suitability ← ingredients + skin profile + outcomes + context
+│   ├── Explain each recommendation (which ingredients, why)
+│   ├── Show uncertainty and limitations
+│   └── User feedback improves the model
 │
-├── 7. Privacy and Product Boundaries
-│   ├── Optional sensitive inputs
-│   ├── User-controlled data deletion
-│   ├── Clear explanations of data use
-│   ├── No mental-health diagnosis from photos
-│   └── No claims that observed patterns prove causation
+├── 7. Technical Architecture
+│   ├── Frontend: product search, routine tracker, photo compare, check-ins, dashboard
+│   ├── Backend: auth, product/ingredient API, routine and photo API, check-in API, recommendation service
+│   ├── Data: product database, user profiles, encrypted photos, check-in history
+│   └── ML: ingredient model, image analysis, recommendation ranking
 │
-└── 8. Evaluation
-    ├── Ease of completing check-ins
-    ├── User understanding of insights
-    ├── Perceived usefulness
-    ├── Continued voluntary use
-    └── Accuracy and limitations of any ML features
+├── 8. Privacy & Boundaries
+│   ├── Photos are opt-in, encrypted, deletable by the user
+│   ├── Not a medical diagnosis; suggest seeing a dermatologist for skin conditions
+│   ├── No beauty or attractiveness scores
+│   └── No claims that patterns prove causation
+│
+└── 9. Evaluation
+    ├── Recommendation quality vs. user-reported outcomes
+    ├── Photo comparison consistency
+    ├── User understanding and confidence
+    └── Continued use
 ```

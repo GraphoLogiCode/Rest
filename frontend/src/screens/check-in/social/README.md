@@ -1,3 +1,3 @@
-# Social experience report
+# Social
 
-Connection check-in, loneliness/belonging, comfort and confidence in social situations.
+Connection and confidence in social situations.

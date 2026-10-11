@@ -1,3 +1,3 @@
 # Check-ins
 
-Check-in history for all three pillars.
+Sleep, mental, and social context history.

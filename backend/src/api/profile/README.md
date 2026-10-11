@@ -1,3 +1,3 @@
 # Profile API
 
-User preferences, goals, sharing choices, check-in schedule.
+Skin type, concerns, goals, sensitivities, preferences, budget.

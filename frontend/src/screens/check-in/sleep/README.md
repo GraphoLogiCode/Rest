@@ -1,3 +1,3 @@
-# Sleep report
+# Sleep
 
-Duration, schedule, self-reported quality.
+Duration and quality.

@@ -1,3 +1,3 @@
 # Users
 
-User preferences, goals, sharing choices.
+Skin profile, sensitivities, preferences, budget, sharing choices.

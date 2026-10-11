@@ -1,3 +1,3 @@
 # Privacy
 
-Consent records, data-use explanations, user-controlled deletion and export.
+Consent records, data-use explanations, photo encryption, user-controlled deletion.
