@@ -1,0 +1,533 @@
+[
+  {
+    "product_id": "rest_candidate_013",
+    "name": "Niacinamide 10% + Zinc 1%",
+    "brand": "The Ordinary",
+    "market": "US",
+    "category": "serum",
+    "secondary_categories": [],
+    "regulatory_class": "cosmetic",
+    "texture": null,
+    "package_sizes": [
+      {
+        "value": 30,
+        "unit": "ml"
+      },
+      {
+        "value": 60,
+        "unit": "ml"
+      }
+    ],
+    "formulation_version": {
+      "version_id": null,
+      "barcode": null,
+      "lot": null,
+      "label_version": null,
+      "label_date": null,
+      "dailymed_setid": null,
+      "ndc": []
+    },
+    "ingredient_list_raw": "Aqua (Water), Niacinamide, Pentylene Glycol, Zinc PCA, Dimethyl Isosorbide, Tamarindus Indica Seed Gum, Xanthan Gum, Isoceteth-20, Ethoxydiglycol, Phenoxyethanol, Chlorphenesin",
+    "ingredients_normalized": [
+      "aqua (water)",
+      "niacinamide",
+      "pentylene glycol",
+      "zinc pca",
+      "dimethyl isosorbide",
+      "tamarindus indica seed gum",
+      "xanthan gum",
+      "isoceteth-20",
+      "ethoxydiglycol",
+      "phenoxyethanol",
+      "chlorphenesin"
+    ],
+    "active_ingredients": [],
+    "directions_raw": null,
+    "warnings_raw": null,
+    "usage_summary": "Apply a few drops to the face morning and evening.",
+    "warnings_summary": [
+      "Stop use and consult a physician if irritation occurs",
+      "Use only on unbroken skin",
+      "Patch test before use",
+      "Keep out of reach of children"
+    ],
+    "compatibility_restrictions": [
+      {
+        "statement": "Page says not to use with direct or indirect vitamin C and suggests separate routines.",
+        "source_url": "https://theordinary.com/en-us/niacinamide-10-zinc-1-serum-100436.html",
+        "review_status": "pending"
+      }
+    ],
+    "manufacturer_claims": {
+      "benefits": [
+        "Signs of congestion",
+        "Dryness",
+        "Dullness",
+        "Textural irregularities",
+        "Visible shine"
+      ],
+      "skin_types": [
+        "dry",
+        "normal",
+        "combination",
+        "oily"
+      ],
+      "skin_types_raw": [
+        "All skin types"
+      ]
+    },
+    "price": {
+      "amount": 6.0,
+      "currency": "USD",
+      "package_size": {
+        "value": null,
+        "unit": null
+      },
+      "checked_at": "2026-10-11",
+      "source_url": "https://theordinary.com/en-us/niacinamide-10-zinc-1-serum-100436.html"
+    },
+    "source_url": "https://theordinary.com/en-us/niacinamide-10-zinc-1-serum-100436.html",
+    "verified_at": null,
+    "verification_status": "pending",
+    "staging": {
+      "source_type": "manufacturer_page",
+      "retrieved_at": "2026-10-11",
+      "label_uses": [],
+      "manufacturer_stated_concentrations": [
+        {
+          "ingredient": "niacinamide",
+          "percent": 10
+        },
+        {
+          "ingredient": "zinc (as named in the product title)",
+          "percent": 1
+        }
+      ],
+      "price_note": "Page shows one price and two sizes without saying which size the price is for.",
+      "missing": [
+        "price.package_size",
+        "texture",
+        "directions_raw",
+        "warnings_raw",
+        "formulation_version"
+      ],
+      "notes": []
+    }
+  },
+  {
+    "product_id": "rest_candidate_014",
+    "name": "Hyaluronic Acid 2% + B5 (with Ceramides)",
+    "brand": "The Ordinary",
+    "market": "US",
+    "category": "serum",
+    "secondary_categories": [],
+    "regulatory_class": "cosmetic",
+    "texture": null,
+    "package_sizes": [
+      {
+        "value": 30,
+        "unit": "ml"
+      },
+      {
+        "value": 60,
+        "unit": "ml"
+      }
+    ],
+    "formulation_version": {
+      "version_id": null,
+      "barcode": null,
+      "lot": null,
+      "label_version": null,
+      "label_date": null,
+      "dailymed_setid": null,
+      "ndc": []
+    },
+    "ingredient_list_raw": null,
+    "ingredients_normalized": null,
+    "active_ingredients": [],
+    "directions_raw": null,
+    "warnings_raw": null,
+    "usage_summary": "Apply a few drops to the face morning and evening, after cleansing and before heavier creams.",
+    "warnings_summary": [
+      "Stop use and consult a physician if irritation occurs",
+      "Use only on unbroken skin",
+      "Patch test before use",
+      "Keep out of reach of children"
+    ],
+    "compatibility_restrictions": [],
+    "manufacturer_claims": {
+      "benefits": [
+        "Dehydration",
+        "Signs of aging",
+        "Barrier support",
+        "Long-lasting hydration",
+        "Plumping"
+      ],
+      "skin_types": [
+        "dry",
+        "normal",
+        "combination",
+        "oily"
+      ],
+      "skin_types_raw": [
+        "All skin types"
+      ]
+    },
+    "price": {
+      "amount": 9.9,
+      "currency": "USD",
+      "package_size": {
+        "value": null,
+        "unit": null
+      },
+      "checked_at": "2026-10-11",
+      "source_url": "https://theordinary.com/en-us/hyaluronic-acid-2-b5-serum-with-ceramides-100637.html"
+    },
+    "source_url": "https://theordinary.com/en-us/hyaluronic-acid-2-b5-serum-with-ceramides-100637.html",
+    "verified_at": null,
+    "verification_status": "pending",
+    "staging": {
+      "source_type": "manufacturer_page",
+      "retrieved_at": "2026-10-11",
+      "label_uses": [],
+      "manufacturer_stated_concentrations": [
+        {
+          "ingredient": "hyaluronic acid",
+          "percent": 2
+        }
+      ],
+      "price_note": "Page shows one price and two sizes without saying which size the price is for.",
+      "missing": [
+        "ingredient_list_raw",
+        "price.package_size",
+        "texture",
+        "directions_raw",
+        "warnings_raw",
+        "formulation_version"
+      ],
+      "notes": [
+        "Full ingredient list is behind an interactive control and was not in the retrievable page. The page names key ingredients only: hyaluronic acid forms, ceramides, panthenol."
+      ]
+    }
+  },
+  {
+    "product_id": "rest_candidate_015",
+    "name": "Hydrating Hyaluronic Acid Serum",
+    "brand": "CeraVe",
+    "market": "US",
+    "category": "serum",
+    "secondary_categories": [],
+    "regulatory_class": "cosmetic",
+    "texture": null,
+    "package_sizes": [],
+    "formulation_version": {
+      "version_id": null,
+      "barcode": null,
+      "lot": null,
+      "label_version": null,
+      "label_date": null,
+      "dailymed_setid": null,
+      "ndc": []
+    },
+    "ingredient_list_raw": "AQUA / WATER, GLYCERIN, CETEARYL ETHYLHEXANOATE, DIMETHICONE, AMMONIUM POLYACRYLOYLDIMETHYL TAURATE, SODIUM HYALURONATE, PANTHENOL, CERAMIDE NP, CERAMIDE AP, CERAMIDE EOP, CARBOMER, CETEARYL ALCOHOL, BEHENTRIMONIUM METHOSULFATE, SODIUM HYDROXIDE, SODIUM LAUROYL LACTYLATE, CHOLESTEROL, PHENOXYETHANOL, DISODIUM EDTA, ISOPROPYL MYRISTATE, CAPRYLYL GLYCOL, CITRIC ACID, XANTHAN GUM, PHYTOSPHINGOSINE, ETHYLHEXYLGLYCERIN",
+    "ingredients_normalized": [
+      "aqua / water",
+      "glycerin",
+      "cetearyl ethylhexanoate",
+      "dimethicone",
+      "ammonium polyacryloyldimethyl taurate",
+      "sodium hyaluronate",
+      "panthenol",
+      "ceramide np",
+      "ceramide ap",
+      "ceramide eop",
+      "carbomer",
+      "cetearyl alcohol",
+      "behentrimonium methosulfate",
+      "sodium hydroxide",
+      "sodium lauroyl lactylate",
+      "cholesterol",
+      "phenoxyethanol",
+      "disodium edta",
+      "isopropyl myristate",
+      "caprylyl glycol",
+      "citric acid",
+      "xanthan gum",
+      "phytosphingosine",
+      "ethylhexylglycerin"
+    ],
+    "active_ingredients": [],
+    "directions_raw": null,
+    "warnings_raw": null,
+    "usage_summary": "Shake, then apply evenly to face and neck daily, alone or under a moisturizer.",
+    "warnings_summary": [
+      "Avoid the eye area; rinse with water on eye contact"
+    ],
+    "compatibility_restrictions": [],
+    "manufacturer_claims": {
+      "benefits": [
+        "Hydration for up to 24 hours",
+        "Helps restore the skin barrier",
+        "Smoother skin"
+      ],
+      "skin_types": [
+        "dry",
+        "normal"
+      ],
+      "skin_types_raw": [
+        "Normal to dry"
+      ]
+    },
+    "price": {
+      "amount": 22.99,
+      "currency": "USD",
+      "package_size": {
+        "value": null,
+        "unit": null
+      },
+      "checked_at": "2026-10-11",
+      "source_url": "https://www.cerave.com/skincare/facial-serums/hydrating-hyaluronic-acid-serum"
+    },
+    "source_url": "https://www.cerave.com/skincare/facial-serums/hydrating-hyaluronic-acid-serum",
+    "verified_at": null,
+    "verification_status": "pending",
+    "staging": {
+      "source_type": "manufacturer_page",
+      "retrieved_at": "2026-10-11",
+      "label_uses": [],
+      "manufacturer_stated_concentrations": [],
+      "price_note": "Page shows a price but no package size.",
+      "missing": [
+        "price.package_size",
+        "package_sizes",
+        "texture",
+        "directions_raw",
+        "warnings_raw",
+        "formulation_version"
+      ],
+      "notes": []
+    }
+  },
+  {
+    "product_id": "rest_candidate_016",
+    "name": "Skin Renewing Vitamin C Serum",
+    "brand": "CeraVe",
+    "market": "US",
+    "category": "serum",
+    "secondary_categories": [],
+    "regulatory_class": "cosmetic",
+    "texture": null,
+    "package_sizes": [],
+    "formulation_version": {
+      "version_id": null,
+      "barcode": null,
+      "lot": null,
+      "label_version": null,
+      "label_date": null,
+      "dailymed_setid": null,
+      "ndc": []
+    },
+    "ingredient_list_raw": "Water, Ascorbic Acid, Glycerin, Dimethicone, Cetearyl Ethylhexanoate, Alcohol Denat., Sodium Hydroxide, Ammonium Polyacryloyldimethyl Taurate, Panthenol, Ceramide NP, Ceramide AP, Ceramide EOP, Carbomer, Cetearyl Alcohol, Behentrimonium Methosulfate, Sodium Hyaluronate, Sodium Lauroyl Lactylate, Cholesterol, Phenoxyethanol, Tocopheryl Acetate, Disodium EDTA, Isopropyl Myristate, Caprylyl Glycol, Xanthan Gum, Phytosphingosine, Ethylhexylglycerin",
+    "ingredients_normalized": [
+      "water",
+      "ascorbic acid",
+      "glycerin",
+      "dimethicone",
+      "cetearyl ethylhexanoate",
+      "alcohol denat.",
+      "sodium hydroxide",
+      "ammonium polyacryloyldimethyl taurate",
+      "panthenol",
+      "ceramide np",
+      "ceramide ap",
+      "ceramide eop",
+      "carbomer",
+      "cetearyl alcohol",
+      "behentrimonium methosulfate",
+      "sodium hyaluronate",
+      "sodium lauroyl lactylate",
+      "cholesterol",
+      "phenoxyethanol",
+      "tocopheryl acetate",
+      "disodium edta",
+      "isopropyl myristate",
+      "caprylyl glycol",
+      "xanthan gum",
+      "phytosphingosine",
+      "ethylhexylglycerin"
+    ],
+    "active_ingredients": [],
+    "directions_raw": null,
+    "warnings_raw": null,
+    "usage_summary": "Apply evenly to face and neck once a day, in the morning.",
+    "warnings_summary": [
+      "Avoid the eye area; rinse with water on eye contact",
+      "Store in a cool, dark place"
+    ],
+    "compatibility_restrictions": [],
+    "manufacturer_claims": {
+      "benefits": [
+        "Brightening",
+        "Fine lines",
+        "Dark spots",
+        "Uneven skin tone",
+        "Skin barrier support",
+        "Hydration"
+      ],
+      "skin_types": [
+        "dry",
+        "normal",
+        "combination",
+        "oily"
+      ],
+      "skin_types_raw": [
+        "All skin types",
+        "Sensitive"
+      ]
+    },
+    "price": {
+      "amount": 28.99,
+      "currency": "USD",
+      "package_size": {
+        "value": null,
+        "unit": null
+      },
+      "checked_at": "2026-10-11",
+      "source_url": "https://www.cerave.com/skincare/facial-serums/skin-renewing-vitamin-c-serum"
+    },
+    "source_url": "https://www.cerave.com/skincare/facial-serums/skin-renewing-vitamin-c-serum",
+    "verified_at": null,
+    "verification_status": "pending",
+    "staging": {
+      "source_type": "manufacturer_page",
+      "retrieved_at": "2026-10-11",
+      "label_uses": [],
+      "manufacturer_stated_concentrations": [],
+      "price_note": "Page shows a price but no package size.",
+      "missing": [
+        "price.package_size",
+        "package_sizes",
+        "texture",
+        "directions_raw",
+        "warnings_raw",
+        "formulation_version"
+      ],
+      "notes": []
+    }
+  },
+  {
+    "product_id": "rest_candidate_017",
+    "name": "Hyaluronic Acid Serum",
+    "brand": "The INKEY List",
+    "market": "US",
+    "category": "serum",
+    "secondary_categories": [],
+    "regulatory_class": "cosmetic",
+    "texture": null,
+    "package_sizes": [
+      {
+        "value": 30,
+        "unit": "ml"
+      },
+      {
+        "value": 60,
+        "unit": "ml"
+      },
+      {
+        "value": 100,
+        "unit": "ml"
+      }
+    ],
+    "formulation_version": {
+      "version_id": null,
+      "barcode": null,
+      "lot": null,
+      "label_version": null,
+      "label_date": null,
+      "dailymed_setid": null,
+      "ndc": []
+    },
+    "ingredient_list_raw": "Water (Aqua/Eau), Propanediol, Sodium Hyaluronate, Glycerin, Butylene Glycol, Phenoxyethanol, Ammonium Acryloyldimethyltaurate/Vp Copolymer, Leuconostoc/Radish Root Ferment Filtrate, Hyaluronic Acid, Carbomer, Sodium Lactate, Polysorbate 20, Palmitoyl Tetrapeptide-7, Palmitoyl Tripeptide-1",
+    "ingredients_normalized": [
+      "water (aqua/eau)",
+      "propanediol",
+      "sodium hyaluronate",
+      "glycerin",
+      "butylene glycol",
+      "phenoxyethanol",
+      "ammonium acryloyldimethyltaurate/vp copolymer",
+      "leuconostoc/radish root ferment filtrate",
+      "hyaluronic acid",
+      "carbomer",
+      "sodium lactate",
+      "polysorbate 20",
+      "palmitoyl tetrapeptide-7",
+      "palmitoyl tripeptide-1"
+    ],
+    "active_ingredients": [],
+    "directions_raw": null,
+    "warnings_raw": null,
+    "usage_summary": "Morning and evening on damp, cleansed skin: apply to face and neck and pat in. Follow with moisturizer, and SPF in the morning.",
+    "warnings_summary": [
+      "Patch test before use",
+      "Avoid eyes",
+      "External use only",
+      "Keep out of reach of children",
+      "Store at 15-25 C away from direct sunlight"
+    ],
+    "compatibility_restrictions": [],
+    "manufacturer_claims": {
+      "benefits": [
+        "Dehydrated skin",
+        "Fine lines and wrinkles",
+        "Damaged skin barrier",
+        "Hydration",
+        "Plumping"
+      ],
+      "skin_types": [
+        "dry",
+        "normal",
+        "combination",
+        "oily"
+      ],
+      "skin_types_raw": [
+        "All skin types",
+        "Sensitive"
+      ]
+    },
+    "price": {
+      "amount": 13.0,
+      "currency": "USD",
+      "package_size": {
+        "value": 30,
+        "unit": "ml"
+      },
+      "checked_at": "2026-10-11",
+      "source_url": "https://www.theinkeylist.com/products/hyaluronic-acid-serum"
+    },
+    "source_url": "https://www.theinkeylist.com/products/hyaluronic-acid-serum",
+    "verified_at": null,
+    "verification_status": "pending",
+    "staging": {
+      "source_type": "manufacturer_page",
+      "retrieved_at": "2026-10-11",
+      "label_uses": [],
+      "manufacturer_stated_concentrations": [
+        {
+          "ingredient": "multi-molecular hyaluronic acid",
+          "percent": 2
+        }
+      ],
+      "price_note": null,
+      "missing": [
+        "texture",
+        "directions_raw",
+        "warnings_raw",
+        "formulation_version"
+      ],
+      "notes": [
+        "Page gives two different amounts to apply: pea-sized, and 2-3 drops."
+      ]
+    }
+  }
+]

@@ -1,0 +1,683 @@
+[
+  {
+    "product_id": "rest_candidate_018",
+    "name": "UV Clear SPF 46",
+    "brand": "EltaMD",
+    "market": "US",
+    "category": "sunscreen",
+    "secondary_categories": [],
+    "regulatory_class": "otc_drug",
+    "texture": null,
+    "package_sizes": [
+      {
+        "value": 48,
+        "unit": "g"
+      },
+      {
+        "value": 106,
+        "unit": "g"
+      },
+      {
+        "value": 14,
+        "unit": "g"
+      },
+      {
+        "value": 2,
+        "unit": "g"
+      }
+    ],
+    "formulation_version": {
+      "version_id": null,
+      "barcode": null,
+      "lot": null,
+      "label_version": 9,
+      "label_date": "2025-06-04",
+      "dailymed_setid": "60438ec5-0b1f-45fd-8ce4-debfdbdc6721",
+      "ndc": [
+        "72043-2500-1",
+        "72043-2500-3",
+        "72043-2500-5",
+        "72043-2500-2"
+      ]
+    },
+    "ingredient_list_raw": "Active ingredients: Zinc Oxide 9.0%, Octinoxate 7.5%. Inactive ingredients: Purified water, Cyclopentasiloxane, Niacinamide, Octyldodecyl Neopentanoate, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Polyisobutene, PEG-7 Trimethylolpropane Coconut Ether, Sodium Hyaluronate, Tocopheryl Acetate, Lactic Acid, Oleth-3 Phosphate, Phenoxyethanol, Butylene Glycol, Iodopropynyl Butylcarbamate, Triethoxycaprylylsilane",
+    "ingredients_normalized": [
+      "zinc oxide",
+      "octinoxate",
+      "purified water",
+      "cyclopentasiloxane",
+      "niacinamide",
+      "octyldodecyl neopentanoate",
+      "hydroxyethyl acrylate/sodium acryloyldimethyl taurate copolymer",
+      "polyisobutene",
+      "peg-7 trimethylolpropane coconut ether",
+      "sodium hyaluronate",
+      "tocopheryl acetate",
+      "lactic acid",
+      "oleth-3 phosphate",
+      "phenoxyethanol",
+      "butylene glycol",
+      "iodopropynyl butylcarbamate",
+      "triethoxycaprylylsilane"
+    ],
+    "active_ingredients": [
+      {
+        "name": "zinc oxide",
+        "concentration_percent": 9.0,
+        "purpose": "sunscreen"
+      },
+      {
+        "name": "octinoxate",
+        "concentration_percent": 7.5,
+        "purpose": "sunscreen"
+      }
+    ],
+    "directions_raw": null,
+    "warnings_raw": null,
+    "usage_summary": "Apply liberally to face and neck 15 minutes before sun exposure. Reapply at least every 2 hours. Use a water-resistant sunscreen if swimming or sweating. Under 6 months: ask a physician.",
+    "warnings_summary": [
+      "External use only",
+      "Not for damaged or broken skin",
+      "Keep out of eyes; rinse with water to remove",
+      "Stop use and ask a doctor if a rash occurs",
+      "Keep out of reach of children; get medical help if swallowed"
+    ],
+    "compatibility_restrictions": [],
+    "manufacturer_claims": {
+      "benefits": [],
+      "skin_types": [],
+      "skin_types_raw": []
+    },
+    "price": {
+      "amount": null,
+      "currency": "USD",
+      "package_size": {
+        "value": null,
+        "unit": null
+      },
+      "checked_at": null,
+      "source_url": null
+    },
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=60438ec5-0b1f-45fd-8ce4-debfdbdc6721",
+    "verified_at": null,
+    "verification_status": "pending",
+    "staging": {
+      "source_type": "dailymed_label",
+      "retrieved_at": "2026-10-11",
+      "label_uses": [
+        "Helps prevent sunburn",
+        "With other sun protection measures, lowers the risk of skin cancer and early skin aging caused by the sun"
+      ],
+      "manufacturer_stated_concentrations": [],
+      "price_note": "DailyMed labels carry no price.",
+      "missing": [
+        "price.amount",
+        "price.package_size",
+        "texture",
+        "directions_raw",
+        "warnings_raw",
+        "manufacturer_claims.skin_types"
+      ],
+      "notes": [
+        "DailyMed's structured ingredient table disagrees with the Drug Facts text: it lists Octyldodecyl Benzoate instead of Octyldodecyl Neopentanoate and omits PEG-7 Trimethylolpropane Coconut Ether. This record follows the Drug Facts text."
+      ]
+    }
+  },
+  {
+    "product_id": "rest_candidate_019",
+    "name": "Hydrating Sunscreen SPF 30 Face (mineral)",
+    "brand": "CeraVe",
+    "market": "US",
+    "category": "sunscreen",
+    "secondary_categories": [],
+    "regulatory_class": "otc_drug",
+    "texture": null,
+    "package_sizes": [
+      {
+        "value": 75,
+        "unit": "ml"
+      },
+      {
+        "value": 5,
+        "unit": "ml"
+      },
+      {
+        "value": 2.5,
+        "unit": "ml"
+      }
+    ],
+    "formulation_version": {
+      "version_id": null,
+      "barcode": null,
+      "lot": null,
+      "label_version": 3,
+      "label_date": "2023-12-31",
+      "dailymed_setid": "8e94e203-d3cf-45a1-88f9-6999f0aab22b",
+      "ndc": [
+        "49967-150-01",
+        "49967-150-02",
+        "49967-150-03"
+      ]
+    },
+    "ingredient_list_raw": "Active ingredients: Titanium Dioxide 6.0%, Zinc Oxide 5.0%. Inactive ingredients: Water, Glycerin, C12-15 alkyl benzoate, Dimethicone, Glyceryl stearate, Isododecane, Butyloctyl salicylate, Styrene/acrylates copolymer, Propanediol, Stearic acid, PEG-100 sterate, Sorbitan stearate, Niacinamide, Acrylates/dimethicone copolymer, PEG-8 laurate, Ceramide NP, Ceramide AP, Ceramide EOP, Sorbitan isostearate, Carbomer, Cetearyl alcohol, Ceteareth-20, Triethoxycaprylylsilane, Dimethiconol, Sodium citrate, Sodium lauroyl lactylate, Sodium dodecylbenzenesulfonate, Myristic acid, Sodium hyaluronate, Cholesterol, Aluminum hydroxide, Palmitic acid, Phenoxyethanol, Chlorphenesin, Hydroxyethyl acrylate/sodium acryloyldimethyl taurate copolymer, Caprylyl glycol, Citric acid, Panthenol, Xanthan gum, Phytosphingosine, Polyhydroxystearic acid, Polysorbate 60, Ethylhexylglycerin",
+    "ingredients_normalized": [
+      "titanium dioxide",
+      "zinc oxide",
+      "water",
+      "glycerin",
+      "c12-15 alkyl benzoate",
+      "dimethicone",
+      "glyceryl stearate",
+      "isododecane",
+      "butyloctyl salicylate",
+      "styrene/acrylates copolymer",
+      "propanediol",
+      "stearic acid",
+      "peg-100 sterate",
+      "sorbitan stearate",
+      "niacinamide",
+      "acrylates/dimethicone copolymer",
+      "peg-8 laurate",
+      "ceramide np",
+      "ceramide ap",
+      "ceramide eop",
+      "sorbitan isostearate",
+      "carbomer",
+      "cetearyl alcohol",
+      "ceteareth-20",
+      "triethoxycaprylylsilane",
+      "dimethiconol",
+      "sodium citrate",
+      "sodium lauroyl lactylate",
+      "sodium dodecylbenzenesulfonate",
+      "myristic acid",
+      "sodium hyaluronate",
+      "cholesterol",
+      "aluminum hydroxide",
+      "palmitic acid",
+      "phenoxyethanol",
+      "chlorphenesin",
+      "hydroxyethyl acrylate/sodium acryloyldimethyl taurate copolymer",
+      "caprylyl glycol",
+      "citric acid",
+      "panthenol",
+      "xanthan gum",
+      "phytosphingosine",
+      "polyhydroxystearic acid",
+      "polysorbate 60",
+      "ethylhexylglycerin"
+    ],
+    "active_ingredients": [
+      {
+        "name": "titanium dioxide",
+        "concentration_percent": 6.0,
+        "purpose": "sunscreen"
+      },
+      {
+        "name": "zinc oxide",
+        "concentration_percent": 5.0,
+        "purpose": "sunscreen"
+      }
+    ],
+    "directions_raw": null,
+    "warnings_raw": null,
+    "usage_summary": "Apply liberally 15 minutes before sun exposure. Reapply at least every 2 hours. Use a water-resistant sunscreen if swimming or sweating. Under 6 months: ask a doctor.",
+    "warnings_summary": [
+      "External use only",
+      "Not for damaged or broken skin",
+      "Stop use and ask a doctor if a rash occurs",
+      "Keep out of reach of children; get medical help if swallowed",
+      "Protect from excessive heat and direct sun"
+    ],
+    "compatibility_restrictions": [],
+    "manufacturer_claims": {
+      "benefits": [],
+      "skin_types": [],
+      "skin_types_raw": []
+    },
+    "price": {
+      "amount": null,
+      "currency": "USD",
+      "package_size": {
+        "value": null,
+        "unit": null
+      },
+      "checked_at": null,
+      "source_url": null
+    },
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8e94e203-d3cf-45a1-88f9-6999f0aab22b",
+    "verified_at": null,
+    "verification_status": "pending",
+    "staging": {
+      "source_type": "dailymed_label",
+      "retrieved_at": "2026-10-11",
+      "label_uses": [
+        "Helps prevent sunburn",
+        "With other sun protection measures, lowers the risk of skin cancer and early skin aging caused by the sun"
+      ],
+      "manufacturer_stated_concentrations": [],
+      "price_note": "DailyMed labels carry no price.",
+      "missing": [
+        "price.amount",
+        "price.package_size",
+        "texture",
+        "directions_raw",
+        "warnings_raw",
+        "manufacturer_claims.skin_types"
+      ],
+      "notes": [
+        "Label text spells one ingredient 'PEG-100 sterate'; kept as printed.",
+        "DailyMed's structured ingredient table disagrees with the Drug Facts text: it omits three ingredients and names Ceramide EOP as Ceramide 1. This record follows the Drug Facts text."
+      ]
+    }
+  },
+  {
+    "product_id": "rest_candidate_020",
+    "name": "Anthelios 60 Melt-In Sunscreen Milk SPF 60 Face and Body",
+    "brand": "La Roche-Posay",
+    "market": "US",
+    "category": "sunscreen",
+    "secondary_categories": [],
+    "regulatory_class": "otc_drug",
+    "texture": null,
+    "package_sizes": [
+      {
+        "value": 150,
+        "unit": "ml"
+      }
+    ],
+    "formulation_version": {
+      "version_id": null,
+      "barcode": null,
+      "lot": null,
+      "label_version": 4,
+      "label_date": "2023-12-31",
+      "dailymed_setid": "53ab6046-058b-4cdf-8e4e-7ce6f5288701",
+      "ndc": [
+        "49967-003-01"
+      ]
+    },
+    "ingredient_list_raw": "Active ingredients: Avobenzone 3.0%, Homosalate 10.72%, Octisalate 3.21%, Octocrylene 6.0%, Oxybenzone 3.86%. Inactive ingredients: Water, Styrene/acrylates copolymer, Polymethylsilsesquioxane, Butyloctyl salicylate, Cyclopentasiloxane, Glycerin, Dimethicone, Alcohol denat., Poly C10-30 alkyl acrylate, Caprylyl methicone, Trisiloxane, Acrylates/dimethicone copolymer, PEG-100 stearate, Glyceryl stearate, Phenoxyethanol, Potassium cetyl phosphate, Propylene glycol, Caprylyl glycol, PEG-8 laurate, Acrylates/C10-30 alkyl acrylate crsosspolymer, Triethanolamine, Tocopherol, Inulin lauryl carbamate, Disodium EDTA, p-Anisic acid, Xanthan gum, Diethylhexyl syringylidenemalonate, Cassia alata leaf extract, Maltodextrin",
+    "ingredients_normalized": [
+      "avobenzone",
+      "homosalate",
+      "octisalate",
+      "octocrylene",
+      "oxybenzone",
+      "water",
+      "styrene/acrylates copolymer",
+      "polymethylsilsesquioxane",
+      "butyloctyl salicylate",
+      "cyclopentasiloxane",
+      "glycerin",
+      "dimethicone",
+      "alcohol denat.",
+      "poly c10-30 alkyl acrylate",
+      "caprylyl methicone",
+      "trisiloxane",
+      "acrylates/dimethicone copolymer",
+      "peg-100 stearate",
+      "glyceryl stearate",
+      "phenoxyethanol",
+      "potassium cetyl phosphate",
+      "propylene glycol",
+      "caprylyl glycol",
+      "peg-8 laurate",
+      "acrylates/c10-30 alkyl acrylate crsosspolymer",
+      "triethanolamine",
+      "tocopherol",
+      "inulin lauryl carbamate",
+      "disodium edta",
+      "p-anisic acid",
+      "xanthan gum",
+      "diethylhexyl syringylidenemalonate",
+      "cassia alata leaf extract",
+      "maltodextrin"
+    ],
+    "active_ingredients": [
+      {
+        "name": "avobenzone",
+        "concentration_percent": 3.0,
+        "purpose": "sunscreen"
+      },
+      {
+        "name": "homosalate",
+        "concentration_percent": 10.72,
+        "purpose": "sunscreen"
+      },
+      {
+        "name": "octisalate",
+        "concentration_percent": 3.21,
+        "purpose": "sunscreen"
+      },
+      {
+        "name": "octocrylene",
+        "concentration_percent": 6.0,
+        "purpose": "sunscreen"
+      },
+      {
+        "name": "oxybenzone",
+        "concentration_percent": 3.86,
+        "purpose": "sunscreen"
+      }
+    ],
+    "directions_raw": null,
+    "warnings_raw": null,
+    "usage_summary": "Apply generously 15 minutes before sun exposure. Reapply after 80 minutes of swimming or sweating, right after towel drying, and at least every 2 hours. Under 6 months: ask a doctor.",
+    "warnings_summary": [
+      "External use only",
+      "Not for damaged or broken skin",
+      "Keep out of eyes; rinse with water to remove",
+      "Stop use and ask a doctor if a rash occurs",
+      "Keep out of reach of children; get medical help if swallowed",
+      "Protect from excessive heat and direct sun"
+    ],
+    "compatibility_restrictions": [],
+    "manufacturer_claims": {
+      "benefits": [],
+      "skin_types": [],
+      "skin_types_raw": []
+    },
+    "price": {
+      "amount": null,
+      "currency": "USD",
+      "package_size": {
+        "value": null,
+        "unit": null
+      },
+      "checked_at": null,
+      "source_url": null
+    },
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=53ab6046-058b-4cdf-8e4e-7ce6f5288701",
+    "verified_at": null,
+    "verification_status": "pending",
+    "staging": {
+      "source_type": "dailymed_label",
+      "retrieved_at": "2026-10-11",
+      "label_uses": [
+        "Helps prevent sunburn",
+        "With other sun protection measures, lowers the risk of skin cancer and early skin aging caused by the sun"
+      ],
+      "manufacturer_stated_concentrations": [],
+      "price_note": "DailyMed labels carry no price.",
+      "missing": [
+        "price.amount",
+        "price.package_size",
+        "texture",
+        "directions_raw",
+        "warnings_raw",
+        "manufacturer_claims.skin_types"
+      ],
+      "notes": [
+        "Formulation conflict: another current DailyMed label under the same product name (setid 128c5c70-c410-6c25-e063-6294a90a8b68, labeler Unette Corporation, 1000 mL) lists four actives at different strengths and no oxybenzone. Confirm the formula from the packaging.",
+        "Label text spells one ingredient 'crsosspolymer'; kept as printed.",
+        "DailyMed's structured ingredient table lists only 17 of the 29 inactive ingredients. This record follows the Drug Facts text."
+      ]
+    }
+  },
+  {
+    "product_id": "rest_candidate_021",
+    "name": "Ultra Sheer Dry-Touch Sunscreen Max SPF 100+",
+    "brand": "Neutrogena",
+    "market": "US",
+    "category": "sunscreen",
+    "secondary_categories": [],
+    "regulatory_class": "otc_drug",
+    "texture": null,
+    "package_sizes": [
+      {
+        "value": 88,
+        "unit": "ml"
+      },
+      {
+        "value": 14,
+        "unit": "ml"
+      }
+    ],
+    "formulation_version": {
+      "version_id": null,
+      "barcode": null,
+      "lot": null,
+      "label_version": 1,
+      "label_date": "2025-08-06",
+      "dailymed_setid": "3bac8d0a-8726-46c3-e063-6294a90a1075",
+      "ndc": [
+        "69968-0936-3",
+        "69968-0936-1"
+      ]
+    },
+    "ingredient_list_raw": "Active ingredients: Avobenzone 3.0%, Homosalate 15.0%, Octisalate 5.0%, Octocrylene 10.0%. Inactive ingredients: Water, Ethylhexyl Methoxycrylene, Styrene/Acrylates Copolymer, Copernicia Cerifera (Carnauba) Wax, Hydrogenated Castor Oil, Silica, Triacontanyl PVP, Potassium Cetyl Phosphate, Caprylyl Methicone, Aluminum Starch Octenylsuccinate, Glyceryl Stearate, PEG-100 Stearate, Cetyl Dimethicone, Dimethicone, Phenoxyethanol, Caprylyl Glycol, Ethylhexylglycerin, Acrylates/Dimethicone Copolymer, Xanthan Gum, Chlorphenesin, Sodium Polyacrylate, Hydrolyzed Jojoba Esters, Disodium EDTA, Ethylhexyl Stearate, Tocopheryl Acetate, Jojoba Esters, Trideceth-6, Chrysanthemum Parthenium (Feverfew) Flower/Leaf/Stem Juice",
+    "ingredients_normalized": [
+      "avobenzone",
+      "homosalate",
+      "octisalate",
+      "octocrylene",
+      "water",
+      "ethylhexyl methoxycrylene",
+      "styrene/acrylates copolymer",
+      "copernicia cerifera (carnauba) wax",
+      "hydrogenated castor oil",
+      "silica",
+      "triacontanyl pvp",
+      "potassium cetyl phosphate",
+      "caprylyl methicone",
+      "aluminum starch octenylsuccinate",
+      "glyceryl stearate",
+      "peg-100 stearate",
+      "cetyl dimethicone",
+      "dimethicone",
+      "phenoxyethanol",
+      "caprylyl glycol",
+      "ethylhexylglycerin",
+      "acrylates/dimethicone copolymer",
+      "xanthan gum",
+      "chlorphenesin",
+      "sodium polyacrylate",
+      "hydrolyzed jojoba esters",
+      "disodium edta",
+      "ethylhexyl stearate",
+      "tocopheryl acetate",
+      "jojoba esters",
+      "trideceth-6",
+      "chrysanthemum parthenium (feverfew) flower/leaf/stem juice"
+    ],
+    "active_ingredients": [
+      {
+        "name": "avobenzone",
+        "concentration_percent": 3.0,
+        "purpose": "sunscreen"
+      },
+      {
+        "name": "homosalate",
+        "concentration_percent": 15.0,
+        "purpose": "sunscreen"
+      },
+      {
+        "name": "octisalate",
+        "concentration_percent": 5.0,
+        "purpose": "sunscreen"
+      },
+      {
+        "name": "octocrylene",
+        "concentration_percent": 10.0,
+        "purpose": "sunscreen"
+      }
+    ],
+    "directions_raw": null,
+    "warnings_raw": null,
+    "usage_summary": "Apply generously 15 minutes before sun exposure. Reapply at least every 2 hours. Use a water-resistant sunscreen if swimming or sweating. Under 6 months: ask a doctor.",
+    "warnings_summary": [
+      "External use only",
+      "Not for damaged or broken skin",
+      "Keep out of eyes; rinse with water to remove",
+      "Stop use and ask a doctor if a rash occurs",
+      "Keep out of reach of children; get medical help if swallowed"
+    ],
+    "compatibility_restrictions": [],
+    "manufacturer_claims": {
+      "benefits": [],
+      "skin_types": [],
+      "skin_types_raw": []
+    },
+    "price": {
+      "amount": null,
+      "currency": "USD",
+      "package_size": {
+        "value": null,
+        "unit": null
+      },
+      "checked_at": null,
+      "source_url": null
+    },
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3bac8d0a-8726-46c3-e063-6294a90a1075",
+    "verified_at": null,
+    "verification_status": "pending",
+    "staging": {
+      "source_type": "dailymed_label",
+      "retrieved_at": "2026-10-11",
+      "label_uses": [
+        "Helps prevent sunburn",
+        "With other sun protection measures, lowers the risk of skin cancer and early skin aging caused by the sun"
+      ],
+      "manufacturer_stated_concentrations": [],
+      "price_note": "DailyMed labels carry no price.",
+      "missing": [
+        "price.amount",
+        "price.package_size",
+        "texture",
+        "directions_raw",
+        "warnings_raw",
+        "manufacturer_claims.skin_types"
+      ],
+      "notes": [
+        "DailyMed's structured ingredient table uses different names for several ingredients and omits Sodium Polyacrylate. This record follows the Drug Facts text."
+      ]
+    }
+  },
+  {
+    "product_id": "rest_candidate_022",
+    "name": "Facial Moisturizer Broad Spectrum SPF 30",
+    "brand": "Vanicream",
+    "market": "US",
+    "category": "sunscreen",
+    "secondary_categories": [
+      "moisturizer"
+    ],
+    "regulatory_class": "otc_drug",
+    "texture": null,
+    "package_sizes": [
+      {
+        "value": 71,
+        "unit": "g"
+      },
+      {
+        "value": 7,
+        "unit": "g"
+      },
+      {
+        "value": 4,
+        "unit": "g"
+      }
+    ],
+    "formulation_version": {
+      "version_id": null,
+      "barcode": null,
+      "lot": null,
+      "label_version": 6,
+      "label_date": "2024-10-15",
+      "dailymed_setid": "d8c9a8d0-1f24-2240-e053-2a95a90a8dee",
+      "ndc": [
+        "45334-325-02",
+        "45334-325-07",
+        "45334-325-04"
+      ]
+    },
+    "ingredient_list_raw": "Active ingredients: Zinc Oxide 19.5%. Inactive ingredients: Water, C12-15 alkyl benzoate, Isopentyldiol, Squalane, Glycerin, Coco-caprylate/caprate, Bis-octyldodecyl dimer dilinoleate/propanediol copolymer, Glyceryl stearate, PEG-100 stearate, Polyhydroxystearic acid, Cetearyl alcohol, Sucrose stearate, Ceramide EOP, Ceramide NG, Ceramide NP, Ceramide AS, Ceramide AP, Carnosine, Phytosterols, Hydrogenated lecithin, Dimethicone, Triethoxycaprylylsilane, Polyacrylate crosspolymer-11, Caprylyl glycol, 1,2-Hexanediol",
+    "ingredients_normalized": [
+      "zinc oxide",
+      "water",
+      "c12-15 alkyl benzoate",
+      "isopentyldiol",
+      "squalane",
+      "glycerin",
+      "coco-caprylate/caprate",
+      "bis-octyldodecyl dimer dilinoleate/propanediol copolymer",
+      "glyceryl stearate",
+      "peg-100 stearate",
+      "polyhydroxystearic acid",
+      "cetearyl alcohol",
+      "sucrose stearate",
+      "ceramide eop",
+      "ceramide ng",
+      "ceramide np",
+      "ceramide as",
+      "ceramide ap",
+      "carnosine",
+      "phytosterols",
+      "hydrogenated lecithin",
+      "dimethicone",
+      "triethoxycaprylylsilane",
+      "polyacrylate crosspolymer-11",
+      "caprylyl glycol",
+      "1,2-hexanediol"
+    ],
+    "active_ingredients": [
+      {
+        "name": "zinc oxide",
+        "concentration_percent": 19.5,
+        "purpose": "sunscreen"
+      }
+    ],
+    "directions_raw": null,
+    "warnings_raw": null,
+    "usage_summary": "Apply liberally 15 minutes before sun exposure. Reapply at least every 2 hours. Use a water-resistant sunscreen if swimming or sweating. Under 6 months: ask a doctor.",
+    "warnings_summary": [
+      "External use only",
+      "Not for damaged or broken skin",
+      "Keep out of eyes; rinse with water to remove",
+      "Stop use and ask a doctor if a rash occurs",
+      "Keep out of reach of children; get medical help if swallowed"
+    ],
+    "compatibility_restrictions": [],
+    "manufacturer_claims": {
+      "benefits": [],
+      "skin_types": [],
+      "skin_types_raw": []
+    },
+    "price": {
+      "amount": null,
+      "currency": "USD",
+      "package_size": {
+        "value": null,
+        "unit": null
+      },
+      "checked_at": null,
+      "source_url": null
+    },
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d8c9a8d0-1f24-2240-e053-2a95a90a8dee",
+    "verified_at": null,
+    "verification_status": "pending",
+    "staging": {
+      "source_type": "dailymed_label",
+      "retrieved_at": "2026-10-11",
+      "label_uses": [
+        "Helps prevent sunburn",
+        "With other sun protection measures, lowers the risk of skin cancer and early skin aging caused by the sun"
+      ],
+      "manufacturer_stated_concentrations": [],
+      "price_note": "DailyMed labels carry no price.",
+      "missing": [
+        "price.amount",
+        "price.package_size",
+        "texture",
+        "directions_raw",
+        "warnings_raw",
+        "manufacturer_claims.skin_types"
+      ],
+      "notes": [
+        "Sold as both a moisturizer and a sunscreen.",
+        "DailyMed's structured ingredient table disagrees with the Drug Facts text: it lists Ceramide 5 where the text has Ceramide AS and uses different names for others. This record follows the Drug Facts text."
+      ]
+    }
+  }
+]

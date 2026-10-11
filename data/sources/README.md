@@ -23,3 +23,5 @@ A product qualifies when it has:
 ## Flow
 
 Parse → normalize → manually verify → product database. A record stays `pending` until it is verified.
+
+Pending records waiting for verification are in [candidates/](candidates/README.md).
