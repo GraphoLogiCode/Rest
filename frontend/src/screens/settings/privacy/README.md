@@ -1,5 +1,5 @@
 # Privacy settings
 
-- Toggle optional sensitive inputs
+- Photo opt-in
 - Explain how each data type is used
-- Delete data (per category or all)
+- Delete photos and data

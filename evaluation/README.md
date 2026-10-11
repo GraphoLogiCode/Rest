@@ -1,7 +1,6 @@
 # Evaluation
 
-- Ease of completing check-ins
-- User understanding of insights
-- Perceived usefulness
-- Continued voluntary use
-- Accuracy and limitations of any ML features
+- Recommendation quality vs. user-reported outcomes
+- Photo comparison consistency
+- User understanding and confidence
+- Continued use

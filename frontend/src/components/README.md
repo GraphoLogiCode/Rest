@@ -1,3 +1,3 @@
 # Shared components
 
-Reusable UI: charts, rating scales, timeline items, goal cards.
+Reusable UI: comparison slider, ingredient chips, timeline items, rating scales.

@@ -1,3 +1,3 @@
-# Optional Machine Learning
+# Machine Learning
 
-Only added after rules-based insights are in place and evaluated.
+Added after rules-based matching is in place and evaluated.

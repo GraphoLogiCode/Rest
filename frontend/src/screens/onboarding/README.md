@@ -1,5 +1,6 @@
 # Onboarding
 
-- Select personal goals
+- Skin type, concerns, goals
+- Sensitivities and allergies
+- Preferences and budget
 - Choose which information to share
-- Set check-in preferences

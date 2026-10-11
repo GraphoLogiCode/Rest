@@ -1,6 +1,6 @@
 # Rest
 
-An app that helps users reflect on their overall well-being by bringing **sleep**, **mental well-being**, and **social well-being** together, and turning self-reported check-ins into understandable, personalized insights.
+A skincare decision-support app that helps people feel more confident. It uses product and ingredient data to help users make informed product choices, shows before-and-after comparisons so users can see how their skin changes and evaluate their routines, and takes sleep, mental, and social well-being into account so lifestyle effects aren't mistaken for product effects.
 
 See [`PROJECT_TREE.md`](PROJECT_TREE.md) for the full concept tree.
 
@@ -8,67 +8,75 @@ See [`PROJECT_TREE.md`](PROJECT_TREE.md) for the full concept tree.
 
 ```
 rest/
-├── PROJECT_TREE.md              # Concept tree (sections 1–8)
+├── PROJECT_TREE.md              # Concept tree (sections 1–9)
 │
-├── frontend/                    # 6. Frontend
+├── frontend/                    # 7. Frontend
 │   └── src/
 │       ├── screens/
-│       │   ├── onboarding/          # 3. Goals, sharing choices, check-in preferences
-│       │   ├── check-in/            # 3. Daily Check-In
+│       │   ├── onboarding/          # 3. Skin profile, sensitivities, budget
+│       │   ├── products/            # 2. Search, ingredient breakdown
+│       │   ├── routine/             # 3. Current routine, reaction log
+│       │   ├── photos/              # 4. Guided capture
+│       │   ├── compare/             # 4. Before-and-after views, timeline
+│       │   ├── check-in/            # 5. Well-being context
 │       │   │   ├── sleep/
-│       │   │   ├── mood-stress/
+│       │   │   ├── mental/
 │       │   │   └── social/
-│       │   ├── dashboard/           # 3. Overview, combined timeline, goal progress
-│       │   ├── weekly-reflection/   # 3. Summaries users confirm or correct
-│       │   ├── insights/            # 4. Suggestions + explanations + feedback
-│       │   ├── skin/                # 5. Optional skin and product features
-│       │   └── settings/privacy/    # 7. Privacy controls, data deletion
+│       │   ├── recommendations/     # 6. Explained suggestions + feedback
+│       │   ├── dashboard/
+│       │   └── settings/privacy/    # 8. Photo opt-in, data deletion
 │       ├── components/
 │       └── services/
 │
-├── backend/                     # 6. Backend
+├── backend/                     # 7. Backend
 │   └── src/
-│       ├── auth/                    # Authentication
-│       ├── api/                     # Check-in, profile, reflection APIs
+│       ├── auth/
+│       ├── api/
+│       │   ├── products/            # Product & ingredient API
 │       │   ├── profile/
-│       │   ├── checkins/
-│       │   └── reflections/
-│       ├── pillars/                 # 2. Three Core Pillars
+│       │   ├── routine/
+│       │   ├── photos/
+│       │   └── checkins/
+│       ├── ingredients/             # 2. Ingredient knowledge base
+│       ├── visualization/           # 4. Before-and-after pipeline
+│       │   ├── capture-checks/
+│       │   ├── alignment/
+│       │   └── comparison/
+│       ├── context/                 # 5. Well-being context
 │       │   ├── sleep/
 │       │   ├── mental/
 │       │   └── social/
-│       ├── insights/                # 4. Insight generation
+│       ├── recommendations/         # 6. Decision support
 │       │   ├── rules/
-│       │   ├── cross-pillar/
-│       │   ├── suggestions/
+│       │   ├── explanations/
 │       │   └── feedback/
-│       ├── skin/                    # 5. Optional
-│       │   ├── photos/
-│       │   ├── ingredients/
-│       │   └── products/
-│       └── privacy/                 # 7. Consent, data use, deletion
+│       └── privacy/                 # 8. Consent, encryption, deletion
 │
-├── data/                        # 6. Data Storage
+├── data/                        # 2 & 7. Data
+│   ├── sources/                     # Ingestion and verification
 │   ├── schema/
-│   │   ├── users/                   # Preferences and goals
-│   │   ├── checkins/                # Check-in history
-│   │   └── skin/                    # Optional photo and product records
+│   │   ├── products/
+│   │   ├── ingredients/
+│   │   ├── users/
+│   │   ├── routines/
+│   │   ├── photos/
+│   │   └── checkins/
 │   └── migrations/
 │
-├── ml/                          # 6. Optional Machine Learning
-│   ├── longitudinal/
-│   ├── skin-image/
-│   └── recommendation-ranking/
+├── ml/                          # 6 & 7. Machine Learning
+│   ├── ingredient-model/
+│   ├── suitability-model/
+│   ├── image-analysis/
+│   └── ranking/
 │
-└── evaluation/                  # 8. Evaluation
+└── evaluation/                  # 9. Evaluation
 ```
 
 Each directory has a `README.md` describing its scope.
 
 ## Product boundaries
 
-- Sensitive inputs are optional.
-- Users control deletion of their data.
-- Data use is explained clearly.
-- No mental-health diagnosis from photos.
+- Photos are opt-in, encrypted, and deletable by the user.
+- Not a medical diagnosis; users are pointed to a dermatologist for skin conditions.
+- No beauty or attractiveness scores.
 - Observed patterns are never presented as proof of causation.

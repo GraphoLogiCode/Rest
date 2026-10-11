@@ -1,3 +1,3 @@
-# Data Storage
+# Data
 
-Schemas and migrations.
+Data sources, schemas, and migrations.

@@ -1,3 +1,3 @@
-# Daily Check-In
+# Well-Being Check-In
 
-Single flow covering all three pillars.
+Quick context check-in used alongside skin data.

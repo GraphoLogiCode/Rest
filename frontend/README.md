@@ -1,3 +1,3 @@
 # Frontend
 
-User-facing app: check-in screens, dashboard and timeline, privacy settings.
+Product search, routine tracker, photo capture and comparison, well-being check-ins, dashboard.
