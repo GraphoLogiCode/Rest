@@ -1,0 +1,88 @@
+{
+  "date": "2026-10-11",
+  "hardware": {
+    "chip": "Apple M5",
+    "unified_memory_gb": 24,
+    "gpu_cores": 10
+  },
+  "device": "mps",
+  "reference_source": "reference-source.json",
+  "model_manifest": "models.lock.json",
+  "memory_note": "GPU allocations are sampled, not exact peak. RSS and GPU allocations overlap; do not sum them.",
+  "runs": [
+    {
+      "run": "test-512",
+      "status": "success",
+      "size": 512,
+      "steps": 20,
+      "adapter_scale": 0.7,
+      "seed": 42,
+      "load_seconds": 9.174007583002094,
+      "generation_seconds": 13.202546832995722,
+      "total_seconds": 22.443631291011116,
+      "peak_process_rss_bytes": 4109729792,
+      "sampled_mps_driver_peak_bytes": 11584471040,
+      "sampled_mps_tensor_peak_bytes": 9070080512,
+      "pixel_std": 55.268172887338466,
+      "versions": {
+        "torch": "2.14.1",
+        "diffusers": "0.35.1",
+        "transformers": "4.56.2",
+        "accelerate": "1.15.0",
+        "Pillow": "12.3.0"
+      }
+    },
+    {
+      "run": "test-768",
+      "status": "success",
+      "size": 768,
+      "steps": 20,
+      "adapter_scale": 0.7,
+      "seed": 42,
+      "load_seconds": 7.919898291991558,
+      "generation_seconds": 18.166031208995264,
+      "total_seconds": 26.191868166992208,
+      "peak_process_rss_bytes": 4134076416,
+      "sampled_mps_driver_peak_bytes": 14981857280,
+      "sampled_mps_tensor_peak_bytes": 9070326272,
+      "pixel_std": 51.26330259073161,
+      "versions": {
+        "torch": "2.14.1",
+        "diffusers": "0.35.1",
+        "transformers": "4.56.2",
+        "accelerate": "1.15.0",
+        "Pillow": "12.3.0"
+      }
+    }
+  ],
+  "face_edit": {
+    "status": "success",
+    "label": "AI-generated illustration - not a prediction of appearance or health.",
+    "face_box": [
+      145,
+      10,
+      325,
+      190
+    ],
+    "edit_box": [
+      178,
+      116,
+      208,
+      139
+    ],
+    "strength": 0.25,
+    "steps": 30,
+    "effective_steps": 7,
+    "size": 512,
+    "seed": 42,
+    "prompt": "The same face and cheek, natural skin detail, same facial geometry, same expression, matching the original lighting and skin tone, realistic photograph",
+    "reference_sha256": "88431cd9653ccd539741b555fb0a46b61558b301d4110412b5bc28b5e3ea6cb5",
+    "sampled_mps_driver_peak_bytes": 11827806208,
+    "load_seconds": 9.593193540989887,
+    "generation_seconds": 5.050922750000609,
+    "selected_pixels": 538,
+    "changed_pixels_inside_mask": 537,
+    "changed_pixels_outside_mask": 0,
+    "total_seconds": 14.69822504100739
+  }
+}

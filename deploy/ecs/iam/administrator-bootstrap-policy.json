@@ -1,0 +1,53 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "CreateInspectTagOnlyFourRoles",
+      "Effect": "Allow",
+      "Action": [
+        "iam:CreateRole",
+        "iam:GetRole",
+        "iam:TagRole"
+      ],
+      "Resource": [
+        "arn:aws:iam::620214493890:role/rest-pilot-deployer",
+        "arn:aws:iam::620214493890:role/rest-pilot-codebuild",
+        "arn:aws:iam::620214493890:role/rest-pilot-ecs-execution",
+        "arn:aws:iam::620214493890:role/rest-pilot-ecs-infrastructure"
+      ]
+    },
+    {
+      "Sid": "ConfigureOnlyThreeInlinePolicies",
+      "Effect": "Allow",
+      "Action": [
+        "iam:PutRolePolicy"
+      ],
+      "Resource": [
+        "arn:aws:iam::620214493890:role/rest-pilot-deployer",
+        "arn:aws:iam::620214493890:role/rest-pilot-codebuild",
+        "arn:aws:iam::620214493890:role/rest-pilot-ecs-execution"
+      ]
+    },
+    {
+      "Sid": "AttachOnlyEcsInfrastructurePolicy",
+      "Effect": "Allow",
+      "Action": [
+        "iam:AttachRolePolicy"
+      ],
+      "Resource": "arn:aws:iam::620214493890:role/rest-pilot-ecs-infrastructure",
+      "Condition": {
+        "ArnEquals": {
+          "iam:PolicyARN": "arn:aws:iam::aws:policy/service-role/AmazonECSInfrastructureRoleforExpressGatewayServices"
+        }
+      }
+    },
+    {
+      "Sid": "GrantOnlyBenRoleAssumption",
+      "Effect": "Allow",
+      "Action": [
+        "iam:PutUserPolicy"
+      ],
+      "Resource": "arn:aws:iam::620214493890:user/Ben"
+    }
+  ]
+}

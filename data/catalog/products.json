@@ -1,0 +1,800 @@
+{
+  "version": "rest-catalog-2026-10-11-review2",
+  "products": [
+    {
+      "product_id": "rest_candidate_002",
+      "name": "Gentle Facial Cleanser",
+      "brand": "Vanicream",
+      "market": "US",
+      "category": "cleanser",
+      "regulatory_class": "cosmetic",
+      "ingredient_list_raw": "water, glycerin, coco-glucoside, sodium cocoyl glycinate, acrylates copolymer, caprylyl glycol, mica, sodium chloride, 1,2-hexanediol, titanium dioxide, sodium hydroxide, disodium EDTA",
+      "ingredients_normalized": [
+        "water",
+        "glycerin",
+        "coco-glucoside",
+        "sodium cocoyl glycinate",
+        "acrylates copolymer",
+        "caprylyl glycol",
+        "mica",
+        "sodium chloride",
+        "1,2-hexanediol",
+        "titanium dioxide",
+        "sodium hydroxide",
+        "disodium edta"
+      ],
+      "formulation_version": {
+        "version_id": "web-us-2026-10-11-7f2ed194f786",
+        "kind": "manufacturer_web_snapshot",
+        "ingredient_sha256": "7f2ed194f78661aa973b6883117f559ee73f3cf82782550cd7d962c7f6d86f45",
+        "manufacturer_version": null,
+        "barcode": "345334322085",
+        "lot": null,
+        "note": "Source snapshot, not verification of a purchased package."
+      },
+      "directions_raw": null,
+      "warnings_raw": null,
+      "directions_summary": "Lather on wet skin, rinse, then gently pat dry. The manufacturer recommends moisturizing afterward.",
+      "warnings_summary": "For skin application only.",
+      "verification_status": "verified",
+      "verified_at": "2026-10-11",
+      "source_url": "https://www.vanicream.com/product/vanicream-facial-cleanser",
+      "texture": null,
+      "price": null,
+      "manufacturer_claims": {
+        "skin_types": [
+          "dry"
+        ],
+        "benefits": []
+      },
+      "compatibility_restrictions": [],
+      "goal_evidence": [],
+      "review": {
+        "basis": "manufacturer_page_and_package_image",
+        "text_representation": "reviewed_summary",
+        "reviewed_by": "Codex source review",
+        "physical_package_checked": false,
+        "checked_at": "2026-10-11",
+        "source_url": "https://www.vanicream.com/product/vanicream-facial-cleanser",
+        "source_html_sha256": "3a4c8e9166cc4abaad495c1125139c674b6b6209a86cd39da7067c13de1cb52e",
+        "limitations": [
+          "Manufacturer record only; not proof of efficacy or individual tolerance.",
+          "Package price not verified. Confirm ingredients against the actual package."
+        ],
+        "package_image": {
+          "url": "https://www.vanicream.com/dynamic-media/product/images/gentle-facial-cleanser-8-oz-back.jpg?gravity=center&v=galleryZoom&k=OfE0UJjA%2FL6p6Y9rKHdaxg",
+          "sha256": "c31b62112b04f1adf3b0b477d08d7444baa577609afb3bf71eb3193fb99e7296"
+        }
+      },
+      "image": {
+        "url": "https://www.vanicream.com/dynamic-media/product/images/gentle-facial-cleanser-8-oz-front.jpg?gravity=center&v=galleryMedia&k=wpsSDw6D4yetnnA15I28ig",
+        "alt": "Vanicream Gentle Facial Cleanser packaging",
+        "source_url": "https://www.vanicream.com/product/vanicream-facial-cleanser",
+        "checked_at": "2026-10-11"
+      }
+    },
+    {
+      "product_id": "rest_candidate_003",
+      "name": "Gentle Skin Cleanser",
+      "brand": "Cetaphil",
+      "market": "US",
+      "category": "cleanser",
+      "regulatory_class": "cosmetic",
+      "ingredient_list_raw": "Water, Glycerin, Cetearyl Alcohol, Panthenol, Niacinamide, Pantolactone, Xanthan Gum, Sodium Cocoyl Isethionate, Sodium Benzoate, Citric Acid",
+      "ingredients_normalized": [
+        "water",
+        "glycerin",
+        "cetearyl alcohol",
+        "panthenol",
+        "niacinamide",
+        "pantolactone",
+        "xanthan gum",
+        "sodium cocoyl isethionate",
+        "sodium benzoate",
+        "citric acid"
+      ],
+      "formulation_version": {
+        "version_id": "web-us-2026-10-11-1c3a980f19ce",
+        "kind": "manufacturer_web_snapshot",
+        "ingredient_sha256": "1c3a980f19ce687182b9152caa10a3666c7c8bbad1ee1d8025e811a133e2dce6",
+        "manufacturer_version": null,
+        "barcode": "302990110227",
+        "lot": null,
+        "note": "Source snapshot, not verification of a purchased package."
+      },
+      "directions_raw": null,
+      "warnings_raw": "",
+      "directions_summary": "With water: gently massage the cleanser onto skin and rinse. Without water: gently massage a generous amount onto skin, remove excess with a soft cloth, and leave a thin film.",
+      "warnings_summary": null,
+      "verification_status": "verified",
+      "verified_at": "2026-10-11",
+      "source_url": "https://www.cetaphil.com/us/products/product-categories/all-cleansers/cetaphil-gentle-skin-cleanser/302990110227.html",
+      "texture": "cream",
+      "price": null,
+      "manufacturer_claims": {
+        "skin_types": [
+          "dry",
+          "normal"
+        ],
+        "benefits": []
+      },
+      "compatibility_restrictions": [],
+      "goal_evidence": [],
+      "review": {
+        "basis": "manufacturer_page_and_package_image",
+        "text_representation": "reviewed_summary",
+        "reviewed_by": "Codex source review",
+        "physical_package_checked": false,
+        "checked_at": "2026-10-11",
+        "source_url": "https://www.cetaphil.com/us/products/product-categories/all-cleansers/cetaphil-gentle-skin-cleanser/302990110227.html",
+        "source_html_sha256": "be2d7a7b05bafda361a799ff5b21d83e8807df93dda21ce5d7d0e4653943cafc",
+        "limitations": [
+          "Manufacturer record only; not proof of efficacy or individual tolerance.",
+          "Package price not verified. Confirm ingredients against the actual package."
+        ],
+        "package_image": {
+          "url": "https://www.cetaphil.com/dw/image/v2/bggn_prd/on/demandware.static/-/Sites-galderma-us-m-catalog/default/dw47b96a8b/Gentle%20Skin%20Cleanser/302990110227_Back_.jpg?sw=900&sh=900&sm=fit&q=85",
+          "sha256": "813e489648d8098e2c2f2690bf1bf53b6eb4902f290a403c10fa84abe70553f6"
+        },
+        "warning_review": "No warning text appears on the complete official back-label image inspected; this is not a claim of no risk."
+      },
+      "image": {
+        "url": "https://www.cetaphil.com/dw/image/v2/bggn_prd/on/demandware.static/-/Sites-galderma-us-m-catalog/default/dw554054cc/302990100624/GSC-RESIZE-1.2X.png?sw=900&sh=900&sm=fit&q=85",
+        "alt": "Cetaphil Gentle Skin Cleanser packaging",
+        "source_url": "https://www.cetaphil.com/us/products/product-categories/all-cleansers/cetaphil-gentle-skin-cleanser/302990110227.html",
+        "checked_at": "2026-10-11"
+      }
+    },
+    {
+      "product_id": "rest_candidate_005",
+      "name": "Oat Cleansing Balm",
+      "brand": "The INKEY List",
+      "market": "US",
+      "category": "cleanser",
+      "regulatory_class": "cosmetic",
+      "ingredient_list_raw": "Prunus Amygdalus Dulcis (Sweet Almond) Oil, PEG-20 Glyceryl Triisostearate, Avena Sativa (Oat) Kernel Oil, Cera Microcristallina, Helianthus Annuus (Sunflower) Seed Wax, Sorbitan Olivate, Polyglyceryl-10 Stearate, Polyglyceryl-6 Caprylate, Polyglyceryl-4 Caprate, Jojoba Esters, Phenoxyethanol, Aqua (Water), Hippophae Rhamnoides (Seaberry) Fruit Oil, Tocopherol, Polyglycerin-3, Acacia Decurrens (Early Green Wattle) Flower Wax, Helianthus Annuus (Sunflower) Seed Oil, Ascorbyl Palmitate",
+      "formulation_version": {
+        "version_id": "web-us-2026-10-11-a28c95e311f7",
+        "kind": "manufacturer_web_snapshot",
+        "ingredient_sha256": "a28c95e311f79de3e13241fd6d2eb72a1b13ce316cc5a5ded5833dc9ab3e44f5",
+        "manufacturer_version": null,
+        "barcode": null,
+        "lot": null,
+        "note": "Rest snapshot identifier; not a manufacturer formula number or verification of a purchased package."
+      },
+      "ingredients_normalized": [
+        "prunus amygdalus dulcis (sweet almond) oil",
+        "peg-20 glyceryl triisostearate",
+        "avena sativa (oat) kernel oil",
+        "cera microcristallina",
+        "helianthus annuus (sunflower) seed wax",
+        "sorbitan olivate",
+        "polyglyceryl-10 stearate",
+        "polyglyceryl-6 caprylate",
+        "polyglyceryl-4 caprate",
+        "jojoba esters",
+        "phenoxyethanol",
+        "aqua (water)",
+        "hippophae rhamnoides (seaberry) fruit oil",
+        "tocopherol",
+        "polyglycerin-3",
+        "acacia decurrens (early green wattle) flower wax",
+        "helianthus annuus (sunflower) seed oil",
+        "ascorbyl palmitate"
+      ],
+      "directions_raw": null,
+      "warnings_raw": null,
+      "directions_summary": "Morning and evening: work a raspberry-sized portion over dry skin, emulsify with warm water, then rinse. Follow with hydrator, treatments and moisturizer; use SPF in the morning. The manufacturer also describes a 10-minute mask use.",
+      "warnings_summary": "Contains nut-derived ingredients. Patch-test new products. For skin application only; keep away from children. Store dry at 15–25°C, protected from sunlight. Heat may melt the balm or cause separation.",
+      "verification_status": "verified",
+      "verified_at": "2026-10-11",
+      "source_url": "https://www.theinkeylist.com/products/oat-cleansing-balm-150ml",
+      "texture": "balm",
+      "price": {
+        "amount": 17.0,
+        "currency": "USD",
+        "package_size": {
+          "value": 150,
+          "unit": "ml"
+        },
+        "checked_at": "2026-10-11",
+        "source_url": "https://www.theinkeylist.com/products/oat-cleansing-balm-150ml"
+      },
+      "manufacturer_claims": {
+        "skin_types": [
+          "dry",
+          "normal",
+          "combination",
+          "oily"
+        ],
+        "skin_types_raw": [
+          "All skin types"
+        ],
+        "benefits": [
+          "Manufacturer describes makeup and SPF removal."
+        ]
+      },
+      "compatibility_restrictions": [],
+      "goal_evidence": [],
+      "review": {
+        "basis": "manufacturer_page",
+        "text_representation": "reviewed_summary",
+        "reviewed_by": "Codex source review",
+        "physical_package_checked": false,
+        "checked_at": "2026-10-11",
+        "source_url": "https://www.theinkeylist.com/products/oat-cleansing-balm-150ml",
+        "source_html_sha256": "46a1d238d0d22fe9a35aae0367dd8d6cd66e92a601ac3ce2ae300c365218b607",
+        "sections": [
+          "How to Use",
+          "Heads up",
+          "Storage",
+          "Ingredients",
+          "Suitable for"
+        ],
+        "limitations": [
+          "Manufacturer facts and directions checked; product efficacy and individual tolerance are not established.",
+          "Compare the ingredient list with the purchased package."
+        ]
+      },
+      "image": {
+        "url": "https://www.theinkeylist.com/cdn/shop/files/Oat_Balm_Cleanser_150ml_Packshot_1000x1000_150ml_0c34cef8-2295-49a9-a94f-628dc4e8a23b.png?v=1787140097",
+        "alt": "The INKEY List Oat Cleansing Balm packaging",
+        "source_url": "https://www.theinkeylist.com/products/oat-cleansing-balm-150ml",
+        "checked_at": "2026-10-11"
+      }
+    },
+    {
+      "product_id": "rest_candidate_011",
+      "name": "Omega Water Cream",
+      "brand": "The INKEY List",
+      "market": "US",
+      "category": "moisturizer",
+      "regulatory_class": "cosmetic",
+      "ingredient_list_raw": "Water (Aqua / Eau), Dicaprylyl Carbonate, Glycerin, Niacinamide, Propanediol, Betaine, Polyglyceryl-4 Isostearate, Coco-Caprylate/Caprate, Magnesium Sulfate, Glycosphingolipids, Glycolipids, Sodium Benzoate, Disteardimonium Hectorite, Oleic Acid, Potassium Sorbate, Citric Acid, Polyglycerin-3",
+      "formulation_version": {
+        "version_id": "web-us-2026-10-11-45660895dd73",
+        "kind": "manufacturer_web_snapshot",
+        "ingredient_sha256": "45660895dd73df7d7e6dd8ba70cccfec18fe05385f44e08afde5c4217a4e798e",
+        "manufacturer_version": null,
+        "barcode": null,
+        "lot": null,
+        "note": "Rest snapshot identifier; not a manufacturer formula number or verification of a purchased package."
+      },
+      "ingredients_normalized": [
+        "water (aqua / eau)",
+        "dicaprylyl carbonate",
+        "glycerin",
+        "niacinamide",
+        "propanediol",
+        "betaine",
+        "polyglyceryl-4 isostearate",
+        "coco-caprylate/caprate",
+        "magnesium sulfate",
+        "glycosphingolipids",
+        "glycolipids",
+        "sodium benzoate",
+        "disteardimonium hectorite",
+        "oleic acid",
+        "potassium sorbate",
+        "citric acid",
+        "polyglycerin-3"
+      ],
+      "directions_raw": null,
+      "warnings_raw": null,
+      "directions_summary": "Use morning and evening after cleansing and hydrating. Spread a pea-sized portion over face and neck; follow with SPF in the morning.",
+      "warnings_summary": "Patch-test new products, especially when adding another niacinamide product. Prevent eye contact. For skin application only; keep away from children. Store dry at 15–25°C, protected from sunlight.",
+      "verification_status": "verified",
+      "verified_at": "2026-10-11",
+      "source_url": "https://www.theinkeylist.com/products/omega-water-cream",
+      "texture": "gel",
+      "price": {
+        "amount": 15.0,
+        "currency": "USD",
+        "package_size": {
+          "value": 50,
+          "unit": "ml"
+        },
+        "checked_at": "2026-10-11",
+        "source_url": "https://www.theinkeylist.com/products/omega-water-cream"
+      },
+      "manufacturer_claims": {
+        "skin_types": [
+          "dry",
+          "normal",
+          "combination",
+          "oily"
+        ],
+        "skin_types_raw": [
+          "All skin types"
+        ],
+        "benefits": [
+          "Manufacturer describes hydration and an oil-free formula."
+        ]
+      },
+      "compatibility_restrictions": [],
+      "goal_evidence": [],
+      "review": {
+        "basis": "manufacturer_page",
+        "text_representation": "reviewed_summary",
+        "reviewed_by": "Codex source review",
+        "physical_package_checked": false,
+        "checked_at": "2026-10-11",
+        "source_url": "https://www.theinkeylist.com/products/omega-water-cream",
+        "source_html_sha256": "02682df479ed7f13c300b30a605140c1d398d1c131cf764d2f78ce2dd782e6be",
+        "sections": [
+          "How to Use",
+          "Heads up",
+          "Storage",
+          "Ingredients",
+          "Suitable for",
+          "FAQs"
+        ],
+        "limitations": [
+          "Manufacturer facts and directions checked; product efficacy and individual tolerance are not established.",
+          "Compare the ingredient list with the purchased package."
+        ]
+      },
+      "image": {
+        "url": "https://www.theinkeylist.com/cdn/shop/files/OMEGA_Packshot.png?v=1726837065",
+        "alt": "The INKEY List Omega Water Cream packaging",
+        "source_url": "https://www.theinkeylist.com/products/omega-water-cream",
+        "checked_at": "2026-10-11"
+      }
+    },
+    {
+      "product_id": "rest_candidate_012",
+      "name": "Natural Moisturizing Factors + HA",
+      "brand": "The Ordinary",
+      "market": "US",
+      "category": "moisturizer",
+      "regulatory_class": "cosmetic",
+      "ingredient_list_raw": "Aqua (Water), Caprylic/Capric Triglyceride, Cetyl Alcohol, Propanediol, Stearyl Alcohol, Glycerin, Sodium Hyaluronate, Arginine, Aspartic Acid, Glycine, Alanine, Serine, Valine, Isoleucine, Proline, Threonine, Histidine, Phenylalanine, Glucose, Maltose, Fructose, Trehalose, Sodium PCA, PCA, Sodium Lactate, Urea, Allantoin, Linoleic Acid, Oleic Acid, Phytosteryl Canola Glycerides, Palmitic Acid, Stearic Acid, Lecithin, Triolein, Tocopherol, Carbomer, Isoceteth-20, Polysorbate 60, Sodium Chloride, Citric Acid, Trisodium Ethylenediamine Disuccinate, Pentylene Glycol, Triethanolamine, Sodium Hydroxide, Phenoxyethanol, Chlorphenesin",
+      "formulation_version": {
+        "version_id": "web-us-2026-10-11-64262caa2338",
+        "kind": "manufacturer_web_snapshot",
+        "ingredient_sha256": "64262caa2338b430b023c03aa10554d4fa93387d276986346d991e3341bf3cba",
+        "manufacturer_version": null,
+        "barcode": null,
+        "lot": null,
+        "note": "Rest snapshot identifier; not a manufacturer formula number or verification of a purchased package."
+      },
+      "ingredients_normalized": [
+        "aqua (water)",
+        "caprylic/capric triglyceride",
+        "cetyl alcohol",
+        "propanediol",
+        "stearyl alcohol",
+        "glycerin",
+        "sodium hyaluronate",
+        "arginine",
+        "aspartic acid",
+        "glycine",
+        "alanine",
+        "serine",
+        "valine",
+        "isoleucine",
+        "proline",
+        "threonine",
+        "histidine",
+        "phenylalanine",
+        "glucose",
+        "maltose",
+        "fructose",
+        "trehalose",
+        "sodium pca",
+        "pca",
+        "sodium lactate",
+        "urea",
+        "allantoin",
+        "linoleic acid",
+        "oleic acid",
+        "phytosteryl canola glycerides",
+        "palmitic acid",
+        "stearic acid",
+        "lecithin",
+        "triolein",
+        "tocopherol",
+        "carbomer",
+        "isoceteth-20",
+        "polysorbate 60",
+        "sodium chloride",
+        "citric acid",
+        "trisodium ethylenediamine disuccinate",
+        "pentylene glycol",
+        "triethanolamine",
+        "sodium hydroxide",
+        "phenoxyethanol",
+        "chlorphenesin"
+      ],
+      "directions_raw": null,
+      "warnings_raw": null,
+      "directions_summary": "Apply when needed.",
+      "warnings_summary": "Use as instructed, only on intact skin. If irritation develops, wash the product off, discontinue it and seek medical advice. Keep away from children. Patch-test first: put a little on clean upper-forearm skin, keep it dry and wash off after 24 hours. Do not use if the test causes redness, burning, itching, blisters or irritation.",
+      "verification_status": "verified",
+      "verified_at": "2026-10-11",
+      "source_url": "https://theordinary.com/en-us/natural-moisturizing-factors-ha-moisturizer-100435.html",
+      "texture": "cream",
+      "price": null,
+      "manufacturer_claims": {
+        "skin_types": [
+          "dry",
+          "normal",
+          "combination",
+          "oily"
+        ],
+        "skin_types_raw": [
+          "All skin types"
+        ],
+        "benefits": [
+          "Manufacturer describes moisturizing."
+        ]
+      },
+      "compatibility_restrictions": [],
+      "goal_evidence": [],
+      "review": {
+        "basis": "manufacturer_page",
+        "text_representation": "reviewed_summary",
+        "reviewed_by": "Codex source review",
+        "physical_package_checked": false,
+        "checked_at": "2026-10-11",
+        "source_url": "https://theordinary.com/en-us/natural-moisturizing-factors-ha-moisturizer-100435.html",
+        "source_html_sha256": "6b98cb844e14d3502484298975d3d358eb254eacf19d10720916ffd25573dd70",
+        "sections": [
+          "Ingredients",
+          "Suited for",
+          "Format",
+          "How to Use",
+          "Product & Safety Guidance"
+        ],
+        "limitations": [
+          "Manufacturer facts and directions checked; product efficacy and individual tolerance are not established.",
+          "Compare the ingredient list with the purchased package."
+        ]
+      },
+      "image": {
+        "url": "https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dw51f90af8/Images/products/The%20Ordinary/rdn-natural-moisturizing-factors-ha-30ml.png?sw=800&sh=800&sm=fit",
+        "alt": "The Ordinary Natural Moisturizing Factors + HA packaging",
+        "source_url": "https://theordinary.com/en-us/natural-moisturizing-factors-ha-moisturizer-100435.html",
+        "checked_at": "2026-10-11"
+      }
+    },
+    {
+      "product_id": "rest_candidate_013",
+      "name": "Niacinamide 10% + Zinc 1%",
+      "brand": "The Ordinary",
+      "market": "US",
+      "category": "serum",
+      "regulatory_class": "cosmetic",
+      "ingredient_list_raw": "Aqua (Water), Niacinamide, Pentylene Glycol, Zinc PCA, Dimethyl Isosorbide, Tamarindus Indica Seed Gum, Xanthan Gum, Isoceteth-20, Ethoxydiglycol, Phenoxyethanol, Chlorphenesin",
+      "ingredients_normalized": [
+        "aqua (water)",
+        "niacinamide",
+        "pentylene glycol",
+        "zinc pca",
+        "dimethyl isosorbide",
+        "tamarindus indica seed gum",
+        "xanthan gum",
+        "isoceteth-20",
+        "ethoxydiglycol",
+        "phenoxyethanol",
+        "chlorphenesin"
+      ],
+      "formulation_version": {
+        "version_id": "web-us-2026-10-11-cea205c4c086",
+        "kind": "manufacturer_web_snapshot",
+        "ingredient_sha256": "cea205c4c086ddae732727134c0cd453ca6627e9e369fee184bb00e893c2de35",
+        "manufacturer_version": null,
+        "barcode": null,
+        "lot": null,
+        "note": "Source snapshot, not verification of a purchased package."
+      },
+      "directions_raw": null,
+      "warnings_raw": null,
+      "directions_summary": "Use a few drops on the face in both the morning and evening.",
+      "warnings_summary": "Use as instructed, only on intact skin. If irritation develops, wash the product off, discontinue it and seek medical advice. Keep away from children. Patch-test first: put a little on clean upper-forearm skin, keep it dry and wash off after 24 hours. Do not use if the test causes redness, burning, itching, blisters or irritation.",
+      "verification_status": "verified",
+      "verified_at": "2026-10-11",
+      "source_url": "https://theordinary.com/en-us/niacinamide-10-zinc-1-serum-100436.html",
+      "texture": "serum",
+      "price": null,
+      "manufacturer_claims": {
+        "skin_types": [
+          "dry",
+          "normal",
+          "combination",
+          "oily"
+        ],
+        "benefits": []
+      },
+      "compatibility_restrictions": [
+        {
+          "basis": "manufacturer_routine_guidance",
+          "summary": "Manufacturer recommends a separate routine from its vitamin C formulations; not a general medical interaction claim.",
+          "source_url": "https://theordinary.com/en-us/niacinamide-10-zinc-1-serum-100436.html"
+        }
+      ],
+      "goal_evidence": [],
+      "review": {
+        "basis": "manufacturer_page",
+        "text_representation": "reviewed_summary",
+        "reviewed_by": "Codex source review",
+        "physical_package_checked": false,
+        "checked_at": "2026-10-11",
+        "source_url": "https://theordinary.com/en-us/niacinamide-10-zinc-1-serum-100436.html",
+        "source_html_sha256": "65fd3da41923627e34e315e0594242a65d43d70598332ecc8058cf9ed0d328f2",
+        "limitations": [
+          "Manufacturer record only; not proof of efficacy or individual tolerance.",
+          "Package price not verified. Confirm ingredients against the actual package."
+        ]
+      },
+      "image": {
+        "url": "https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dwce8a7cdf/Images/products/The%20Ordinary/rdn-niacinamide-10pct-zinc-1pct-30ml.png?sw=800&sh=800&sm=fit",
+        "alt": "The Ordinary Niacinamide 10% + Zinc 1% packaging",
+        "source_url": "https://theordinary.com/en-us/niacinamide-10-zinc-1-serum-100436.html",
+        "checked_at": "2026-10-11"
+      }
+    },
+    {
+      "product_id": "rest_candidate_015",
+      "name": "Hydrating Hyaluronic Acid Serum",
+      "brand": "CeraVe",
+      "market": "US",
+      "category": "serum",
+      "regulatory_class": "cosmetic",
+      "ingredient_list_raw": "AQUA / WATER, GLYCERIN, CETEARYL ETHYLHEXANOATE, DIMETHICONE, AMMONIUM POLYACRYLOYLDIMETHYL TAURATE, SODIUM HYALURONATE, PANTHENOL, CERAMIDE NP, CERAMIDE AP, CERAMIDE EOP, CARBOMER, CETEARYL ALCOHOL, BEHENTRIMONIUM METHOSULFATE, SODIUM HYDROXIDE, SODIUM LAUROYL LACTYLATE, CHOLESTEROL, PHENOXYETHANOL, DISODIUM EDTA, ISOPROPYL MYRISTATE, CAPRYLYL GLYCOL, CITRIC ACID, XANTHAN GUM, PHYTOSPHINGOSINE, ETHYLHEXYLGLYCERIN",
+      "ingredients_normalized": [
+        "aqua / water",
+        "glycerin",
+        "cetearyl ethylhexanoate",
+        "dimethicone",
+        "ammonium polyacryloyldimethyl taurate",
+        "sodium hyaluronate",
+        "panthenol",
+        "ceramide np",
+        "ceramide ap",
+        "ceramide eop",
+        "carbomer",
+        "cetearyl alcohol",
+        "behentrimonium methosulfate",
+        "sodium hydroxide",
+        "sodium lauroyl lactylate",
+        "cholesterol",
+        "phenoxyethanol",
+        "disodium edta",
+        "isopropyl myristate",
+        "caprylyl glycol",
+        "citric acid",
+        "xanthan gum",
+        "phytosphingosine",
+        "ethylhexylglycerin"
+      ],
+      "formulation_version": {
+        "version_id": "web-us-2026-10-11-950148380c41",
+        "kind": "manufacturer_web_snapshot",
+        "ingredient_sha256": "950148380c41df320633152affef3919adfd75d19656a2eba6de6361a9eb7f02",
+        "manufacturer_version": null,
+        "barcode": null,
+        "lot": null,
+        "note": "Source snapshot, not verification of a purchased package."
+      },
+      "directions_raw": null,
+      "warnings_raw": null,
+      "directions_summary": "Shake before use. Distribute evenly over face and neck each day, either alone or beneath a moisturizer.",
+      "warnings_summary": "Keep away from the eye area. If it gets into the eyes, flush thoroughly with water.",
+      "verification_status": "verified",
+      "verified_at": "2026-10-11",
+      "source_url": "https://www.cerave.com/skincare/facial-serums/hydrating-hyaluronic-acid-serum",
+      "texture": "gel-cream",
+      "price": null,
+      "manufacturer_claims": {
+        "skin_types": [
+          "normal",
+          "dry"
+        ],
+        "benefits": []
+      },
+      "compatibility_restrictions": [],
+      "goal_evidence": [],
+      "review": {
+        "basis": "manufacturer_page",
+        "text_representation": "reviewed_summary",
+        "reviewed_by": "Codex source review",
+        "physical_package_checked": false,
+        "checked_at": "2026-10-11",
+        "source_url": "https://www.cerave.com/skincare/facial-serums/hydrating-hyaluronic-acid-serum",
+        "source_html_sha256": "f0845eaad5ff12cf385a55a2e10f58f9c2480991d25ae4b4956612d928b882a5",
+        "limitations": [
+          "Manufacturer record only; not proof of efficacy or individual tolerance.",
+          "Package price not verified. Confirm ingredients against the actual package."
+        ]
+      },
+      "image": {
+        "url": "https://www.cerave.com/-/media/project/loreal/brand-sites/cerave/americas/us/products/hydrating-hyaluronic-acid-serum/hydrating-hyaluronic-acid-serum_front.jpg?rev=cd54a22da0584f32bc76bab5aae6e72a",
+        "alt": "CeraVe Hydrating Hyaluronic Acid Serum packaging",
+        "source_url": "https://www.cerave.com/skincare/facial-serums/hydrating-hyaluronic-acid-serum",
+        "checked_at": "2026-10-11"
+      }
+    },
+    {
+      "product_id": "rest_candidate_016",
+      "name": "Skin Renewing Vitamin C Serum",
+      "brand": "CeraVe",
+      "market": "US",
+      "category": "serum",
+      "regulatory_class": "cosmetic",
+      "ingredient_list_raw": "Water, Ascorbic Acid, Glycerin, Dimethicone, Cetearyl Ethylhexanoate, Alcohol Denat., Sodium Hydroxide, Ammonium Polyacryloyldimethyl Taurate, Panthenol, Ceramide NP, Ceramide AP, Ceramide EOP, Carbomer, Cetearyl Alcohol, Behentrimonium Methosulfate, Sodium Hyaluronate, Sodium Lauroyl Lactylate, Cholesterol, Phenoxyethanol, Tocopheryl Acetate, Disodium EDTA, Isopropyl Myristate, Caprylyl Glycol, Xanthan Gum, Phytosphingosine, Ethylhexylglycerin",
+      "ingredients_normalized": [
+        "water",
+        "ascorbic acid",
+        "glycerin",
+        "dimethicone",
+        "cetearyl ethylhexanoate",
+        "alcohol denat.",
+        "sodium hydroxide",
+        "ammonium polyacryloyldimethyl taurate",
+        "panthenol",
+        "ceramide np",
+        "ceramide ap",
+        "ceramide eop",
+        "carbomer",
+        "cetearyl alcohol",
+        "behentrimonium methosulfate",
+        "sodium hyaluronate",
+        "sodium lauroyl lactylate",
+        "cholesterol",
+        "phenoxyethanol",
+        "tocopheryl acetate",
+        "disodium edta",
+        "isopropyl myristate",
+        "caprylyl glycol",
+        "xanthan gum",
+        "phytosphingosine",
+        "ethylhexylglycerin"
+      ],
+      "formulation_version": {
+        "version_id": "web-us-2026-10-11-4cd65a0ae6ce",
+        "kind": "manufacturer_web_snapshot",
+        "ingredient_sha256": "4cd65a0ae6ce43d086ee61b3941f20afd127d3cf9e9ac7b335511036f63f5c5e",
+        "manufacturer_version": null,
+        "barcode": null,
+        "lot": null,
+        "note": "Source snapshot, not verification of a purchased package."
+      },
+      "directions_raw": null,
+      "warnings_raw": null,
+      "directions_summary": "Each morning, distribute evenly across face and neck.",
+      "warnings_summary": "Keep away from the eye area; flush thoroughly with water after eye contact. Store away from heat and light.",
+      "verification_status": "verified",
+      "verified_at": "2026-10-11",
+      "source_url": "https://www.cerave.com/skincare/facial-serums/skin-renewing-vitamin-c-serum",
+      "texture": "serum",
+      "price": null,
+      "manufacturer_claims": {
+        "skin_types": [
+          "dry",
+          "normal",
+          "combination",
+          "oily"
+        ],
+        "benefits": []
+      },
+      "compatibility_restrictions": [],
+      "goal_evidence": [],
+      "review": {
+        "basis": "manufacturer_page",
+        "text_representation": "reviewed_summary",
+        "reviewed_by": "Codex source review",
+        "physical_package_checked": false,
+        "checked_at": "2026-10-11",
+        "source_url": "https://www.cerave.com/skincare/facial-serums/skin-renewing-vitamin-c-serum",
+        "source_html_sha256": "48a27de0ec052a6c3f3d13bfa25d9ccafc2bf2441c19bb93fef9afae5202f154",
+        "limitations": [
+          "Manufacturer record only; not proof of efficacy or individual tolerance.",
+          "Package price not verified. Confirm ingredients against the actual package."
+        ]
+      },
+      "image": {
+        "url": "https://www.cerave.com/-/media/project/loreal/brand-sites/cerave/americas/us/products/skin-renewing-vitamin-c-serum/vitamin-c-serum_front.jpg?rev=8ccc2b38cf20438a964296327feabb93",
+        "alt": "CeraVe Skin Renewing Vitamin C Serum packaging",
+        "source_url": "https://www.cerave.com/skincare/facial-serums/skin-renewing-vitamin-c-serum",
+        "checked_at": "2026-10-11"
+      }
+    },
+    {
+      "product_id": "rest_candidate_025",
+      "name": "Jet Lag Mask + Moisturizer",
+      "brand": "Summer Fridays",
+      "market": "US",
+      "category": "face_mask",
+      "regulatory_class": "cosmetic",
+      "ingredient_list_raw": "Water/Aqua/Eau, Caprylic/Capric Triglyceride, Capryloyl Glycerin/Sebacic Acid Copolymer, Diheptyl Succinate, Butyrospermum Parkii (Shea) Butter Unsaponifiables, Cetearyl Alcohol, Niacinamide, Pentylene Glycol, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Sorbitan Stearate, Glycerin, Glyceryl Stearate, Sodium Hyaluronate, Ceramide EOP, Ceramide NP, Ceramide AP, Aminopropyl Ascorbyl Phosphate, Allantoin, Bisabolol, Panthenol, Physalis Angulata Extract, Castanea Sativa (Chestnut) Seed Extract, Tocopheryl Acetate, Phytosphingosine, Ethylhexylglycerin, Tetrasodium Glutamate Diacetate, Cucumis Sativus (Cucumber) Fruit Extract, Polysorbate 60, Sorbitan Isostearate, Tocopherol, Sodium Hydroxide, Cholesterol, Sodium Lauroyl Lactylate, Carbomer, Xanthan Gum, PEG-100 Stearate, Phenoxyethanol",
+      "ingredients_normalized": [
+        "water/aqua/eau",
+        "caprylic/capric triglyceride",
+        "capryloyl glycerin/sebacic acid copolymer",
+        "diheptyl succinate",
+        "butyrospermum parkii (shea) butter unsaponifiables",
+        "cetearyl alcohol",
+        "niacinamide",
+        "pentylene glycol",
+        "hydroxyethyl acrylate/sodium acryloyldimethyl taurate copolymer",
+        "sorbitan stearate",
+        "glycerin",
+        "glyceryl stearate",
+        "sodium hyaluronate",
+        "ceramide eop",
+        "ceramide np",
+        "ceramide ap",
+        "aminopropyl ascorbyl phosphate",
+        "allantoin",
+        "bisabolol",
+        "panthenol",
+        "physalis angulata extract",
+        "castanea sativa (chestnut) seed extract",
+        "tocopheryl acetate",
+        "phytosphingosine",
+        "ethylhexylglycerin",
+        "tetrasodium glutamate diacetate",
+        "cucumis sativus (cucumber) fruit extract",
+        "polysorbate 60",
+        "sorbitan isostearate",
+        "tocopherol",
+        "sodium hydroxide",
+        "cholesterol",
+        "sodium lauroyl lactylate",
+        "carbomer",
+        "xanthan gum",
+        "peg-100 stearate",
+        "phenoxyethanol"
+      ],
+      "formulation_version": {
+        "version_id": "web-us-2026-10-11-6804ea9b6c05",
+        "kind": "manufacturer_web_snapshot",
+        "ingredient_sha256": "6804ea9b6c050af6a6bea0a2f2b9adfe0ef5efde2dc444b613e56ef823045167",
+        "manufacturer_version": null,
+        "barcode": null,
+        "lot": null,
+        "note": "Source snapshot, not verification of a purchased package."
+      },
+      "directions_raw": null,
+      "warnings_raw": null,
+      "directions_summary": "Mask: spread a thin layer over clean, dry skin; leave at least 10 minutes and wipe excess away with a warm cloth. Overnight mask: leave a thin layer on overnight. Moisturizer: massage a lighter layer into skin and leave on, morning or night. The manufacturer also describes generous application to hands and a pea-sized amount around each eye contour morning or night.",
+      "warnings_summary": "For skin application only. Check the package ingredients because the online list may change.",
+      "verification_status": "verified",
+      "verified_at": "2026-10-11",
+      "source_url": "https://summerfridays.com/products/jet-lag-mask",
+      "texture": "cream",
+      "price": null,
+      "manufacturer_claims": {
+        "skin_types": [
+          "dry",
+          "normal",
+          "combination",
+          "oily"
+        ],
+        "benefits": []
+      },
+      "compatibility_restrictions": [],
+      "goal_evidence": [],
+      "review": {
+        "basis": "manufacturer_page",
+        "text_representation": "reviewed_summary",
+        "reviewed_by": "Codex source review",
+        "physical_package_checked": false,
+        "checked_at": "2026-10-11",
+        "source_url": "https://summerfridays.com/products/jet-lag-mask",
+        "source_html_sha256": "8dad28f334909f729f3247b8e362000cd5412fd3b8cef87bb91211141c8ba695",
+        "limitations": [
+          "Manufacturer record only; not proof of efficacy or individual tolerance.",
+          "Package price not verified. Confirm ingredients against the actual package."
+        ]
+      },
+      "image": {
+        "url": "https://summerfridays.com/cdn/shop/files/Jet-Lag-Main-Square.jpg?crop=center&height=1024&v=1720469004&width=1024",
+        "alt": "Summer Fridays Jet Lag Mask + Moisturizer packaging",
+        "source_url": "https://summerfridays.com/products/jet-lag-mask",
+        "checked_at": "2026-10-11"
+      }
+    }
+  ]
+}

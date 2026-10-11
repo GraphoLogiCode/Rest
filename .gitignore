@@ -1,0 +1,7 @@
+# Local browser verification artifacts; may contain uploaded photos.
+output/
+.playwright-cli/
+.DS_Store
+
+# Personal test photo; keep on this Mac only.
+/IMG_8135.jpg

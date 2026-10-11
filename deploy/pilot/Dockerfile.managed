@@ -1,0 +1,39 @@
+FROM node:22-bookworm-slim AS frontend
+WORKDIR /web
+COPY frontend/package.json frontend/package-lock.json ./
+RUN npm ci
+COPY frontend/index.html frontend/tsconfig.json frontend/vite.config.ts ./
+COPY frontend/public ./public
+COPY frontend/src ./src
+COPY frontend/build ./build
+COPY frontend/tests ./tests
+ARG VITE_SUPABASE_URL
+ARG VITE_SUPABASE_PUBLISHABLE_KEY
+ENV VITE_REST_API_URL=/rest-api
+RUN npm test && npm run build
+FROM python:3.12-slim-bookworm AS runtime
+ENV PYTHONUNBUFFERED=1 PYTHONDONTWRITEBYTECODE=1 PIP_NO_CACHE_DIR=1 REST_CATALOG_PATH=/app/catalog/products.json
+RUN groupadd --gid 10001 rest && useradd --uid 10001 --gid rest --create-home rest
+WORKDIR /app
+COPY backend/requirements.txt ./
+RUN pip install -r requirements.txt
+FROM runtime AS verify
+COPY backend/requirements-dev.txt ./
+RUN pip install -r requirements-dev.txt
+COPY backend/src ./backend/src
+COPY backend/tests ./backend/tests
+COPY backend/pytest.ini ./backend/pytest.ini
+COPY deploy/ecs ./deploy/ecs
+COPY data/catalog/products.json ./data/catalog/products.json
+ENV REST_CATALOG_PATH=/app/data/catalog/products.json
+WORKDIR /app/backend
+# Worker contract tests run separately; this image has no SDXL worker or weights.
+RUN python -m pytest -q --ignore=tests/test_illustrations.py --ignore=tests/test_face_preview_contract.py && touch /verified
+FROM runtime AS app
+COPY backend/src ./src
+COPY data/catalog/products.json ./catalog/products.json
+COPY --from=frontend /web/dist ./frontend
+COPY --from=verify /verified ./.build_verified
+USER rest
+EXPOSE 8000
+CMD ["uvicorn", "src.pilot:create_app", "--factory", "--host", "0.0.0.0", "--port", "8000", "--workers", "1", "--no-access-log"]

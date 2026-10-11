@@ -1,0 +1,14 @@
+**
+!requirements-service.txt
+!requirements-cuda.txt
+!cloud_api.py
+!job_worker.py
+!gpu_runtime.py
+!run_local.py
+!run_face_edit.py
+!face_regions.py
+!download_models.py
+!preflight.py
+!models.lock.json
+
+!export_usage.py

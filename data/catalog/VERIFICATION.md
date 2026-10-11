@@ -1,0 +1,37 @@
+# Product verification — 2026-10-11
+
+All 27 candidates source-audited. Nine manufacturer records published; five cleanser/moisturizer records eligible for preference matching, four for browsing only. Eighteen remain held for specified evidence gaps.
+
+Verified means the stated manufacturer record was checked, not that clinical efficacy or a purchased package was verified. Unknown prices remain blank. Manufacturer claims are not goal-efficacy evidence.
+
+| ID | Product | Decision | Finding |
+|---|---|---|---|
+| rest_candidate_001 | CeraVe Hydrating Facial Cleanser | needs_label_warnings | Complete INCI matches manufacturer; directions and normal/dry skin claim found. Page does not establish package warnings or their absence. |
+| rest_candidate_002 | Vanicream Gentle Facial Cleanser | published | Complete ingredient list, usage directions and warning text (or explicit absence on the official back label) reviewed. Eligible for the cleanser/moisturizer preference pilot. |
+| rest_candidate_003 | Cetaphil Gentle Skin Cleanser | published | Complete ingredient list, usage directions and warning text (or explicit absence on the official back label) reviewed. Eligible for the cleanser/moisturizer preference pilot. |
+| rest_candidate_004 | Cetaphil Daily Facial Cleanser | variant_conflict | Redirect resolves to Daily Facial Cleanser, but ingredient list contains Masking Fragrance while feature list says fragrance free. Resolve exact variant and package warnings. |
+| rest_candidate_005 | The INKEY List Oat Cleansing Balm | published | Reviewed current 5% oat kernel oil formulation, complete INCI, nut caution, directions, storage and USD 17 / 150 ml. Older 3% variant is not interchangeable. |
+| rest_candidate_006 | The Ordinary Squalane Cleanser | needs_full_ingredients | Page supplies directions and warnings but full INCI is absent in retrieved text; key ingredients are insufficient. |
+| rest_candidate_007 | CeraVe Moisturizing Cream | needs_label_warnings | Complete INCI matches manufacturer; directions and normal/dry skin claim found. Package warnings or verified absence still needed. |
+| rest_candidate_008 | CeraVe PM Facial Moisturizing Lotion | needs_label_warnings | Complete INCI matches; manufacturer specifies nighttime application. Package warnings or verified absence still needed; do not default this item into a morning routine. |
+| rest_candidate_009 | Vanicream Moisturizing Cream | needs_label_warnings | Complete INCI and directions found; dry/sensitive claims found. Package warnings or verified absence still needed. |
+| rest_candidate_010 | Cetaphil Moisturizing Cream | needs_label_directions_warnings | Complete INCI matches. How-to section primarily describes benefits; obtain complete package application directions and warnings. |
+| rest_candidate_011 | The INKEY List Omega Water Cream | published | Reviewed complete INCI, all-skin-types claim, directions, eye/contact/storage cautions and USD 15 / 50 ml. Marketing studies are not goal evidence. |
+| rest_candidate_012 | The Ordinary Natural Moisturizing Factors + HA | published | Reviewed complete INCI, all-skin-types claim, directions and irritation/patch-test cautions. Price omitted because size-price linkage was not verified. |
+| rest_candidate_013 | The Ordinary Niacinamide 10% + Zinc 1% | published | Complete ingredient list, usage directions and warning text (or explicit absence on the official back label) reviewed. Available for browsing; category remains outside the recommendation pilot. |
+| rest_candidate_014 | The Ordinary Hyaluronic Acid 2% + B5 (with Ceramides) | needs_full_ingredients | Full INCI absent from retrieved text. Key ingredients and directions cannot substitute for the complete list; also outside pilot. |
+| rest_candidate_015 | CeraVe Hydrating Hyaluronic Acid Serum | published | Complete ingredient list, usage directions and warning text (or explicit absence on the official back label) reviewed. Available for browsing; category remains outside the recommendation pilot. |
+| rest_candidate_016 | CeraVe Skin Renewing Vitamin C Serum | published | Complete ingredient list, usage directions and warning text (or explicit absence on the official back label) reviewed. Available for browsing; category remains outside the recommendation pilot. |
+| rest_candidate_017 | The INKEY List Hyaluronic Acid Serum | directions_conflict | Complete INCI found. How-to gives a pea-sized amount but FAQ gives 2–3 drops. Resolve application wording before publishing; serum outside pilot. |
+| rest_candidate_018 | EltaMD UV Clear SPF 46 | label_conflict | Official Drug Facts and structured ingredient table disagree (Neopentanoate versus Benzoate; PEG-7 component missing in table). Resolve current package and label version. OTC sunscreen outside pilot. |
+| rest_candidate_019 | CeraVe Hydrating Sunscreen SPF 30 Face (mineral) | label_conflict | Official label text and structured ingredients differ; printed PEG-100 sterate spelling needs reconciliation. Confirm current package/label. OTC sunscreen outside pilot. |
+| rest_candidate_020 | La Roche-Posay Anthelios 60 Melt-In Sunscreen Milk SPF 60 Face and Body | needs_current_label_review | Official label includes oxybenzone 3.86% and full Drug Facts. Confirm this exact current market/package rather than merging newer variants. OTC sunscreen outside pilot. |
+| rest_candidate_021 | Neutrogena Ultra Sheer Dry-Touch Sunscreen Max SPF 100+ | label_conflict | Official label text includes Sodium Polyacrylate absent from structured table; other names differ. Reconcile exact package. OTC sunscreen outside pilot. |
+| rest_candidate_022 | Vanicream Facial Moisturizer Broad Spectrum SPF 30 | label_conflict | Official label text uses Ceramide AS while structured table uses Ceramide 5; other synonyms need review. OTC sunscreen outside pilot despite moisturizer name. |
+| rest_candidate_023 | The Ordinary Salicylic Acid 2% Masque | restricted_treatment_review | Complete INCI and substantial BHA warnings found, including compromised skin, maximum 10-minute contact, sensitivity test and sun precautions. Treatment/compatibility review required; outside pilot. |
+| rest_candidate_024 | LANEIGE Water Sleeping Mask | needs_label_warnings | Complete INCI and overnight/rinse directions found. No complete package warning review; face mask outside pilot. |
+| rest_candidate_025 | Summer Fridays Jet Lag Mask + Moisturizer | published | Complete ingredient list, usage directions and warning text (or explicit absence on the official back label) reviewed. Available for browsing; category remains outside the recommendation pilot. |
+| rest_candidate_026 | Aztec Secret Indian Healing Clay | incomplete_directions | Manufacturer identifies calcium bentonite and gives time limits, but page lacks full mixing instructions and skin-type specification. Do not copy reviewer mixing advice. |
+| rest_candidate_027 | Glow Recipe Watermelon Glow AHA Night Treatment | reformulation_review | Official redirect identifies AHA Night Treatment; FAQ explicitly says completely new formula relative to original Sleeping Mask. Preserve as separate formulation; review exfoliant cautions and classification. |
+
+See `verification-audit.json` for exact source URLs and hashes, and `products.json` for published fields. No sunscreen, serum or mask is recommended by the current pilot. Product 004 remains held because its page claims fragrance-free while the official formula contains masking fragrance.

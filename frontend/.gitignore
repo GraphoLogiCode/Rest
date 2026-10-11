@@ -1,0 +1,7 @@
+node_modules/
+dist/
+*.tsbuildinfo
+.env.local
+output/
+# The personal-use preview font is local; use a licensed webfont for distribution.
+public/fonts/*.otf

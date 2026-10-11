@@ -1,0 +1,17 @@
+{
+  "account": "620214493890",
+  "region": "us-east-2",
+  "deployer_role": "rest-pilot-deployer",
+  "source_bucket": "rest-pilot-source-620214493890-us-east-2",
+  "repository": "rest-pilot/app",
+  "build_project": "rest-pilot-build",
+  "build_role": "rest-pilot-codebuild",
+  "execution_role": "rest-pilot-ecs-execution",
+  "infrastructure_role": "rest-pilot-ecs-infrastructure",
+  "cluster": "rest-pilot",
+  "service": "rest-progress-pilot",
+  "task_family": "rest-pilot-app",
+  "database_secret": "rest-pilot/database-url",
+  "build_log_group": "/rest-pilot/build",
+  "app_log_group": "/rest-pilot/app"
+}

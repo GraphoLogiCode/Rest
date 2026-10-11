@@ -1,6 +1,6 @@
 # Recommendation engine: build plan
 
-Status: proposed design for the Rest skincare app. The repository currently contains a documentation scaffold; this document does not claim a running service or a trained model.
+Status: a first rules baseline is implemented in `engine.py` and `/v1/recommendations`, with the reviewed catalog served at `/v1/products`. The remaining document describes the broader target, including event collection and learned ranking that are not implemented. The first source audit publishes three manufacturer-reviewed products; the other 24 candidates remain unpublished. See `data/catalog/verification-audit.json` for unresolved issues.
 
 ## What to build first
 

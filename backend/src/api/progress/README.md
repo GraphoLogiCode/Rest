@@ -1,0 +1,13 @@
+# Observed progress
+
+`POST /v1/progress/usage` accepts a unique entry ID, reviewed product, package-match confirmation, completed usage interval, actual use-day count, helpfulness, irritation, stopped-use flag and optional routine changes. The server records the catalog formulation and current routine snapshot. A package-match confirmation is the user's report, not independent verification of their bottle.
+
+`POST /v1/progress/photos` authenticates and checks service/photo-storage consent before reading a size-bounded multipart request. Capture details include date, view, lighting, makeup and a real-photo confirmation. An optional product link is context, not causal attribution. Normalization rotates by EXIF, resizes and compresses JPEG, discards metadata, and makes no cosmetic edits. Stored images are not original archival bytes or calibrated skin measurements. Limits: 10 MB/4 MP input; 2 MiB/1280px stored JPEG; 12 per account.
+
+`POST /v1/progress/comparisons` requires two owned photos with strictly ordered dates. Differences or unknowns in capture details are flagged. The UI presents real photos side by side and overlapping product-use reports; it does not assign a product effect. Check-ins can later be joined by owner/local date for a separately consented study. Sleep, mood and connection do not change the current recommendations or generate an after image.
+
+Recommendations store their exact response, rules/catalog version, relevant profile fields and query. Feedback refers to an owned recommendation and a product actually shown. POST report/photo/feedback retries with the same ID and payload are idempotent; changed payloads conflict. Other record types have a pilot cap of 1,000 each per account.
+
+Row-level security, owner-filtered reads and private bearer downloads protect records. Database advisory transaction locks serialize progress writes with revocation/deletion across container replacement. Photo-consent revocation purges photos from active storage. Export contains metadata/reports and the journal supplies image downloads; account-data deletion removes every progress kind. Backup lifecycle remains a deployment responsibility.
+
+All training-eligible record kinds include consent-at-collection markers. These markers alone never authorize a training export: an extractor must also check current consent and deletions. No extractor, trained outcome model or face-effect prediction is deployed. `/model-readiness` deliberately reports unavailable. A review of paired outcome quality and held-out evaluation is required before considering a predictive preview.
