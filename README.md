@@ -86,6 +86,15 @@ rest/
 
 Each directory has a `README.md` describing its scope.
 
+## What is hard to copy
+
+- [Longitudinal follow-up histories](data/schema/recommendations/README.md#longitudinal-history), collected with separate training consent. They take time to build, and their value comes from quality and trust.
+- [A test of whether well-being context adds value](ml/ranking/README.md#testing-whether-well-being-context-helps) before it is used in ranking.
+- [Traceable explanations](backend/src/recommendations/explanations/README.md#evidence-records), each backed by an evidence record.
+- [Evidence about Rest itself](evaluation/README.md#evidence-about-rest-itself): whether the app helps people understand their choices.
+
+Confidential methods and internal datasets may qualify as trade secrets when the requirements are met, though that does not prevent independent development ([WIPO guidance](https://www.wipo.int/en/web/trade-secrets/protection)). A patent could protect a qualifying specific invention, not the broad idea of combining skincare and lifestyle data. This repository is public, so nothing meant to stay confidential belongs in it.
+
 ## Product boundaries
 
 - Photos are opt-in, encrypted, and deletable by the user.

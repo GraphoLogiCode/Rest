@@ -48,6 +48,15 @@ Never use later reactions, continuation, post-recommendation check-ins, or futur
 
 Training minimizes classification loss between the predicted score and observed labels. Serving applies the saved transformations to each eligible user–product pair and orders candidates by score. Keep score interpretation internal until calibration and population coverage support user-facing probabilities.
 
+## Testing whether well-being context helps
+
+Optional sleep, stress, and social check-ins stay out of production ranking until a research comparison shows they help.
+
+- **Baseline:** product, profile, and routine features.
+- **Research model:** the same features plus the optional context.
+- Evaluate both on unseen users and on later periods. Fix the outcome and the improvement required before looking at results.
+- Context enters production ranking only if it improves that outcome. More inputs do not by themselves make recommendations better.
+
 ## When ranking-specific training becomes useful
 
 A pairwise/listwise ranker needs meaningful comparisons within each request. In ordinary usage, a person may try only one candidate; that does not provide outcomes for the alternatives. Never label untried candidates as failures to manufacture ranking groups. CatBoost offers ranking objectives, but usable grouped labels must come first. [Ranking objectives](https://catboost.ai/docs/en/concepts/loss-functions-ranking).
