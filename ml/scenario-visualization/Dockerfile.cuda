@@ -1,0 +1,14 @@
+FROM python:3.12-slim-bookworm
+ENV PYTHONUNBUFFERED=1 PYTHONDONTWRITEBYTECODE=1 PIP_NO_CACHE_DIR=1 \
+    HF_HUB_DISABLE_TELEMETRY=1 MODEL_DEVICE=cuda MODEL_JOB_DIR=/var/lib/rest/jobs
+RUN groupadd --gid 10001 rest && useradd --uid 10001 --gid rest --create-home rest
+WORKDIR /app
+COPY requirements-service.txt requirements-cuda.txt ./
+RUN pip install torch==2.8.0 torchvision==0.23.0 --index-url https://download.pytorch.org/whl/cu128 \
+    && pip install -r requirements-cuda.txt
+COPY cloud_api.py job_worker.py export_usage.py gpu_runtime.py run_local.py run_face_edit.py face_regions.py download_models.py preflight.py models.lock.json ./
+RUN mkdir -p /app/.local/models /app/.local/hf /var/lib/rest/jobs \
+    && chown -R rest:rest /app/.local /var/lib/rest
+USER rest
+EXPOSE 8767
+CMD ["uvicorn", "cloud_api:create_app", "--factory", "--host", "0.0.0.0", "--port", "8767", "--workers", "1", "--no-access-log"]

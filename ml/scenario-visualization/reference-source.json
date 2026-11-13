@@ -1,0 +1,14 @@
+{
+  "name": "scikit-image astronaut sample",
+  "purpose": "local inference smoke test only; not participant data",
+  "source_url": "https://raw.githubusercontent.com/scikit-image/scikit-image/v0.25.2/skimage/data/astronaut.png",
+  "documentation_url": "https://scikit-image.org/docs/stable/api/skimage.data.html#skimage.data.astronaut",
+  "rights_note": "Documented as public domain by scikit-image; no endorsement implied.",
+  "sha256": "88431cd9653ccd539741b555fb0a46b61558b301d4110412b5bc28b5e3ea6cb5",
+  "sample_crop": [
+    145,
+    10,
+    325,
+    190
+  ]
+}

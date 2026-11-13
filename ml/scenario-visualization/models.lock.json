@@ -1,0 +1,138 @@
+{
+  "models": [
+    {
+      "name": "sdxl",
+      "repo_id": "stabilityai/stable-diffusion-xl-base-1.0",
+      "revision": "462165984030d82259a11f4367a4eed129e94a7b",
+      "files": [
+        {
+          "path": "LICENSE.md",
+          "size": 14109,
+          "sha256": null
+        },
+        {
+          "path": "README.md",
+          "size": 8668,
+          "sha256": null
+        },
+        {
+          "path": "model_index.json",
+          "size": 609,
+          "sha256": null
+        },
+        {
+          "path": "scheduler/scheduler_config.json",
+          "size": 479,
+          "sha256": null
+        },
+        {
+          "path": "text_encoder/config.json",
+          "size": 565,
+          "sha256": null
+        },
+        {
+          "path": "text_encoder/model.fp16.safetensors",
+          "size": 246144152,
+          "sha256": "660c6f5b1abae9dc498ac2d21e1347d2abdb0cf6c0c0c8576cd796491d9a6cdd"
+        },
+        {
+          "path": "text_encoder_2/config.json",
+          "size": 575,
+          "sha256": null
+        },
+        {
+          "path": "text_encoder_2/model.fp16.safetensors",
+          "size": 1389382176,
+          "sha256": "ec310df2af79c318e24d20511b601a591ca8cd4f1fce1d8dff822a356bcdb1f4"
+        },
+        {
+          "path": "tokenizer/merges.txt",
+          "size": 524619,
+          "sha256": null
+        },
+        {
+          "path": "tokenizer/special_tokens_map.json",
+          "size": 472,
+          "sha256": null
+        },
+        {
+          "path": "tokenizer/tokenizer_config.json",
+          "size": 737,
+          "sha256": null
+        },
+        {
+          "path": "tokenizer/vocab.json",
+          "size": 1059962,
+          "sha256": null
+        },
+        {
+          "path": "tokenizer_2/merges.txt",
+          "size": 524619,
+          "sha256": null
+        },
+        {
+          "path": "tokenizer_2/special_tokens_map.json",
+          "size": 460,
+          "sha256": null
+        },
+        {
+          "path": "tokenizer_2/tokenizer_config.json",
+          "size": 725,
+          "sha256": null
+        },
+        {
+          "path": "tokenizer_2/vocab.json",
+          "size": 1059962,
+          "sha256": null
+        },
+        {
+          "path": "unet/config.json",
+          "size": 1680,
+          "sha256": null
+        },
+        {
+          "path": "unet/diffusion_pytorch_model.fp16.safetensors",
+          "size": 5135149760,
+          "sha256": "83e012a805b84c7ca28e5646747c90a243c65c8ba4f070e2d7ddc9d74661e139"
+        },
+        {
+          "path": "vae/config.json",
+          "size": 642,
+          "sha256": null
+        },
+        {
+          "path": "vae/diffusion_pytorch_model.fp16.safetensors",
+          "size": 167335342,
+          "sha256": "bcb60880a46b63dea58e9bc591abe15f8350bde47b405f9c38f4be70c6161e68"
+        }
+      ]
+    },
+    {
+      "name": "adapter",
+      "repo_id": "h94/IP-Adapter",
+      "revision": "018e402774aeeddd60609b4ecdb7e298259dc729",
+      "files": [
+        {
+          "path": "README.md",
+          "size": 3091,
+          "sha256": null
+        },
+        {
+          "path": "models/image_encoder/config.json",
+          "size": 560,
+          "sha256": null
+        },
+        {
+          "path": "models/image_encoder/model.safetensors",
+          "size": 2528373448,
+          "sha256": "6ca9667da1ca9e0b0f75e46bb030f7e011f44f86cbfb8d5a36590fcd7507b030"
+        },
+        {
+          "path": "sdxl_models/ip-adapter-plus-face_sdxl_vit-h.safetensors",
+          "size": 847517512,
+          "sha256": "677ad8860204f7d0bfba12d29e6c31ded9beefdf3e4bbd102518357d31a292c1"
+        }
+      ]
+    }
+  ]
+}

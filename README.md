@@ -1,90 +1,72 @@
 # Rest
 
-A skincare decision-support app that helps people feel more confident. It uses product and ingredient data to help users make informed product choices, shows before-and-after comparisons so users can see how their skin changes and evaluate their routines, and takes sleep, mental, and social well-being into account so lifestyle effects aren't mistaken for product effects.
+**A skincare and well-being companion that helps people make informed product choices, without judging how they look.**
 
-See [`PROJECT_TREE.md`](PROJECT_TREE.md) for the full concept tree.
+Rest combines a verified product catalog, daily well-being check-ins (sleep, mood, connection), routines, and a private skin-progress journal. Lifestyle context is tracked alongside skin changes so a bad week of sleep isn't mistaken for a product that "didn't work."
 
-## Recommendation and visualization plans
+![Rest demo: home, daily check-in, routine, products, and skin journal](docs/demo.gif)
 
-The repository is currently a design scaffold. Start with verified products and rules, collect actual usage feedback, and train a ranking model only after evaluating the resulting data.
+*Demo: logging a daily check-in, building a morning routine, browsing the reviewed product catalog, and the skin journal. [Full-quality video](docs/demo.mp4).*
 
-- [Recommendation engine design](backend/src/recommendations/DESIGN.md): filtering, ranking, service contracts, and build sequence.
-- [Data to collect](data/schema/recommendations/README.md): catalog, profiles, impressions, usage episodes, outcomes, and consent.
-- [How to train the model](ml/ranking/README.md): labels, features, baseline models, splits, and deployment gates.
-- [Scenario visualization summary](ml/scenario-visualization/README.md): the supplied InstantID/SDXL proposal, separate from observed progress and recommendations.
-- [Evaluation plan](evaluation/README.md): evidence needed before releasing a learned model.
+## Highlights
+
+- **Full-stack app**: React + TypeScript PWA (installable on phones) backed by a FastAPI service on Postgres/Supabase.
+- **Privacy by design**: consent-gated features, row-level security so users only reach their own records, one-click data export and account deletion.
+- **Verified product catalog**: products and ingredients go through a review pipeline before users ever see them ([catalog docs](data/catalog/README.md)).
+- **Explainable recommendations**: rule-based filtering and ranking with an evidence record behind each suggestion ([design](backend/src/recommendations/DESIGN.md)).
+- **Targeted AI illustration**: SDXL + IP-Adapter inpainting that edits only a user-selected skin region and leaves every other pixel unchanged; always labeled as an illustration, never a predicted result ([ML service](ml/scenario-visualization/README.md)).
+- **Cloud deployment**: Docker images, AWS ECS/CodeBuild scripts with least-privilege IAM policies, and a GPU worker for model jobs ([deploy docs](deploy/ecs/README.md)).
+- **Tested**: 140+ backend tests (auth, privacy, row-level security, deployment policy checks) plus frontend unit tests.
+
+## Tech stack
+
+| Layer | Tools |
+|---|---|
+| Frontend | React 19, TypeScript, Vite, PWA (service worker + manifest), Supabase Auth |
+| Backend | Python, FastAPI, Pydantic, psycopg, PyJWT, pytest |
+| Data | PostgreSQL (Supabase), SQL migrations, row-level security |
+| ML | PyTorch, Diffusers (SDXL + IP-Adapter Plus Face), CUDA worker |
+| Infra | Docker, AWS ECS Fargate, ECR, CodeBuild, IAM, Caddy |
+
+## Run it locally
+
+```sh
+# Frontend (works on its own; data stays in the browser)
+cd frontend && npm install && npm run dev        # http://127.0.0.1:5173
+
+# Backend API (optional; enables the live product catalog and accounts)
+cd backend && python3 -m venv .venv && .venv/bin/pip install -r requirements-dev.txt
+cp .env.example .env                              # fill in SUPABASE_URL
+.venv/bin/uvicorn src.main:create_app --factory --env-file .env --reload   # docs at /docs
+
+# Tests
+cd backend && .venv/bin/pytest
+cd frontend && npm test
+```
+
+More detail: [frontend](frontend/README.md) · [backend](backend/README.md) · [AI illustration service](ml/scenario-visualization/LOCAL_SETUP.md) · [deployment](deploy/aws/README.md)
 
 ## Repository layout
 
 ```
 rest/
-├── PROJECT_TREE.md              # Concept tree (sections 1–9)
-│
-├── frontend/                    # 7. Frontend
-│   └── src/
-│       ├── screens/
-│       │   ├── onboarding/          # 3. Skin profile, sensitivities, budget
-│       │   ├── products/            # 2. Search, ingredient breakdown
-│       │   ├── routine/             # 3. Current routine, reaction log
-│       │   ├── photos/              # 4. Guided capture
-│       │   ├── compare/             # 4. Before-and-after views, timeline
-│       │   ├── check-in/            # 5. Well-being context
-│       │   │   ├── sleep/
-│       │   │   ├── mental/
-│       │   │   └── social/
-│       │   ├── recommendations/     # 6. Explained suggestions + feedback
-│       │   ├── dashboard/
-│       │   └── settings/privacy/    # 8. Photo opt-in, data deletion
-│       ├── components/
-│       └── services/
-│
-├── backend/                     # 7. Backend
-│   └── src/
-│       ├── auth/
-│       ├── api/
-│       │   ├── products/            # Product & ingredient API
-│       │   ├── profile/
-│       │   ├── routine/
-│       │   ├── photos/
-│       │   └── checkins/
-│       ├── ingredients/             # 2. Ingredient knowledge base
-│       ├── visualization/           # 4. Before-and-after pipeline
-│       │   ├── capture-checks/
-│       │   ├── alignment/
-│       │   └── comparison/
-│       ├── context/                 # 5. Well-being context
-│       │   ├── sleep/
-│       │   ├── mental/
-│       │   └── social/
-│       ├── recommendations/         # 6. Decision support
-│       │   ├── rules/
-│       │   ├── explanations/
-│       │   └── feedback/
-│       └── privacy/                 # 8. Consent, encryption, deletion
-│
-├── data/                        # 2 & 7. Data
-│   ├── sources/                     # Ingestion and verification
-│   ├── schema/
-│   │   ├── products/
-│   │   ├── ingredients/
-│   │   ├── users/
-│   │   ├── routines/
-│   │   ├── photos/
-│   │   ├── checkins/
-│   │   └── recommendations/          # Decisions, exposure, usage outcomes
-│   └── migrations/
-│
-├── ml/                          # 6 & 7. Machine Learning
-│   ├── ingredient-model/
-│   ├── suitability-model/
-│   ├── image-analysis/
-│   ├── scenario-visualization/        # Optional labeled illustration
-│   └── ranking/
-│
-└── evaluation/                  # 9. Evaluation
+├── frontend/   React + TypeScript PWA (screens, components, services, tests)
+├── backend/    FastAPI API: auth, profile, check-ins, routine, catalog, privacy, progress
+├── data/       Product catalog, SQL migrations, data schemas and sources
+├── ml/         AI illustration service + ranking/model design notes
+├── deploy/     Docker, AWS ECS, IAM policies, GPU worker setup
+├── evaluation/ How Rest is evaluated before shipping learned models
+└── PROJECT_TREE.md  Full concept tree
 ```
 
-Each directory has a `README.md` describing its scope.
+Each directory has its own `README.md`.
+
+## Design documents
+
+- [Recommendation engine design](backend/src/recommendations/DESIGN.md): filtering, ranking, service contracts, and build sequence.
+- [Data to collect](data/schema/recommendations/README.md): catalog, profiles, impressions, usage episodes, outcomes, and consent.
+- [How to train the model](ml/ranking/README.md): labels, features, baseline models, splits, and deployment gates.
+- [Evaluation plan](evaluation/README.md): evidence needed before releasing a learned model.
 
 ## What is hard to copy
 

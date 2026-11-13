@@ -1,0 +1,192 @@
+{
+  "AWSTemplateFormatVersion": "2010-09-09",
+  "Description": "Rest managed HTTPS pilot: one CPU instance, private database secret, no image-generation worker.",
+  "Parameters": {
+    "ImageUri": {
+      "Type": "String"
+    },
+    "ImageRepositoryArn": {
+      "Type": "String"
+    },
+    "SupabaseUrl": {
+      "Type": "String"
+    },
+    "DatabaseSecretArn": {
+      "Type": "String"
+    }
+  },
+  "Resources": {
+    "ImageAccess": {
+      "Type": "AWS::IAM::Role",
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Version": "2012-10-17",
+          "Statement": [
+            {
+              "Effect": "Allow",
+              "Principal": {
+                "Service": "build.apprunner.amazonaws.com"
+              },
+              "Action": "sts:AssumeRole"
+            }
+          ]
+        },
+        "Policies": [
+          {
+            "PolicyName": "ReadRestImage",
+            "PolicyDocument": {
+              "Version": "2012-10-17",
+              "Statement": [
+                {
+                  "Effect": "Allow",
+                  "Action": [
+                    "ecr:GetAuthorizationToken"
+                  ],
+                  "Resource": "*"
+                },
+                {
+                  "Effect": "Allow",
+                  "Action": [
+                    "ecr:BatchGetImage",
+                    "ecr:DescribeImages",
+                    "ecr:GetDownloadUrlForLayer",
+                    "ecr:BatchCheckLayerAvailability"
+                  ],
+                  "Resource": {
+                    "Ref": "ImageRepositoryArn"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "RuntimeRole": {
+      "Type": "AWS::IAM::Role",
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Version": "2012-10-17",
+          "Statement": [
+            {
+              "Effect": "Allow",
+              "Principal": {
+                "Service": "tasks.apprunner.amazonaws.com"
+              },
+              "Action": "sts:AssumeRole"
+            }
+          ]
+        },
+        "Policies": [
+          {
+            "PolicyName": "ReadDatabaseConnection",
+            "PolicyDocument": {
+              "Version": "2012-10-17",
+              "Statement": [
+                {
+                  "Effect": "Allow",
+                  "Action": [
+                    "secretsmanager:GetSecretValue"
+                  ],
+                  "Resource": {
+                    "Ref": "DatabaseSecretArn"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "Scaling": {
+      "Type": "AWS::AppRunner::AutoScalingConfiguration",
+      "Properties": {
+        "AutoScalingConfigurationName": "rest-pilot-one-instance",
+        "MinSize": 1,
+        "MaxSize": 1,
+        "MaxConcurrency": 5
+      }
+    },
+    "Service": {
+      "Type": "AWS::AppRunner::Service",
+      "Properties": {
+        "ServiceName": "rest-progress-pilot",
+        "AutoScalingConfigurationArn": {
+          "Fn::GetAtt": [
+            "Scaling",
+            "AutoScalingConfigurationArn"
+          ]
+        },
+        "SourceConfiguration": {
+          "AutoDeploymentsEnabled": false,
+          "AuthenticationConfiguration": {
+            "AccessRoleArn": {
+              "Fn::GetAtt": [
+                "ImageAccess",
+                "Arn"
+              ]
+            }
+          },
+          "ImageRepository": {
+            "ImageIdentifier": {
+              "Ref": "ImageUri"
+            },
+            "ImageRepositoryType": "ECR",
+            "ImageConfiguration": {
+              "Port": "8000",
+              "RuntimeEnvironmentVariables": [
+                {
+                  "Name": "SUPABASE_URL",
+                  "Value": {
+                    "Ref": "SupabaseUrl"
+                  }
+                }
+              ],
+              "RuntimeEnvironmentSecrets": [
+                {
+                  "Name": "DATABASE_URL",
+                  "Value": {
+                    "Ref": "DatabaseSecretArn"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "InstanceConfiguration": {
+          "Cpu": "1024",
+          "Memory": "2048",
+          "InstanceRoleArn": {
+            "Fn::GetAtt": [
+              "RuntimeRole",
+              "Arn"
+            ]
+          }
+        },
+        "HealthCheckConfiguration": {
+          "Protocol": "HTTP",
+          "Path": "/rest-api/healthz",
+          "Interval": 20,
+          "Timeout": 5,
+          "HealthyThreshold": 1,
+          "UnhealthyThreshold": 5
+        }
+      }
+    }
+  },
+  "Outputs": {
+    "Url": {
+      "Value": {
+        "Fn::Sub": "https://${Service.ServiceUrl}"
+      }
+    },
+    "ServiceArn": {
+      "Value": {
+        "Fn::GetAtt": [
+          "Service",
+          "ServiceArn"
+        ]
+      }
+    }
+  }
+}

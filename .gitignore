@@ -1,0 +1,13 @@
+# Local browser verification artifacts; may contain uploaded photos.
+output/
+.playwright-cli/
+.DS_Store
+
+# Personal photos stay local; only curated demo assets in docs/ are published.
+/*.jpg
+/*.jpeg
+/*.png
+__pycache__/
+*.pyc
+# Real AWS account settings (committed settings.json uses a placeholder).
+deploy/ecs/settings.local.json

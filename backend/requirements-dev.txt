@@ -1,0 +1,7 @@
+-r requirements.txt
+pytest>=8
+httpx>=0.27
+
+# Worker contract tests use decoded test images, without downloading torch.
+Pillow>=10,<13
+numpy>=1.26,<3
