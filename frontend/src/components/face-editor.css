@@ -85,3 +85,8 @@
 .fe-card .preview-product-card a { margin: 6px 0 0; font-size: 13px; }
 .fe-card .preview-product-card p:not(.preview-product-brand) { font-size: 12px; }
 .fe-card .preview-product-card > .small-text:last-child { grid-column: 1 / -1; margin-top: 8px; font-size: 11px; }
+/* Zoom-to-edit: layers clip, images scale around the edited area. */
+.fe-compare { container-type: inline-size; }
+.fe-layer { position: absolute; inset: 0; overflow: hidden; }
+.fe-compare .fe-layer img { position: absolute; transition: transform .6s ease; }
+.fe-zoom { display: inline-flex; align-items: center; justify-content: center; gap: 8px; }

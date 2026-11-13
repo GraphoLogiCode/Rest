@@ -6,7 +6,7 @@ Rest combines a verified product catalog, daily well-being check-ins (sleep, moo
 
 ![Rest demo: check-in, routine, products, photo comparison, and AI skin preview](docs/demo.gif)
 
-*Demo: logging a daily check-in, building a morning routine, browsing the reviewed product catalog, comparing real before/after photos, and running the on-device diffusion model (SDXL + IP-Adapter) to illustrate a gentle change in one selected skin area. [Full-quality video](docs/demo.mp4).*
+*Demo: logging a daily check-in, building a morning routine, browsing the reviewed product catalog, comparing real before/after photos, and running the on-device diffusion model (SDXL + IP-Adapter) to soften a red spot in one selected skin area, then zooming in to compare. [Full-quality video](docs/demo.mp4).*
 
 ## Highlights
 

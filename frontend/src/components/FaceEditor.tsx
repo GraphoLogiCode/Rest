@@ -4,7 +4,7 @@ import './face-editor.css';
 import { PreviewInputs } from './PreviewInputs';
 import { CloudSignIn } from './CloudSignIn';
 import { supabase } from '../services/cloudSession';
-import { ArrowRight, Download, ImagePlus, Sparkles } from 'lucide-react';
+import { ArrowRight, Download, ImagePlus, Sparkles, ZoomIn, ZoomOut } from 'lucide-react';
 import { PreviewProductPicker, PreviewProductCard, type PreviewProduct } from './PreviewProduct';
 type Photo = {file: File; url: string; width: number; height: number};
 export function FaceEditor() {
@@ -31,6 +31,7 @@ function FaceEditorWorkspace() {
   const [job, setJob] = useState<IllustrationJob | null>(null);
   const [view, setView] = useState<'slider' | 'side'>('slider');
   const [reveal, setReveal] = useState(50);
+  const [zoom, setZoom] = useState(false);
   const [elapsed, setElapsed] = useState(0);
   const current = useRef<string | null>(null);
   const controller = useRef<AbortController | null>(null);
@@ -65,7 +66,7 @@ function FaceEditorWorkspace() {
   async function clear() {
     controller.current?.abort();
     if (current.current) await deleteIllustration(current.current);
-    current.current = null; setJob(null); setBusy(false); setPreviewProduct(null);
+    current.current = null; setJob(null); setBusy(false); setPreviewProduct(null); setZoom(false);
   }
   async function upload(file?: File) {
     if (!file) return;
@@ -131,6 +132,7 @@ function FaceEditorWorkspace() {
   }
   const step = !photo ? 1 : job?.status === 'completed' ? 4 : busy ? 3 : 2;
   const ratio = photo ? photo.width / photo.height : 1;
+  const zoomStyle = photo && zoom ? { transform: 'scale(3)', transformOrigin: `${(edit[0]+edit[2])/2/photo.width*100}cqw ${(edit[1]+edit[3])/2/photo.width*100}cqw` } : undefined;
   const steps = ['Add a photo', 'Select an area', 'Create', 'Review'];
   return <section className="panel face-editor">
     <div className="fe-head">
@@ -157,8 +159,9 @@ function FaceEditorWorkspace() {
       <div className="fe-canvas">
         {job?.status === 'completed' && job.imageUrl ? (view === 'slider'
           ? <div className="comparison-stage fe-compare" style={{aspectRatio: `${photo.width}/${photo.height}`, width: `min(100%, calc(72vh * ${ratio}))`}}>
-              <img src={job.imageUrl} alt="AI edited facial area, not an expected product outcome" onError={()=>setError('Preview expired or could not load. Delete it and generate again.')} />
-              <img className="before-layer" src={photo.url} alt="Original uploaded reference" style={{clipPath: `inset(0 ${100 - reveal}% 0 0)`}} />
+              {/* Each image sits in its own untransformed layer so the slider clip stays aligned with the divider while zoomed. */}
+              <div className="fe-layer"><img src={job.imageUrl} style={zoomStyle} alt="AI edited facial area, not an expected product outcome" onError={()=>setError('Preview expired or could not load. Delete it and generate again.')} /></div>
+              <div className="fe-layer" style={{clipPath: `inset(0 ${100 - reveal}% 0 0)`}}><img src={photo.url} style={zoomStyle} alt="Original uploaded reference" /></div>
               <div className="slider-divider" style={{left: `${reveal}%`}}><span>↔</span></div>
               <span className="photo-label left">Original</span><span className="photo-label right">AI preview</span>
               <input className="fe-reveal" aria-label="Compare original and AI preview" type="range" min="0" max="100" value={reveal} onChange={e=>setReveal(Number(e.target.value))} />
@@ -220,6 +223,7 @@ function FaceEditorWorkspace() {
             <button aria-pressed={view==='slider'} className={view==='slider'?'active':''} onClick={()=>setView('slider')}>Slider</button>
             <button aria-pressed={view==='side'} className={view==='side'?'active':''} onClick={()=>setView('side')}>Side by side</button>
           </div>
+          {view === 'slider' && <button className="button secondary fe-zoom" aria-pressed={zoom} onClick={()=>setZoom(z=>!z)}>{zoom ? <ZoomOut size={16} /> : <ZoomIn size={16} />} {zoom ? 'Show whole photo' : 'Zoom to edited area'}</button>}
           {previewProduct && <PreviewProductCard product={previewProduct} />}
           <div className="fe-actions">
             <a className="button primary" href={job.imageUrl} download="rest-ai-illustration.png"><Download size={16} /> Download</a>
