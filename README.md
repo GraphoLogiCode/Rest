@@ -4,7 +4,7 @@
 
 Rest combines a verified product catalog, daily well-being check-ins (sleep, mood, connection), routines, and a private skin-progress journal. Lifestyle context is tracked alongside skin changes so a bad week of sleep isn't mistaken for a product that "didn't work."
 
-![Rest demo: home, daily check-in, routine, products, and skin journal](docs/demo.gif)
+![Rest demo: home, daily check-in, routine, products, and skin journal](docs/demo.mp4)
 
 *Demo: logging a daily check-in, building a morning routine, browsing the reviewed product catalog, and the skin journal. [Full-quality video](docs/demo.mp4).*
 
