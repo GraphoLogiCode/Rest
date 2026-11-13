@@ -1,0 +1,48 @@
+# CPU-only, single-process pilot. No illustration/GPU service.
+name: rest-pilot
+services:
+  api:
+    build: ../../backend
+    environment:
+      SUPABASE_URL: ${SUPABASE_URL:?Set project URL}
+      DATABASE_URL: ${DATABASE_URL:?Set a TLS database URL}
+      REST_CATALOG_PATH: /app/catalog/products.json
+      CORS_ORIGINS: https://${REST_DOMAIN:?Set your domain}
+    volumes:
+      - ../../data/catalog:/app/catalog:ro
+    read_only: true
+    tmpfs: ['/tmp:size=32m,mode=1777']
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    restart: unless-stopped
+    healthcheck:
+      test: [CMD, python, -c, "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/healthz', timeout=3)"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+    logging:
+      driver: json-file
+      options: {max-size: 10m, max-file: '2'}
+  web:
+    build:
+      context: ../../frontend
+      dockerfile: ../deploy/pilot/Dockerfile.web
+      args:
+        VITE_SUPABASE_URL: ${SUPABASE_URL:?Set project URL}
+        VITE_SUPABASE_PUBLISHABLE_KEY: ${SUPABASE_PUBLISHABLE_KEY:?Set public key}
+    environment:
+      REST_DOMAIN: ${REST_DOMAIN:?Set your domain}
+    ports: ['80:80', '443:443']
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on:
+      api: {condition: service_healthy}
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options: {max-size: 10m, max-file: '2'}
+volumes:
+  caddy_data:
+  caddy_config:

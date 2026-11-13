@@ -1,6 +1,12 @@
 # Optional scenario visualization
 
-Summary of the supplied InstantID notes, organized separately from product ranking and actual photo analysis. This is a proposed research feature, not an implemented or validated appearance predictor.
+Summary of the supplied InstantID notes, organized separately from product ranking and actual photo analysis. A local illustration experiment is now implemented; no appearance predictor has been validated.
+
+## Local implementation experiment
+
+The selected local experiment now uses **SDXL + IP-Adapter Plus Face**. It generated both 512- and 768-pixel portraits on the M5 GPU. See the [measured results](BENCHMARK.md) and [local setup](LOCAL_SETUP.md) for the isolated environment, pinned model downloads, offline inference command, and test limitations. The InstantID material below remains background research; no portrait generator is a validated appearance predictor.
+
+For the app's localized illustration, use **`run_face_edit.py`**: original face crop → selected mask → low-strength inpainting → exact composite into the original. A cheek-region test completed with zero changed pixels outside its mask. This avoids inventing a new body/background; pixels within the edit region can still change, so it remains a labeled illustration.
 
 ## What the feature does
 
@@ -37,3 +43,11 @@ This dataset and validation work are outside the recommendation MVP. Prioritize 
 The InstantID repository distinguishes its Apache-licensed code from research-only released checkpoints and noncommercial InsightFace face models. Treat this stack as a research candidate; resolve checkpoint and dependency permissions or select appropriately licensed components before commercial integration. [Repository disclaimer](https://github.com/instantX-research/InstantID#disclaimer).
 
 Sources reviewed October 11, 2026.
+
+## CUDA and private job service
+
+Both model CLIs accept `--device cuda` (or `auto` / `mps`), and can write real denoising
+step progress with `--progress-file`. `cloud_api.py` is a separate authenticated,
+single-GPU service; `local_api.py` remains the loopback-only development API.
+See [`deploy/aws/README.md`](../../deploy/aws/README.md) for the CUDA container,
+AWS Ohio staging setup, API contract and pending NVIDIA verification.

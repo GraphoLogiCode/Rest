@@ -1,0 +1,52 @@
+{
+  "checked_actions": 78,
+  "failures": [],
+  "sources": {
+    "iam": {
+      "url": "https://servicereference.us-east-1.amazonaws.com/v1/iam/iam.json",
+      "sha256": "166a844f91e01114718faf852876c0d35629b4ead3a33d38aa063f83be7c472b",
+      "version": "v1.4"
+    },
+    "s3": {
+      "url": "https://servicereference.us-east-1.amazonaws.com/v1/s3/s3.json",
+      "sha256": "cc1e013ec21e77693336485a3c0bf5c88395bfde40d81315e332640cd34137b2",
+      "version": "v1.4"
+    },
+    "ecr": {
+      "url": "https://servicereference.us-east-1.amazonaws.com/v1/ecr/ecr.json",
+      "sha256": "5cba67a0b6aec12c25cfceb3b043ff3325a2015edc64859b3c44744545e3663d",
+      "version": "v1.4"
+    },
+    "codebuild": {
+      "url": "https://servicereference.us-east-1.amazonaws.com/v1/codebuild/codebuild.json",
+      "sha256": "4cbcf0de56c87be604ac7d46e0c7d69d8e5acba8eddeb5fd3eb85c984d572525",
+      "version": "v1.4"
+    },
+    "logs": {
+      "url": "https://servicereference.us-east-1.amazonaws.com/v1/logs/logs.json",
+      "sha256": "6c48a9b51d8bc317bc52f081cdd1aedb4573d208b713e28dd22f4664701ca2f9",
+      "version": "v1.4"
+    },
+    "secretsmanager": {
+      "url": "https://servicereference.us-east-1.amazonaws.com/v1/secretsmanager/secretsmanager.json",
+      "sha256": "3b00198d5260e0f24d941c7ff70b037d18de2b48ad09db5c89caf0d6fec0cce6",
+      "version": "v1.4"
+    },
+    "ecs": {
+      "url": "https://servicereference.us-east-1.amazonaws.com/v1/ecs/ecs.json",
+      "sha256": "2db2acdbd5b750307b4e52a51fc9791f29999edb48c8ea2254a55390db7bb53a",
+      "version": "v1.4"
+    },
+    "ec2": {
+      "url": "https://servicereference.us-east-1.amazonaws.com/v1/ec2/ec2.json",
+      "sha256": "e4ef8c6a50fab1fac407e7756a538d3ce5d60f08f1dbd169006e8db9f3ec5184",
+      "version": "v1.4"
+    },
+    "servicequotas": {
+      "url": "https://servicereference.us-east-1.amazonaws.com/v1/servicequotas/servicequotas.json",
+      "sha256": "e1aec2b68de3dbdda8d2a31bc8e4955d6c10395deba47b308adca9c3e7526090",
+      "version": "v1.4"
+    }
+  },
+  "limitation": "Static AWS action/ARN-type check only. Live IAM and deployment tests remain required."
+}

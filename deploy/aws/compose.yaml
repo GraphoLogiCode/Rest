@@ -1,0 +1,70 @@
+# Single-host staging setup. Keep the GPU service private and the backend on loopback.
+name: rest
+services:
+  gpu:
+    image: rest-gpu:cuda
+    build:
+      context: ../../ml/scenario-visualization
+      dockerfile: Dockerfile.cuda
+    platform: linux/amd64
+    gpus: all
+    environment:
+      MODEL_SERVICE_TOKEN: ${MODEL_SERVICE_TOKEN:?Set a random private service token}
+      MODEL_DEVICE: cuda
+      AWS_REGION: us-east-2
+      MODEL_JOB_DIR: /var/lib/rest/jobs
+      MODEL_JOB_TTL_SECONDS: '1800'
+      MODEL_TIMEOUT_SECONDS: '300'
+    volumes:
+      - ${REST_MODEL_DIR:-/srv/rest/models}:/app/.local/models:ro
+      - ${REST_JOB_DIR:-/srv/rest/jobs}:/var/lib/rest/jobs
+    read_only: true
+    tmpfs:
+      - /tmp:size=512m,mode=1777
+      - /app/.local/hf:uid=10001,gid=10001,size=64m
+    shm_size: 1gb
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    networks: [model]
+    restart: unless-stopped
+    stop_grace_period: 30s
+    healthcheck:
+      test: [CMD, python, -c, "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8767/healthz', timeout=3)"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+    logging:
+      driver: json-file
+      options: {max-size: 10m, max-file: '2'}
+  api:
+    image: rest-api:latest
+    build:
+      context: ../../backend
+    platform: linux/amd64
+    environment:
+      SUPABASE_URL: ${SUPABASE_URL:?Set the Supabase project URL}
+      DATABASE_URL: ${DATABASE_URL:?Set the Supabase database connection URL}
+      SUPABASE_JWT_SECRET: ${SUPABASE_JWT_SECRET:-}
+      CORS_ORIGINS: ${CORS_ORIGINS:?Set the frontend origin}
+      MODEL_SERVICE_URL: http://gpu:8767
+      MODEL_SERVICE_TOKEN: ${MODEL_SERVICE_TOKEN:?Set a random private service token}
+      AWS_REGION: us-east-2
+      REST_CATALOG_PATH: /app/catalog/products.json
+    volumes:
+      - ../../data/catalog:/app/catalog:ro
+    ports: ['127.0.0.1:8000:8000']
+    depends_on:
+      gpu: {condition: service_healthy}
+    networks: [model, outbound]
+    read_only: true
+    tmpfs: ['/tmp:size=256m,mode=1777']
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options: {max-size: 10m, max-file: '2'}
+networks:
+  model:
+    internal: true
+  outbound: {}
